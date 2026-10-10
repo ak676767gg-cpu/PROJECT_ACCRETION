@@ -1,0 +1,58 @@
+'use strict';
+/* Final-horizon instruments and existing-menu/photo/camera integration.
+ * Public API remains UI.action/update, Renderer camera/map hooks and Photo
+ * image/export. Depends on the completed UI/Photo/Final modules, before Game.
+ * Uses the original delegated actions, clock, focus and single frame owner.
+ * Test with tests/run-all.html; real-browser accessibility is a manual check.
+ */
+(function(A){
+  const $=id=>document.getElementById(id),esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  A.ORBIT_HELP.finalEscape='Within the photon region, aim away from the horizon and use full thrust. Shift brakes your current velocity. Cross the inner warning boundary and your matter enters irreversible inflow.';
+  const action=A.UI.prototype.action,stage=A.UI.prototype.updateStage,update=A.UI.prototype.update,archive=A.UI.prototype.showArchive,over=A.UI.prototype.gameOver,galaxy=A.UI.prototype.drawGalaxy,settings=A.UI.prototype.showSettings;
+  A.UI.prototype.action=function(a){const g=this.game,f=g.finalInterstallar;
+    if(a==='photo-scale:1'||a==='photo-scale:2'){g.photo.exportScale=Number(a.slice(-1));$('photo-scale-one').setAttribute('aria-pressed',g.photo.exportScale===1);$('photo-scale-two').setAttribute('aria-pressed',g.photo.exportScale===2);return;}
+    if(a==='final-course'){if(!f?.found||f.done)return;const atlas=g.expedition.atlas,u=A.unit(g.player.m);atlas.target={x:atlas.x+(f.x-g.player.x)/(1000*u),y:atlas.y+(f.y-g.player.y)/(1000*u),final:true};this.toast('COURSE PLOTTED','Follow the gold bearing marker. Distance is measured in shadow radii.','gold');if(this.panel==='galaxy')this.drawGalaxy();return;}
+    if(a==='final-near'&&A.Save.mode==='sandbox'){f.place('photon');g.player.x=f.x+f.r*2.7;g.player.y=f.y;g.player.px=g.player.x;g.player.py=g.player.y;g.player.vx=g.player.vy=0;g.player.invulnerable=0;g.evolutionTime=0;g.resume();return;}
+    if(a==='final-frame'){if(!f?.found)return;if(!g.photo.active)g.photo.enter();g.renderer.camera.x=f.done?g.player.x:f.x;g.renderer.camera.y=f.done?g.player.y:f.y;g.renderer.camera.z=0;g.renderer.camera.zoom=Math.min(g.renderer.w,g.renderer.h)/(f.r*12);this.showPanel('photo',false);return;}
+    if(a==='final-continue'){g.resume();return;}
+    if(a==='final-save-menu'){if(!A.Save.checkpoint(g,'manual')){this.toast('SAVE UNAVAILABLE','The journey is still open. Continue flight or try saving again.','gold');return;}g.mainMenu();return;}
+    if(a.startsWith('final-place:')){if(f?.place(a.slice(12))){A.Save.checkpoint(g,'manual');this.toast('SANDBOX PLACEMENT','The landmark is positioned for this isolated test.','gold');}return;}
+    if(a==='photo:export'&&g.photo?.active){if(g.photo.export())this.toast('IMAGE SAVED','The PNG contains the frozen Canvas view.','aqua');else this.toast('EXPORT UNAVAILABLE','The browser could not export this Canvas. Your journey remains open.','gold');return;}
+    return action.call(this,a);
+  };
+  A.UI.prototype.updateStage=function(p){stage.call(this,p);if(this.game.finalInterstallar?.done){$('hud-stage').textContent=A.FINAL.name.toUpperCase();$('hud-class').textContent='CLASS '+String(A.stage(p.m)+1).padStart(2,'0')+' · AFTERGLOW';$('hud-next').textContent='Endless flight';$('hud-goal').textContent='Continue gathering';$('hud-percent').textContent='MERGED';}};
+  A.UI.prototype.finalSequence=function(t,done=false){$('evolution').hidden=done;$('evolution').classList.toggle('final-sequence',!done);$('evolution-name').textContent=A.FINAL.name;$('evolution-description').textContent=t<.45?'Two horizons draw together.':t<.8?'Light follows the changing boundary.':'A single horizon remains.';$('evolution-mass').textContent='MERGER '+Math.floor(t*100)+'%';};
+  A.UI.prototype.finalAfterglow=function(){const g=this.game;g.state='paused';g.input.clear();g.audio.setActive(false);$('finale-mass').textContent=A.massText(g.player.m);$('finale-points').textContent=g.upgrades.points+' adaptation '+(g.upgrades.points===1?'point':'points')+' available';this.showPanel('finale',false);document.querySelector('.dialog').setAttribute('aria-label','The Final Interstallar: continue your journey');};
+  A.UI.prototype.update=function(dt){update.call(this,dt);const g=this.game,f=g.finalInterstallar,live=!!g.player&&g.state!=='menu',visible=live&&!!f?.found;
+    $('hud-panel-final').hidden=!visible;$('dock-panel-final').disabled=!visible;$('final-map-course').hidden=!visible||!!f?.done;$('final-sandbox-tools').hidden=A.Save.mode!=='sandbox';$('photo-final-focus').hidden=!visible;
+    if(!visible)return;const R=f.done?0:Math.hypot(g.player.x-f.x,g.player.y-f.y)/f.r,zone=f.done?'afterglow':f.zone;
+    $('final-zone').textContent=zone.toUpperCase();$('final-distance').textContent=f.done?'MERGED':R.toFixed(R<10?2:0)+' R';
+    $('final-bearing').textContent=f.done?'Endless flight':Math.round((Math.atan2(f.y-g.player.y,f.x-g.player.x)*180/Math.PI+360)%360)+'°';
+    $('final-approach').textContent=f.done?'New horizon':f.approachSpeed>1?'Closing '+f.approachSpeed.toFixed(0)+' u/s':f.approachSpeed<-1?'Leaving '+Math.abs(f.approachSpeed).toFixed(0)+' u/s':'Holding distance';
+    $('final-condition').textContent=f.done?'Merger recorded':A.scaleStage(g.player)<A.FINAL.mergeStage?'Merge at The Interstallar':f.hold>0?'Steady approach '+Math.round(f.hold/A.FINAL.mergeHold*100)+'%':'Slow below '+A.FINAL.mergeSpeed+' u/s inside 3 R';
+    $('hud-panel-final').classList.toggle('final-risk',['disk','photon','last'].includes(zone));
+    if(g.expedition?.atlas.target?.final&&!f.done){const a=g.expedition.atlas,u=A.unit(g.player.m);a.target.x=a.x+(f.x-g.player.x)/(1000*u);a.target.y=a.y+(f.y-g.player.y)/(1000*u);}
+  };
+  A.UI.prototype.showArchive=function(view){archive.call(this,view);const l=A.Save.data.lifetime;$('archive-stats').innerHTML+=this.statsMarkup([['FINAL HORIZON CHARTED',l.finalCharted||0],['CLOSEST APPROACH',l.finalNearest<1e6?l.finalNearest.toFixed(2)+' R':'Not approached'],['TIME IN THE LENS',A.timeText(l.finalLensSeconds||0)],['FINAL HORIZON PHOTOS',l.finalShots||0],['FINAL MERGERS',l.finalMergers||0]]);};
+  A.UI.prototype.gameOver=function(reason){over.call(this,reason);if(this.game.finalEnding)$('over-reason').textContent=this.game.finalInterstallar.distanceR<=1?'Your matter crossed the horizon of The Final Interstallar and became part of it.':'Your cohesion failed under the heat and tides of The Final Interstallar disk.';};
+  A.UI.prototype.showSettings=function(){settings.call(this);const r=this.game.renderer.final;$('final-render-status').textContent=r?r.status.tier+' · '+r.status.reason+' · '+r.status.gpu:'Baked Canvas until a black hole is visible';};
+  A.UI.prototype.drawGalaxy=function(){galaxy.call(this);const g=this.game,f=g.finalInterstallar;if(!f?.found||f.done)return;const canvas=$('galaxy-canvas'),c=canvas.getContext('2d'),atlas=g.expedition.atlas,u=A.unit(g.player.m),x=atlas.x+(f.x-g.player.x)/(1000*u),y=atlas.y+(f.y-g.player.y)/(1000*u),px=canvas.width/2+(x-this.mapCenter.x)*this.mapZoom,py=canvas.height/2+(y-this.mapCenter.y)*this.mapZoom;
+    c.save();c.strokeStyle=A.themePalette().gold;c.fillStyle=A.themePalette().text;c.lineWidth=1.5;const xx=A.clamp(px,18,canvas.width-18),yy=A.clamp(py,18,canvas.height-18);c.beginPath();c.arc(xx,yy,6,0,A.TAU);c.stroke();c.beginPath();c.arc(xx,yy,2,0,A.TAU);c.stroke();c.font='10px monospace';c.textAlign=xx>canvas.width/2?'right':'left';c.fillText(A.FINAL.name,xx+(xx>canvas.width/2?-12:12),yy-9);c.restore();$('galaxy-readout').textContent+=' · Final horizon '+Math.hypot(f.x-g.player.x,f.y-g.player.y).toFixed(0)+' simulation units';};
+  const map=A.Renderer.prototype.drawMap;
+  A.Renderer.prototype.drawMap=function(){map.call(this);const g=this.game,f=g.finalInterstallar;if(!f?.found||f.done||A.Save.data.settings.finalBeacon===false)return;const c=this.mapctx,n=this.minimap.width,p=g.player,dx=f.x-p.x,dy=f.y-p.y,d=Math.hypot(dx,dy)||1,r=n*.41,x=n/2+dx/d*r,y=n/2+dy/d*r;c.save();c.strokeStyle=A.themePalette().gold;c.lineWidth=1.5;c.beginPath();c.arc(x,y,3.3,0,A.TAU);c.stroke();c.restore();};
+  const arrows=A.Renderer.prototype.threatArrows;
+  A.Renderer.prototype.threatArrows=function(){arrows.call(this);const g=this.game,f=g.finalInterstallar;if(!f?.found||f.done||A.Save.data.settings.finalBeacon===false)return;
+    const q=this.screen(f.x,f.y),c=this.ctx,off=q.x<24||q.x>this.w-24||q.y<24||q.y>this.h-24;if(!off)return;const dx=q.x-this.w/2,dy=q.y-this.h/2,limit=Math.min((this.w/2-74)/Math.max(.001,Math.abs(dx)),(this.h/2-145)/Math.max(.001,Math.abs(dy))),x=this.w/2+dx*limit,y=this.h/2+dy*limit;
+    c.save();c.translate(x,y);c.rotate(Math.atan2(dy,dx));c.strokeStyle=A.themePalette().gold;c.lineWidth=1.2;c.beginPath();c.moveTo(-6,-4);c.lineTo(0,0);c.lineTo(-6,4);c.stroke();c.restore();c.save();c.fillStyle=A.themePalette().gold;c.font='9px monospace';c.textAlign=x>this.w/2?'right':'left';c.fillText('FINAL HORIZON · '+f.distanceR.toFixed(0)+' R',x+(x>this.w/2?-12:12),y-8);c.restore();};
+  const lock=A.Renderer.prototype.lockCamera;
+  A.Renderer.prototype.lockCamera=function(){const f=this.game.finalInterstallar;if(!f?.merging||A.Save.data.settings.reducedMotion)return lock.call(this);const p=this.game.player,t=f.merge;
+    const midpointX=(p.x+f.x)/2,midpointY=(p.y+f.y)/2;this.camera.x=A.lerp(p.x,midpointX,t);this.camera.y=A.lerp(p.y,midpointY,t);this.camera.z=0;const wanted=Math.min(this.w,this.h)/(f.r*11+Math.hypot(f.x-p.x,f.y-p.y));this.camera.zoom=A.lerp(this.camera.zoom,wanted,.045);};
+  const menu=A.Renderer.prototype.menuScene;
+  A.Renderer.prototype.menuScene=function(){const charted=A.Save.vault.slots.some(s=>s.data.run?.final?.chart||s.data.lifetime?.finalCharted>0);if(!charted)return menu.call(this);const c=this.ctx,q=this.menuFinalPoint||(this.menuFinalPoint={x:0,y:0});q.x=this.w*.75;q.y=this.h*.48;const r=Math.min(this.w*.055,this.h*.10);
+    this.final=this.final||new A.FinalRender(this);this.final.advance(3.5);const look=A.FinalRender.anchor('Full'),asset=this.final.requestMap(look,192);if(asset.ready)c.drawImage(asset.canvas,q.x-r*5.6,q.y-r*5.6,r*11.2,r*11.2);else this.final.emergency(q,r,look);c.fillStyle='#a99a82';c.textAlign='center';c.font='10px monospace';c.fillText('FIG. 02 / THE FINAL INTERSTALLAR',q.x,q.y+r*2.2);};
+  // Preserve ordinary photo dimensions. A final horizon export may use a 2x,
+  // capped 3840px canvas, without a server or a screenshot dependency.
+  const image=A.Photo.prototype.image;
+  A.Photo.prototype.image=function(){const f=this.g.finalInterstallar,scale=this.exportScale===2?2:1;if(!f?.found&&scale===1)return image.call(this);try{const src=this.g.renderer.canvas,c=document.createElement('canvas'),factor=Math.min(scale,3840/src.width);c.width=Math.round(src.width*factor);c.height=Math.round(src.height*factor);const ctx=c.getContext('2d');ctx.drawImage(src,0,0,c.width,c.height);if(this.exposure){ctx.fillStyle=this.exposure>0?'rgba(255,255,255,'+this.exposure*.2+')':'rgba(0,0,0,'+-this.exposure*.35+')';ctx.fillRect(0,0,c.width,c.height);}return c;}catch(_){return image.call(this);}};
+  A.Photo.prototype.export=function(){try{const a=document.createElement('a'),g=this.g,cl=g.finalInterstallar?.done?A.FINAL.name:A.appearance(g.player).name;a.download='accretion-'+cl.toLowerCase().replace(/[^a-z0-9]+/g,'-')+'-'+Math.floor(g.time)+'.png';a.href=this.image().toDataURL('image/png');document.body.appendChild(a);a.click();a.remove();const f=g.finalInterstallar;if(f?.found){f.shots=Math.min(A.FINAL.photoLimit,f.shots+1);A.Save.checkpoint(g,'manual');}return true;}catch(_){return false;}};
+})(window.AC);
