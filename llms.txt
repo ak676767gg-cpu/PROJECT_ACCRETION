@@ -1,0 +1,19 @@
+# ACCRETION 3.8.0
+
+> An unpublished, offline, single-player space evolution game. This file describes the supplied package, not a hosted service.
+
+## Pages
+
+- [Game](index.html): Local game entry point, flight manual, settings, companions and save slots.
+- [Privacy policy](privacy.html): Local browser storage, retention and deletion in the offline build.
+- [Terms and conditions](terms.html): Gameplay resources, local saves and source license.
+- [Sources](sources.html): Scientific references, local source files and implementation limits.
+- [License](LICENSE.txt): MIT source license.
+
+## Accuracy notes
+
+The leaderboard consists of computer-controlled rivals. Records are local gameplay statistics, not audience or engagement metrics. Astronomy is simplified for play. Companions and DNA samples are fictional. Resources have no cash value and cannot be purchased. There is no public domain or online operator configured. There are no claimed user reviews, adoption figures or guaranteed frame rates. This guide does not grant rights beyond the supplied license and is not an access control.
+
+## Final-horizon update
+
+The Final Interstallar is a local, procedural late-game landmark. Valid snapshots accept versions 1–5, with an optional bounded landmark block. Optional WebGL always has a Canvas fallback. No external images, samples, requests or account are required. The isolated lab can read a user-selected local image without transmitting or persisting it. Browser/GPU and full reference fidelity limits are recorded in TEST_REPORT.md.

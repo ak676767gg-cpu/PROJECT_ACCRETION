@@ -1,0 +1,26 @@
+ACCRETION 4.0.0 · Orbital Command
+© 2026 Web Stars Studios
+
+1. Extract the entire ZIP.
+2. Open the Accretion folder.
+3. Double-click index.html.
+
+Solo play needs no installation, server, Node.js, account or internet.
+Keep all files together. Sound starts after a click.
+
+WASD / arrows: thrust. Shift: brake. Space: unlocked boost.
+F: open dock, which hides after inactivity. H: hide/restore HUD.
+U: original adaptations. K: engineering skill trees.
+X: aimed weapons. Z: drone orders. I: personal mining laser.
+T: quick signals. Y: send first saved signal. Edit them in the T panel. Escape: pause/back.
+
+Game modes: Journey, Boss Gauntlet, Salvage Expedition, Sandbox,
+and an optional private Multiplayer Arena.
+
+Settings: performance and resolution controls are at the bottom.
+FPS slider: 30 to 240 FPS, then Unlimited. Hardware limits still apply.
+Separate animation switches, CPU budgets, shader and gas detail are available.
+
+Read ORBITAL_COMMAND.html for the update and MULTIPLAYER.html for the
+optional backend. Only the multiplayer host needs Python 3.10+.
+Existing saved journeys, pets and Hardcore caches remain supported.
