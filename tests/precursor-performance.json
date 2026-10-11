@@ -1,0 +1,117 @@
+{
+  "method": "Procedural precursor overlay only, native software Canvas at 40 px radius. 20 warm-up frames and 100 samples per route/tier/detail. This is not browser FPS or full scene rendering.",
+  "results": [
+    {
+      "quality": "high",
+      "path": "singularity",
+      "level": 1,
+      "medianMs": 0.035,
+      "p95Ms": 0.098
+    },
+    {
+      "quality": "high",
+      "path": "singularity",
+      "level": 2,
+      "medianMs": 0.032,
+      "p95Ms": 0.085
+    },
+    {
+      "quality": "high",
+      "path": "nebula",
+      "level": 1,
+      "medianMs": 0.032,
+      "p95Ms": 0.071
+    },
+    {
+      "quality": "high",
+      "path": "nebula",
+      "level": 2,
+      "medianMs": 0.032,
+      "p95Ms": 0.058
+    },
+    {
+      "quality": "high",
+      "path": "neutron",
+      "level": 1,
+      "medianMs": 0.033,
+      "p95Ms": 0.081
+    },
+    {
+      "quality": "high",
+      "path": "neutron",
+      "level": 2,
+      "medianMs": 0.036,
+      "p95Ms": 0.101
+    },
+    {
+      "quality": "high",
+      "path": "gravastar",
+      "level": 1,
+      "medianMs": 0.032,
+      "p95Ms": 0.067
+    },
+    {
+      "quality": "high",
+      "path": "gravastar",
+      "level": 2,
+      "medianMs": 0.033,
+      "p95Ms": 0.046
+    },
+    {
+      "quality": "low",
+      "path": "singularity",
+      "level": 1,
+      "medianMs": 0.019,
+      "p95Ms": 0.035
+    },
+    {
+      "quality": "low",
+      "path": "singularity",
+      "level": 2,
+      "medianMs": 0.02,
+      "p95Ms": 0.05
+    },
+    {
+      "quality": "low",
+      "path": "nebula",
+      "level": 1,
+      "medianMs": 0.019,
+      "p95Ms": 0.044
+    },
+    {
+      "quality": "low",
+      "path": "nebula",
+      "level": 2,
+      "medianMs": 0.019,
+      "p95Ms": 0.054
+    },
+    {
+      "quality": "low",
+      "path": "neutron",
+      "level": 1,
+      "medianMs": 0.02,
+      "p95Ms": 0.031
+    },
+    {
+      "quality": "low",
+      "path": "neutron",
+      "level": 2,
+      "medianMs": 0.024,
+      "p95Ms": 0.034
+    },
+    {
+      "quality": "low",
+      "path": "gravastar",
+      "level": 1,
+      "medianMs": 0.02,
+      "p95Ms": 0.04
+    },
+    {
+      "quality": "low",
+      "path": "gravastar",
+      "level": 2,
+      "medianMs": 0.02,
+      "p95Ms": 0.063
+    }
+  ]
+}

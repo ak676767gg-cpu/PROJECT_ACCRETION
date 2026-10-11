@@ -1,0 +1,47 @@
+{
+  "version": "2.4.1",
+  "checks": 135,
+  "passed": 135,
+  "suites": {
+    "physics": {
+      "passed": 55,
+      "total": 55
+    },
+    "save slots": {
+      "passed": 13,
+      "total": 13
+    },
+    "Life Lab": {
+      "passed": 5,
+      "total": 5
+    },
+    "discovery wheel": {
+      "passed": 10,
+      "total": 10
+    },
+    "presentation": {
+      "passed": 9,
+      "total": 9
+    },
+    "expedition": {
+      "passed": 18,
+      "total": 18
+    },
+    "combined systems": {
+      "passed": 6,
+      "total": 6
+    },
+    "workspace": {
+      "passed": 19,
+      "total": 19
+    }
+  },
+  "runtime": "Ordered production scripts, isolated DOM adapter and native software Canvas",
+  "browserVerification": "Direct file://, CSS layout and browser console not verified in this environment",
+  "offlineAudit": {
+    "classicScripts": true,
+    "remoteRuntimeDependencies": 0,
+    "localReferences": 174,
+    "issues": []
+  }
+}

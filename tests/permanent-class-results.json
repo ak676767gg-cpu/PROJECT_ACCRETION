@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Hotkey opens permanent selector and all classes switch without waiting",
+    "pass": true
+  },
+  {
+    "name": "Switching preserves collection, eggs, nickname and adaptations",
+    "pass": true
+  },
+  {
+    "name": "Chosen class persists beyond the former timer and across reload",
+    "pass": true
+  },
+  {
+    "name": "Cosmic matter remains finite through both scale directions",
+    "pass": true
+  },
+  {
+    "name": "Legacy cooldown is discarded; switching does not add listeners",
+    "pass": true
+  }
+]

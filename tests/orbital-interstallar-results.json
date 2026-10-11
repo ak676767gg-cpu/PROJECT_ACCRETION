@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Final threshold follows Ultramassive, keeps continuous mass, and remains final at extreme mass",
+    "pass": true
+  },
+  {
+    "name": "Natural final evolution awards its point and achievement once, then growth adds no phantom classes",
+    "pass": true
+  },
+  {
+    "name": "The final stage, achievement, simulation time and original slot state survive a real save/load",
+    "pass": true
+  },
+  {
+    "name": "A preceding-class checkpoint loads as Ultramassive with its mass and momentum intact",
+    "pass": true
+  },
+  {
+    "name": "Ring filaments animate in both detail settings while the central shadow stays opaque",
+    "pass": true
+  },
+  {
+    "name": "Reduced motion freezes the final render while accretion still changes its feeding intensity",
+    "pass": true
+  },
+  {
+    "name": "Paused and photo views do not spin the rings as the renderer clock advances",
+    "pass": true
+  },
+  {
+    "name": "Rendering has no simulation, RNG, save, listener or animation-loop side effects and bounded ray caches",
+    "pass": true
+  },
+  {
+    "name": "Sandbox exposes the final class and never grants its journey achievement",
+    "pass": true
+  },
+  {
+    "name": "Final-stage restart clears cached atlases and transient matter without duplicate listeners or loops",
+    "pass": true
+  },
+  {
+    "name": "Final-stage accretion remains delayed and transfers a captured parcel through the existing simulation",
+    "pass": true
+  }
+]

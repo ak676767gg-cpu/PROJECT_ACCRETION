@@ -1,0 +1,4 @@
+{
+  "name": "Actual 3.9.1-to-3.9.2 vault migration preserves unclaimed bodies, disk matter, cargo and earned balances without duplicate conversion",
+  "pass": true
+}

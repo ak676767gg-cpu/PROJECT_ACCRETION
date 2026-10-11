@@ -1,0 +1,275 @@
+{
+  "method": "Native software Canvas component timings. Identical seed, radius and quality on each version; 70 warmup + 80 samples. Each sample includes a pixel readback to flush software Canvas commands. No simulation cost, browser, GPU or FPS claim.",
+  "results": [
+    {
+      "quality": "high",
+      "name": "Moon",
+      "radius": 24,
+      "coldMs": 5.75,
+      "medianMs": 0.502,
+      "p95Ms": 1.995,
+      "surfaceMaps": 1
+    },
+    {
+      "quality": "high",
+      "name": "Moon",
+      "radius": 60,
+      "coldMs": 2.88,
+      "medianMs": 0.743,
+      "p95Ms": 1.138,
+      "surfaceMaps": 1
+    },
+    {
+      "quality": "high",
+      "name": "Moon",
+      "radius": 120,
+      "coldMs": 3.44,
+      "medianMs": 1.38,
+      "p95Ms": 1.768,
+      "surfaceMaps": 1
+    },
+    {
+      "quality": "high",
+      "name": "Earth",
+      "radius": 24,
+      "coldMs": 11.23,
+      "medianMs": 0.838,
+      "p95Ms": 1.374,
+      "surfaceMaps": 1
+    },
+    {
+      "quality": "high",
+      "name": "Earth",
+      "radius": 60,
+      "coldMs": 10.24,
+      "medianMs": 1.281,
+      "p95Ms": 1.704,
+      "surfaceMaps": 1
+    },
+    {
+      "quality": "high",
+      "name": "Earth",
+      "radius": 120,
+      "coldMs": 12.14,
+      "medianMs": 2.359,
+      "p95Ms": 3.635,
+      "surfaceMaps": 1
+    },
+    {
+      "quality": "high",
+      "name": "Gas giant",
+      "radius": 24,
+      "coldMs": 3.92,
+      "medianMs": 1.409,
+      "p95Ms": 2.131,
+      "surfaceMaps": 1
+    },
+    {
+      "quality": "high",
+      "name": "Gas giant",
+      "radius": 60,
+      "coldMs": 4.34,
+      "medianMs": 2.297,
+      "p95Ms": 2.898,
+      "surfaceMaps": 1
+    },
+    {
+      "quality": "high",
+      "name": "Gas giant",
+      "radius": 120,
+      "coldMs": 6.57,
+      "medianMs": 5.782,
+      "p95Ms": 9.793,
+      "surfaceMaps": 1
+    },
+    {
+      "quality": "high",
+      "name": "Brown dwarf",
+      "radius": 24,
+      "coldMs": 2.7,
+      "medianMs": 1.02,
+      "p95Ms": 1.629,
+      "surfaceMaps": 1
+    },
+    {
+      "quality": "high",
+      "name": "Brown dwarf",
+      "radius": 60,
+      "coldMs": 3.17,
+      "medianMs": 1.44,
+      "p95Ms": 1.88,
+      "surfaceMaps": 1
+    },
+    {
+      "quality": "high",
+      "name": "Brown dwarf",
+      "radius": 120,
+      "coldMs": 3.76,
+      "medianMs": 3,
+      "p95Ms": 3.848,
+      "surfaceMaps": 1
+    },
+    {
+      "quality": "high",
+      "name": "Massive star",
+      "radius": 24,
+      "coldMs": 9.18,
+      "medianMs": 0.934,
+      "p95Ms": 1.534,
+      "surfaceMaps": 1
+    },
+    {
+      "quality": "high",
+      "name": "Massive star",
+      "radius": 60,
+      "coldMs": 8.8,
+      "medianMs": 1.769,
+      "p95Ms": 2.245,
+      "surfaceMaps": 1
+    },
+    {
+      "quality": "high",
+      "name": "Massive star",
+      "radius": 120,
+      "coldMs": 11.85,
+      "medianMs": 4.153,
+      "p95Ms": 4.849,
+      "surfaceMaps": 1
+    },
+    {
+      "quality": "low",
+      "name": "Moon",
+      "radius": 24,
+      "coldMs": 4.46,
+      "medianMs": 0.497,
+      "p95Ms": 0.881,
+      "surfaceMaps": 1
+    },
+    {
+      "quality": "low",
+      "name": "Moon",
+      "radius": 60,
+      "coldMs": 2.65,
+      "medianMs": 0.732,
+      "p95Ms": 1.16,
+      "surfaceMaps": 1
+    },
+    {
+      "quality": "low",
+      "name": "Moon",
+      "radius": 120,
+      "coldMs": 3.53,
+      "medianMs": 1.239,
+      "p95Ms": 1.8,
+      "surfaceMaps": 1
+    },
+    {
+      "quality": "low",
+      "name": "Earth",
+      "radius": 24,
+      "coldMs": 12.14,
+      "medianMs": 0.645,
+      "p95Ms": 0.93,
+      "surfaceMaps": 1
+    },
+    {
+      "quality": "low",
+      "name": "Earth",
+      "radius": 60,
+      "coldMs": 9.35,
+      "medianMs": 1.053,
+      "p95Ms": 1.766,
+      "surfaceMaps": 1
+    },
+    {
+      "quality": "low",
+      "name": "Earth",
+      "radius": 120,
+      "coldMs": 9.47,
+      "medianMs": 2.023,
+      "p95Ms": 3.843,
+      "surfaceMaps": 1
+    },
+    {
+      "quality": "low",
+      "name": "Gas giant",
+      "radius": 24,
+      "coldMs": 3.15,
+      "medianMs": 0.895,
+      "p95Ms": 1.486,
+      "surfaceMaps": 1
+    },
+    {
+      "quality": "low",
+      "name": "Gas giant",
+      "radius": 60,
+      "coldMs": 3.64,
+      "medianMs": 1.947,
+      "p95Ms": 2.941,
+      "surfaceMaps": 1
+    },
+    {
+      "quality": "low",
+      "name": "Gas giant",
+      "radius": 120,
+      "coldMs": 6.18,
+      "medianMs": 4.301,
+      "p95Ms": 4.833,
+      "surfaceMaps": 1
+    },
+    {
+      "quality": "low",
+      "name": "Brown dwarf",
+      "radius": 24,
+      "coldMs": 2.65,
+      "medianMs": 0.645,
+      "p95Ms": 1.211,
+      "surfaceMaps": 1
+    },
+    {
+      "quality": "low",
+      "name": "Brown dwarf",
+      "radius": 60,
+      "coldMs": 3.88,
+      "medianMs": 0.995,
+      "p95Ms": 1.402,
+      "surfaceMaps": 1
+    },
+    {
+      "quality": "low",
+      "name": "Brown dwarf",
+      "radius": 120,
+      "coldMs": 3.27,
+      "medianMs": 1.881,
+      "p95Ms": 2.335,
+      "surfaceMaps": 1
+    },
+    {
+      "quality": "low",
+      "name": "Massive star",
+      "radius": 24,
+      "coldMs": 8.08,
+      "medianMs": 0.633,
+      "p95Ms": 0.911,
+      "surfaceMaps": 1
+    },
+    {
+      "quality": "low",
+      "name": "Massive star",
+      "radius": 60,
+      "coldMs": 7.66,
+      "medianMs": 1.335,
+      "p95Ms": 1.617,
+      "surfaceMaps": 1
+    },
+    {
+      "quality": "low",
+      "name": "Massive star",
+      "radius": 120,
+      "coldMs": 10.47,
+      "medianMs": 3.429,
+      "p95Ms": 3.886,
+      "surfaceMaps": 1
+    }
+  ]
+}

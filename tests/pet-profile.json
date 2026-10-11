@@ -1,0 +1,7 @@
+{
+  "renderer": "Native software Canvas; one large companion",
+  "samples": 600,
+  "medianMs": 0.1505669999999668,
+  "p95Ms": 0.3588589999999954,
+  "meanMs": 0.18255728333333499
+}

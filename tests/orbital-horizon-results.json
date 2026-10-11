@@ -1,0 +1,103 @@
+{
+  "environment": "Isolated runtime and native software Canvas",
+  "results": [
+    {
+      "id": "L1",
+      "name": "Seven classes use seven distinct geometric profiles",
+      "status": "pass",
+      "pass": true,
+      "suite": "horizons"
+    },
+    {
+      "id": "L2",
+      "name": "Every fed class produces distinct original pixels",
+      "status": "pass",
+      "pass": true,
+      "suite": "horizons"
+    },
+    {
+      "id": "L3",
+      "name": "Every black-hole class has visibly changing flow",
+      "status": "pass",
+      "pass": true,
+      "suite": "horizons"
+    },
+    {
+      "id": "L4",
+      "name": "Unfed returned light moves without inventing captured matter",
+      "status": "pass",
+      "pass": true,
+      "suite": "horizons"
+    },
+    {
+      "id": "L5",
+      "name": "Pause freezes the material and projected light",
+      "status": "pass",
+      "pass": true,
+      "suite": "horizons"
+    },
+    {
+      "id": "L6",
+      "name": "Reduced Motion freezes each class at an original static frame",
+      "status": "pass",
+      "pass": true,
+      "suite": "horizons"
+    },
+    {
+      "id": "L7",
+      "name": "Captured matter controls disk radiance, while mass remains conserved",
+      "status": "pass",
+      "pass": true,
+      "suite": "horizons"
+    },
+    {
+      "id": "L8",
+      "name": "Central horizons remain dark outside foreground matter",
+      "status": "pass",
+      "pass": true,
+      "suite": "horizons"
+    },
+    {
+      "id": "L9",
+      "name": "Performance reduces geometric work and keeps moving light",
+      "status": "pass",
+      "pass": true,
+      "suite": "horizons"
+    },
+    {
+      "id": "L10",
+      "name": "Rendering does not advance the simulation RNG or create bodies",
+      "status": "pass",
+      "pass": true,
+      "suite": "horizons"
+    },
+    {
+      "id": "L11",
+      "name": "Canvas stage rendering has no baked-image jobs or GPU dependency",
+      "status": "pass",
+      "pass": true,
+      "suite": "horizons"
+    },
+    {
+      "id": "L13",
+      "name": "Physical beaming changes captured disk brightness",
+      "status": "pass",
+      "pass": true,
+      "suite": "horizons"
+    },
+    {
+      "id": "L14",
+      "name": "Recycled body objects cannot retain phantom disk light",
+      "status": "pass",
+      "pass": true,
+      "suite": "horizons"
+    },
+    {
+      "id": "L12",
+      "name": "Rivals receive the same class designs with bounded rich detail",
+      "status": "pass",
+      "pass": true,
+      "suite": "horizons"
+    }
+  ]
+}

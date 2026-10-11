@@ -1,0 +1,78 @@
+[
+  {
+    "name": "All seven instrument keys hide, repeat safely, and restore their own panels",
+    "pass": true
+  },
+  {
+    "name": "Window shortcuts minimize, preserve Lab selection, and restore from the dock",
+    "pass": true
+  },
+  {
+    "name": "Adaptation choice number keys retain their original behavior",
+    "pass": true
+  },
+  {
+    "name": "Minimizing adaptations defers selection without losing choices or points",
+    "pass": true
+  },
+  {
+    "name": "Editing a pet nickname never fires dock or instrument shortcuts",
+    "pass": true
+  },
+  {
+    "name": "Dock opens only by F and auto-hides after five idle seconds even with focus",
+    "pass": true
+  },
+  {
+    "name": "Dock can restore panels while the full HUD is hidden",
+    "pass": true
+  },
+  {
+    "name": "F minimizes a modal before exposing the dock, keeping modal focus separate",
+    "pass": true
+  },
+  {
+    "name": "Window buttons reach retained menus and repeated shortcuts toggle rather than stack",
+    "pass": true
+  },
+  {
+    "name": "Photo minimization restores its camera and leaves no active photo state",
+    "pass": true
+  },
+  {
+    "name": "System controls unlock at star scale and unavailable sandbox tools stay hidden",
+    "pass": true
+  },
+  {
+    "name": "Workspace preferences round-trip through a checkpoint and remain independent per slot",
+    "pass": true
+  },
+  {
+    "name": "Old saves receive a valid default layout and invalid panel names are rejected",
+    "pass": true
+  },
+  {
+    "name": "Every-three-evolution save cadence stays atomic with workspace changes",
+    "pass": true
+  },
+  {
+    "name": "Repeated restarts reset transient dock state without extra listeners or loops",
+    "pass": true
+  },
+  {
+    "name": "Native Enter/Space activation on dock buttons is not turned into a propulsion burn",
+    "pass": true
+  },
+  {
+    "name": "Pointer clicks do not pin the dock open after leaving it",
+    "pass": true
+  },
+  {
+    "name": "Dock keyboard navigation never intercepts Tab for system overview",
+    "pass": true
+  },
+  {
+    "name": "Dock disappears in main menu, pause, photo, and game over",
+    "pass": true
+  }
+]

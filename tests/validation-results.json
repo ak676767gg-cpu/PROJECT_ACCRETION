@@ -1,0 +1,232 @@
+[
+  {
+    "name": "Astronomical landmarks, continuity, and tiny-fragment units",
+    "pass": true,
+    "ms": 0.38598799999999756
+  },
+  {
+    "name": "Spatial partition finds neighbors across cell boundaries",
+    "pass": true,
+    "ms": 0.42254300000001876
+  },
+  {
+    "name": "Bound objects follow curved orbits instead of radial homing",
+    "pass": true,
+    "ms": 4.213756999999987
+  },
+  {
+    "name": "Bound orbits dissipate energy into eventual absorption",
+    "pass": true,
+    "ms": 13.354158999999981
+  },
+  {
+    "name": "Above-escape-speed objects can leave a gravity well",
+    "pass": true,
+    "ms": 4.29251499999998
+  },
+  {
+    "name": "Massive bodies deflect passing flight trajectories",
+    "pass": true,
+    "ms": 6.685901999999999
+  },
+  {
+    "name": "Absorption conserves mass including shed fragments and mixes momentum",
+    "pass": true,
+    "ms": 0.24839199999996708
+  },
+  {
+    "name": "Similar-mass collisions bounce and produce recoverable debris",
+    "pass": true,
+    "ms": 0.31543299999998453
+  },
+  {
+    "name": "High-speed impacts shed more mass than slow captures",
+    "pass": true,
+    "ms": 0.23197700000002897
+  },
+  {
+    "name": "A stronger rival cannot end a healthy player in one impact",
+    "pass": true,
+    "ms": 0.360541000000012
+  },
+  {
+    "name": "Spawn protection allows safe captures but blocks dangerous impacts",
+    "pass": true,
+    "ms": 0.14261399999998048
+  },
+  {
+    "name": "Repeated severe impacts eventually produce game over",
+    "pass": true,
+    "ms": 0.6509060000000204
+  },
+  {
+    "name": "Relaxed difficulty reduces damage and fragmentation",
+    "pass": true,
+    "ms": 0.5825130000000058
+  },
+  {
+    "name": "AI competitors absorb and evolve without player participation",
+    "pass": true,
+    "ms": 0.7889230000000111
+  },
+  {
+    "name": "Cautious AI flees a nearby dominant body",
+    "pass": true,
+    "ms": 0.0917379999999639
+  },
+  {
+    "name": "Aggressive AI hunts a weaker player",
+    "pass": true,
+    "ms": 0.0685320000000047
+  },
+  {
+    "name": "Upgrade choices require points and apply stacking effects",
+    "pass": true,
+    "ms": 0.5086519999999837
+  },
+  {
+    "name": "Boost consumes energy and increases acceleration",
+    "pass": true,
+    "ms": 0.14816200000001345
+  },
+  {
+    "name": "Save serialization preserves position, velocity, rivals and upgrades",
+    "pass": true,
+    "ms": 0.6643059999999537
+  },
+  {
+    "name": "Repeated checkpoints do not double-count lifetime statistics",
+    "pass": true,
+    "ms": 0.2319880000000012
+  },
+  {
+    "name": "Corrupt and non-finite saved bodies are rejected",
+    "pass": true,
+    "ms": 0.16643999999996595
+  },
+  {
+    "name": "Procedural streaming maintains resources while travelling",
+    "pass": true,
+    "ms": 37.586389999999994
+  },
+  {
+    "name": "Gravity remains finite at fifteen astronomical stages",
+    "pass": true,
+    "ms": 19.064959999999985
+  },
+  {
+    "name": "Very unequal masses avoid pathological spatial scans",
+    "pass": true,
+    "ms": 0.399058000000025
+  },
+  {
+    "name": "Stable orbit classification distinguishes circular capture and escape",
+    "pass": true,
+    "ms": 45.732050999999956
+  },
+  {
+    "name": "Rival star builds a stable hierarchical planet and moon system",
+    "pass": true,
+    "ms": 90.12749699999995
+  },
+  {
+    "name": "Player can steal a rival world when the new gravity well dominates",
+    "pass": true,
+    "ms": 41.07339200000001
+  },
+  {
+    "name": "Passing massive rival destabilizes the player outer system",
+    "pass": true,
+    "ms": 32.062134000000015
+  },
+  {
+    "name": "Rival black hole strips stored disk matter without instant mass credit",
+    "pass": true,
+    "ms": 0.818817000000081
+  },
+  {
+    "name": "Black-hole inner transfer has a meaningful delay and conserves mass",
+    "pass": true,
+    "ms": 34.17306800000006
+  },
+  {
+    "name": "Extended achievements and lifetime counters are idempotent",
+    "pass": true,
+    "ms": 114.39579800000001
+  },
+  {
+    "name": "A genuine rotating reservoir unlocks the disk achievement",
+    "pass": true,
+    "ms": 6.251411999999959
+  },
+  {
+    "name": "Black-hole merger achievement requires substantial inner assimilation",
+    "pass": true,
+    "ms": 50.782306999999946
+  },
+  {
+    "name": "Surviving a disturbance awards the existing achievement system",
+    "pass": true,
+    "ms": 26.825833999999986
+  },
+  {
+    "name": "Rival hierarchy, disk ownership and new counters survive checkpoint",
+    "pass": true,
+    "ms": 41.50384800000006
+  },
+  {
+    "name": "A destroyed parent safely releases children without a reference error",
+    "pass": true,
+    "ms": 32.639579000000026
+  },
+  {
+    "name": "System adaptations stack in the existing ranked choice list",
+    "pass": true,
+    "ms": 0.37403999999992266
+  },
+  {
+    "name": "Fifty unique companion recipes span five disclosed rarities",
+    "pass": true,
+    "ms": 0.1352919999999358
+  },
+  {
+    "name": "Asteroid collisions collect water and DNA once, without instant mass credit",
+    "pass": true,
+    "ms": 0.4067999999999756
+  },
+  {
+    "name": "Spawned fields carry finite life samples and pooled bodies reset resources",
+    "pass": true,
+    "ms": 4.3911620000000084
+  },
+  {
+    "name": "DNA egg recipes deduct exact costs and reject duplicates or insufficient resources",
+    "pass": true,
+    "ms": 0.16603900000006888
+  },
+  {
+    "name": "Every named DNA recipe can hatch and equip its exact companion",
+    "pass": true,
+    "ms": 1.0006700000000137
+  },
+  {
+    "name": "Companion collection normalization preserves valid discoveries and rejects invalid eggs",
+    "pass": true,
+    "ms": 0.20250300000009247
+  },
+  {
+    "name": "Planetary composition conserves weighted fractions and affects density",
+    "pass": true,
+    "ms": 0.08817200000009962
+  },
+  {
+    "name": "Moving habitable zones and surface climate use the current stellar source",
+    "pass": true,
+    "ms": 0.3418020000000297
+  },
+  {
+    "name": "Measured 2:1 stable orbits earn and lose the resonance bonus",
+    "pass": true,
+    "ms": 81.72967900000003
+  }
+]

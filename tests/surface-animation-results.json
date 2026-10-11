@@ -1,0 +1,186 @@
+{
+  "passed": 45,
+  "total": 45,
+  "results": [
+    {
+      "name": "Visible surface motion at original class 3",
+      "pass": true
+    },
+    {
+      "name": "Visible surface motion at original class 4",
+      "pass": true
+    },
+    {
+      "name": "Visible surface motion at original class 5",
+      "pass": true
+    },
+    {
+      "name": "Visible surface motion at original class 6",
+      "pass": true
+    },
+    {
+      "name": "Visible surface motion at original class 7",
+      "pass": true
+    },
+    {
+      "name": "Visible surface motion at original class 8",
+      "pass": true
+    },
+    {
+      "name": "Visible surface motion at original class 9",
+      "pass": true
+    },
+    {
+      "name": "Visible surface motion at original class 10",
+      "pass": true
+    },
+    {
+      "name": "Visible surface motion at original class 11",
+      "pass": true
+    },
+    {
+      "name": "Visible surface motion at original class 12",
+      "pass": true
+    },
+    {
+      "name": "Visible surface motion at original class 13",
+      "pass": true
+    },
+    {
+      "name": "Visible surface motion at original class 14",
+      "pass": true
+    },
+    {
+      "name": "Smooth procedural motion at singularity tier 3",
+      "pass": true
+    },
+    {
+      "name": "Smooth procedural motion at nebula tier 3",
+      "pass": true
+    },
+    {
+      "name": "Smooth procedural motion at nebula tier 6",
+      "pass": true
+    },
+    {
+      "name": "Smooth procedural motion at neutron tier 3",
+      "pass": true
+    },
+    {
+      "name": "Smooth procedural motion at neutron tier 4",
+      "pass": true
+    },
+    {
+      "name": "Smooth procedural motion at neutron tier 5",
+      "pass": true
+    },
+    {
+      "name": "Smooth procedural motion at gravastar tier 3",
+      "pass": true
+    },
+    {
+      "name": "Smooth procedural motion at gravastar tier 5",
+      "pass": true
+    },
+    {
+      "name": "Stored-matter horizon motion at class 15",
+      "pass": true
+    },
+    {
+      "name": "Stored-matter horizon motion at class 18",
+      "pass": true
+    },
+    {
+      "name": "Stored-matter horizon motion at class 20",
+      "pass": true
+    },
+    {
+      "name": "Stored-matter horizon motion at class 21",
+      "pass": true
+    },
+    {
+      "name": "Asteroid tumble comes from interpolated actual physical spin in all three stages",
+      "pass": true
+    },
+    {
+      "name": "Performance detail keeps visible surface and compact-body motion",
+      "pass": true
+    },
+    {
+      "name": "Reduced Motion freezes every optional surface, ring, cloud and compact effect",
+      "pass": true
+    },
+    {
+      "name": "Cloud longitude drift is independent of the terrain and fixed lighting",
+      "pass": true
+    },
+    {
+      "name": "Gas bands use latitude shear and inner ring lanes rotate faster than outer lanes",
+      "pass": true
+    },
+    {
+      "name": "Stage and climate changes crossfade cached surfaces then release the prior key",
+      "pass": true
+    },
+    {
+      "name": "A paused inspection adopts a new surface immediately instead of waiting on a frozen fade",
+      "pass": true
+    },
+    {
+      "name": "Atlas noise, rings and longitude geometry are reused on warm frames",
+      "pass": true
+    },
+    {
+      "name": "Surface cache remains bounded when hundreds of types and climate combinations are inspected",
+      "pass": true
+    },
+    {
+      "name": "High and Performance settings bound animated neighbours while reserving the player and selection",
+      "pass": true
+    },
+    {
+      "name": "Ordinary cold atlas construction is capped per draw frame",
+      "pass": true
+    },
+    {
+      "name": "Branch colours cannot reuse another same-type surface or distant sprite",
+      "pass": true
+    },
+    {
+      "name": "Visual animation does not create physics bodies, saved mass, random outcomes, listeners or loops",
+      "pass": true
+    },
+    {
+      "name": "Save/load restores physical orientation and reinitializes presentation interpolation",
+      "pass": true
+    },
+    {
+      "name": "Repeated restarts clear maps, interpolation histories and geometric caches without extra listeners or loops",
+      "pass": true
+    },
+    {
+      "name": "Deferred surfaces finish in bounded frame slices and match the synchronous cached asset",
+      "pass": true
+    },
+    {
+      "name": "Only two pending surfaces exist and the player can displace a distant build",
+      "pass": true
+    },
+    {
+      "name": "Unrequested surface builds expire rather than accumulating during exploration",
+      "pass": true
+    },
+    {
+      "name": "Performance jobs contain fewer rows and restart discards unfinished buffers",
+      "pass": true
+    },
+    {
+      "name": "Background surface generation does not alter world mass, motion, randomness or saved data",
+      "pass": true
+    },
+    {
+      "name": "An existing animated surface remains active until the next class map finishes",
+      "pass": true
+    }
+  ]
+}

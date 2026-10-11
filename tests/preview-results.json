@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Equipped rarity changes real gravity and thrust, unequip removes buffs",
+    "pass": true
+  },
+  {
+    "name": "Legendary defense reduces actual collision damage by fifteen percent",
+    "pass": true
+  },
+  {
+    "name": "Ctrl Shift 6 opens the existing paused-menu system",
+    "pass": true
+  },
+  {
+    "name": "Preview restores identical runtime objects, body state and inventory",
+    "pass": true
+  },
+  {
+    "name": "Cooldown blocks previews and persists across load/restart",
+    "pass": true
+  },
+  {
+    "name": "All classes simulate and render during previews without additional loops/listeners",
+    "pass": true
+  },
+  {
+    "name": "Manual return and restarting inside a preview restore safely",
+    "pass": true
+  }
+]

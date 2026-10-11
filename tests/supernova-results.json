@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Supernova unlocks at Massive Star and stays optional through the stellar endpoint",
+    "pass": true,
+    "ms": 120.52140599999996
+  },
+  {
+    "name": "Persistent button has a pause-menu counterpart and waits through a cinematic",
+    "pass": true,
+    "ms": 93.52053699999993
+  },
+  {
+    "name": "A premature or unknown choice cannot change state; origin-star switching never grants points",
+    "pass": true,
+    "ms": 93.77716599999997
+  },
+  {
+    "name": "All four choices preserve actual mass, motion, installed adaptations and companion resources",
+    "pass": true,
+    "ms": 440.62227500000006
+  },
+  {
+    "name": "Singularity doubles real gravity and multiplies thrust and cruise speed by two-thirds",
+    "pass": true,
+    "ms": 159.37776600000007
+  },
+  {
+    "name": "Singularity retains every existing black-hole class and ends at the animated Interstallar",
+    "pass": true,
+    "ms": 92.76701100000014
+  },
+  {
+    "name": "Nebula, neutron and gravastar tiers require fivefold mass and cannot farm repeat points",
+    "pass": true,
+    "ms": 271.30446499999994
+  },
+  {
+    "name": "Neutron speed is 35% higher, Magnetar gravity is 50% higher and Strange Matter has a real field",
+    "pass": true,
+    "ms": 88.16916500000002
+  },
+  {
+    "name": "Gravastar buffs apply actual collision protection as well as gravity and movement",
+    "pass": true,
+    "ms": 184.02166799999986
+  },
+  {
+    "name": "Nebula has zero gravity and coherent contact no longer consumes a whole body",
+    "pass": true,
+    "ms": 95.51066700000001
+  },
+  {
+    "name": "Cloud dissolution and delayed assimilation conserve the real mass ledger",
+    "pass": true,
+    "ms": 103.12331100000006
+  },
+  {
+    "name": "Separate donors and gas cells cannot silently merge into an unrelated reaction parcel",
+    "pass": true,
+    "ms": 89.52305500000011
+  },
+  {
+    "name": "Diffuse parcels do not duplicate DNA when a still-coherent donor erodes repeatedly",
+    "pass": true,
+    "ms": 161.52379199999996
+  },
+  {
+    "name": "A cloud actually removes density from finite nebula cells",
+    "pass": true,
+    "ms": 98.45400500000005
+  },
+  {
+    "name": "Clouds remain vulnerable to gradual stripping by a denser rival",
+    "pass": true,
+    "ms": 91.84522400000014
+  },
+  {
+    "name": "Only overlapping bodies react; nebula flybys outside the cloud remain inertial",
+    "pass": true,
+    "ms": 93.53607199999988
+  },
+  {
+    "name": "Strange Matter converts nearby coherent material and credits it gradually",
+    "pass": true,
+    "ms": 93.06866200000013
+  },
+  {
+    "name": "Reaction budgets and pooled parcels stay bounded and pooled flow flags reset",
+    "pass": true,
+    "ms": 98.43792100000019
+  },
+  {
+    "name": "A stellar system is physically disturbed by the expanding supernova wave",
+    "pass": true,
+    "ms": 88.86320999999998
+  },
+  {
+    "name": "Choosing neutron early never unlocks skipped Colossus or black-hole achievements",
+    "pass": true,
+    "ms": 92.52518800000007
+  },
+  {
+    "name": "The first black-hole achievement is earned after Singularity, never before",
+    "pass": true,
+    "ms": 88.86520300000029
+  },
+  {
+    "name": "Existing compact checkpoints migrate into Singularity without changing their attained class",
+    "pass": true,
+    "ms": 86.59080399999993
+  },
+  {
+    "name": "All routes, partial erosion, resources and stored parcel state survive actual slot save/load",
+    "pass": true,
+    "ms": 381.4264509999998
+  },
+  {
+    "name": "Malformed route and reaction state are rejected while pre-update saves remain valid",
+    "pass": true,
+    "ms": 92.08250500000031
+  },
+  {
+    "name": "New lifetime counters account once and the three-evolution checkpoint cadence still applies",
+    "pass": true,
+    "ms": 89.99137699999983
+  },
+  {
+    "name": "Cloud adaptation offers avoid inactive gravity choices but retain existing installed ranks",
+    "pass": true,
+    "ms": 89.16337399999975
+  },
+  {
+    "name": "Branch HUD and the matter inspector report the actual active class and stored mass",
+    "pass": true,
+    "ms": 301.0104559999995
+  },
+  {
+    "name": "Repeated restart clears paths, reaction pools, transformations and warnings without extra loops/listeners",
+    "pass": true,
+    "ms": 452.8848619999999
+  },
+  {
+    "name": "Remnant journey goals remain achievable and class identities never repeat",
+    "pass": true,
+    "ms": 380.09400300000016
+  },
+  {
+    "name": "Old stored parcels adapt to a cloud and remain valid checkpoint data",
+    "pass": true,
+    "ms": 95.50196500000038
+  },
+  {
+    "name": "Stripped reaction matter enters the rival black-hole physics with a fresh settling delay",
+    "pass": true,
+    "ms": 93.72005300000001
+  },
+  {
+    "name": "Later remnant evolution clears the initial supernova animation rather than replaying it",
+    "pass": true,
+    "ms": 93.65957400000025
+  },
+  {
+    "name": "Cloud choices clear stale offers and the remnant menu minimizes through the existing F dock",
+    "pass": true,
+    "ms": 96.77596699999958
+  },
+  {
+    "name": "All four supernovas have distinct, changing procedural animation frames",
+    "pass": true,
+    "ms": 792.4538389999998
+  },
+  {
+    "name": "Reduced Motion uses a steady supernova glow without moving waves",
+    "pass": true,
+    "ms": 768.3137880000004
+  },
+  {
+    "name": "Distinct procedural supernova cues and remnant ambient profiles reuse one context and honor mute",
+    "pass": true,
+    "ms": 94.28555899999992
+  }
+]

@@ -1,0 +1,93 @@
+{
+  "method": "Production deferred atlas builder. Actual row work is spread across successive calls to the existing renderer. 2 ms High / 1.2 ms Performance soft row budgets; a row or final stamping can overrun. Software CPU timings only, not browser/GPU FPS. Sequential isolated run.",
+  "results": [
+    {
+      "quality": "high",
+      "name": "Moon",
+      "queueMs": 1.856,
+      "frames": 12,
+      "processingTotalMs": 25.568,
+      "medianSliceMs": 2.127,
+      "p95SliceMs": 2.315,
+      "maxSliceMs": 3.808,
+      "finished": true
+    },
+    {
+      "quality": "high",
+      "name": "Earth",
+      "queueMs": 1.285,
+      "frames": 28,
+      "processingTotalMs": 60.334,
+      "medianSliceMs": 2.214,
+      "p95SliceMs": 2.493,
+      "maxSliceMs": 2.748,
+      "finished": true
+    },
+    {
+      "quality": "high",
+      "name": "Gas giant",
+      "queueMs": 1.221,
+      "frames": 23,
+      "processingTotalMs": 50.02,
+      "medianSliceMs": 2.158,
+      "p95SliceMs": 2.425,
+      "maxSliceMs": 2.603,
+      "finished": true
+    },
+    {
+      "quality": "high",
+      "name": "Massive star",
+      "queueMs": 1.268,
+      "frames": 23,
+      "processingTotalMs": 49.289,
+      "medianSliceMs": 2.234,
+      "p95SliceMs": 2.502,
+      "maxSliceMs": 2.661,
+      "finished": true
+    },
+    {
+      "quality": "low",
+      "name": "Moon",
+      "queueMs": 1.187,
+      "frames": 6,
+      "processingTotalMs": 6.334,
+      "medianSliceMs": 1.214,
+      "p95SliceMs": 1.227,
+      "maxSliceMs": 1.366,
+      "finished": true
+    },
+    {
+      "quality": "low",
+      "name": "Earth",
+      "queueMs": 1.291,
+      "frames": 12,
+      "processingTotalMs": 13.773,
+      "medianSliceMs": 1.283,
+      "p95SliceMs": 1.374,
+      "maxSliceMs": 1.381,
+      "finished": true
+    },
+    {
+      "quality": "low",
+      "name": "Gas giant",
+      "queueMs": 1.146,
+      "frames": 12,
+      "processingTotalMs": 15.269,
+      "medianSliceMs": 1.338,
+      "p95SliceMs": 1.462,
+      "maxSliceMs": 1.896,
+      "finished": true
+    },
+    {
+      "quality": "low",
+      "name": "Massive star",
+      "queueMs": 1.155,
+      "frames": 13,
+      "processingTotalMs": 15.112,
+      "medianSliceMs": 1.278,
+      "p95SliceMs": 1.421,
+      "maxSliceMs": 1.433,
+      "finished": true
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "environment": "isolated JavaScript runtime with native software Canvas; not browser FPS",
+  "results": [
+    {
+      "scene": "nebula",
+      "mode": "high",
+      "bodies": 534,
+      "gasCells": 224,
+      "parcels": 70,
+      "simulationMedianMs": 8.985559000000194,
+      "renderMedianMs": 48.84292600000026,
+      "combinedMedianMs": 58.75168299999996,
+      "combinedP95Ms": 80.2345150000001,
+      "canvas": [
+        1440,
+        900
+      ]
+    },
+    {
+      "scene": "nebula",
+      "mode": "low",
+      "bodies": 429,
+      "gasCells": 224,
+      "parcels": 69,
+      "simulationMedianMs": 7.252421999999569,
+      "renderMedianMs": 27.83932199999981,
+      "combinedMedianMs": 35.362427000000025,
+      "combinedP95Ms": 43.71367999999984,
+      "canvas": [
+        864,
+        540
+      ]
+    },
+    {
+      "scene": "belt",
+      "mode": "high",
+      "bodies": 538,
+      "gasCells": 224,
+      "parcels": 80,
+      "simulationMedianMs": 8.219911000000138,
+      "renderMedianMs": 55.25930399999925,
+      "combinedMedianMs": 64.63924300000144,
+      "combinedP95Ms": 100.80713199999991,
+      "canvas": [
+        1440,
+        900
+      ]
+    },
+    {
+      "scene": "belt",
+      "mode": "low",
+      "bodies": 417,
+      "gasCells": 224,
+      "parcels": 30,
+      "simulationMedianMs": 7.134838999998465,
+      "renderMedianMs": 31.571486000000732,
+      "combinedMedianMs": 38.66168800000014,
+      "combinedP95Ms": 89.49845600000117,
+      "canvas": [
+        864,
+        540
+      ]
+    },
+    {
+      "scene": "galactic",
+      "mode": "high",
+      "bodies": 356,
+      "gasCells": 224,
+      "parcels": 117,
+      "simulationMedianMs": 10.828966000000946,
+      "renderMedianMs": 69.17857200000071,
+      "combinedMedianMs": 80.13193799999863,
+      "combinedP95Ms": 93.48857200000202,
+      "canvas": [
+        1440,
+        900
+      ]
+    },
+    {
+      "scene": "galactic",
+      "mode": "low",
+      "bodies": 274,
+      "gasCells": 224,
+      "parcels": 116,
+      "simulationMedianMs": 8.754720000000816,
+      "renderMedianMs": 27.938491000000795,
+      "combinedMedianMs": 37.285798000000796,
+      "combinedP95Ms": 53.31804600000032,
+      "canvas": [
+        864,
+        540
+      ]
+    }
+  ]
+}

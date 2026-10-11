@@ -1,0 +1,607 @@
+[
+  {
+    "name": "Astronomical landmarks, continuity, and tiny-fragment units",
+    "pass": true,
+    "ms": 0.41561400000000503
+  },
+  {
+    "name": "Ordinary classes keep uniform movement and compact remnants apply their speed multiplier",
+    "pass": true,
+    "ms": 122.22020100000003
+  },
+  {
+    "name": "Boost, upgrades and braking retain scale-relative movement with remnant modifiers",
+    "pass": true,
+    "ms": 15.766904999999952
+  },
+  {
+    "name": "Spatial partition finds neighbors across cell boundaries",
+    "pass": true,
+    "ms": 0.16885899999999765
+  },
+  {
+    "name": "Bound objects follow curved orbits instead of radial homing",
+    "pass": true,
+    "ms": 3.0309169999999312
+  },
+  {
+    "name": "Bound orbits dissipate energy into eventual absorption",
+    "pass": true,
+    "ms": 11.812966999999958
+  },
+  {
+    "name": "Above-escape-speed objects can leave a gravity well",
+    "pass": true,
+    "ms": 4.310235000000034
+  },
+  {
+    "name": "Massive bodies deflect passing flight trajectories",
+    "pass": true,
+    "ms": 4.215816999999902
+  },
+  {
+    "name": "Absorption conserves mass including shed fragments and mixes momentum",
+    "pass": true,
+    "ms": 0.2472060000000056
+  },
+  {
+    "name": "Similar-mass collisions bounce and produce recoverable debris",
+    "pass": true,
+    "ms": 0.45528200000001107
+  },
+  {
+    "name": "High-speed impacts shed more mass than slow captures",
+    "pass": true,
+    "ms": 0.27295300000002953
+  },
+  {
+    "name": "A stronger rival cannot end a healthy player in one impact",
+    "pass": true,
+    "ms": 0.4567540000000463
+  },
+  {
+    "name": "Spawn protection allows safe captures but blocks dangerous impacts",
+    "pass": true,
+    "ms": 0.14978099999996175
+  },
+  {
+    "name": "Repeated severe impacts eventually produce game over",
+    "pass": true,
+    "ms": 0.7244900000000598
+  },
+  {
+    "name": "Relaxed difficulty reduces damage and fragmentation",
+    "pass": true,
+    "ms": 0.6253540000000157
+  },
+  {
+    "name": "AI competitors absorb and evolve without player participation",
+    "pass": true,
+    "ms": 1.0686580000000276
+  },
+  {
+    "name": "Cautious AI flees a nearby dominant body",
+    "pass": true,
+    "ms": 0.15198400000008405
+  },
+  {
+    "name": "Aggressive AI hunts a weaker player",
+    "pass": true,
+    "ms": 0.08153100000004088
+  },
+  {
+    "name": "Upgrade choices require points and apply stacking effects",
+    "pass": true,
+    "ms": 0.7180610000000343
+  },
+  {
+    "name": "Boost consumes energy and increases acceleration",
+    "pass": true,
+    "ms": 0.12389300000006642
+  },
+  {
+    "name": "Save serialization preserves position, velocity, rivals and upgrades",
+    "pass": true,
+    "ms": 0.9849350000000641
+  },
+  {
+    "name": "Repeated checkpoints do not double-count lifetime statistics",
+    "pass": true,
+    "ms": 0.3467319999999745
+  },
+  {
+    "name": "Corrupt and non-finite saved bodies are rejected",
+    "pass": true,
+    "ms": 0.15968599999996513
+  },
+  {
+    "name": "Procedural streaming maintains resources while travelling",
+    "pass": true,
+    "ms": 41.009526999999935
+  },
+  {
+    "name": "Gravity remains finite at fifteen astronomical stages",
+    "pass": true,
+    "ms": 19.025127999999995
+  },
+  {
+    "name": "Very unequal masses avoid pathological spatial scans",
+    "pass": true,
+    "ms": 0.3226969999999483
+  },
+  {
+    "name": "Stable orbit classification distinguishes circular capture and escape",
+    "pass": true,
+    "ms": 45.05306899999994
+  },
+  {
+    "name": "Rival star builds a stable hierarchical planet and moon system",
+    "pass": true,
+    "ms": 84.38489699999991
+  },
+  {
+    "name": "Player can steal a rival world when the new gravity well dominates",
+    "pass": true,
+    "ms": 41.79468699999995
+  },
+  {
+    "name": "Passing massive rival destabilizes the player outer system",
+    "pass": true,
+    "ms": 27.92455700000005
+  },
+  {
+    "name": "Rival black hole strips stored disk matter without instant mass credit",
+    "pass": true,
+    "ms": 0.763227000000029
+  },
+  {
+    "name": "Black-hole inner transfer has a meaningful delay and conserves mass",
+    "pass": true,
+    "ms": 28.929575999999997
+  },
+  {
+    "name": "Gentle stellar movement preserves bound, independent orbital motion",
+    "pass": true,
+    "ms": 34.047244999999975
+  },
+  {
+    "name": "Orbital assistance retains existing stress, harmony ranks and disruptive boosts",
+    "pass": true,
+    "ms": 0.36838399999999183
+  },
+  {
+    "name": "Orbit carry stops accelerating satellites when the star reaches cruise equilibrium",
+    "pass": true,
+    "ms": 0.12021700000002511
+  },
+  {
+    "name": "Extended achievements and lifetime counters are idempotent",
+    "pass": true,
+    "ms": 103.43008599999996
+  },
+  {
+    "name": "A genuine rotating reservoir unlocks the disk achievement",
+    "pass": true,
+    "ms": 7.8202890000000025
+  },
+  {
+    "name": "Black-hole merger achievement requires substantial inner assimilation",
+    "pass": true,
+    "ms": 56.85661199999993
+  },
+  {
+    "name": "Surviving a disturbance awards the existing achievement system",
+    "pass": true,
+    "ms": 28.680447999999842
+  },
+  {
+    "name": "Rival hierarchy, disk ownership and new counters survive checkpoint",
+    "pass": true,
+    "ms": 43.26631999999995
+  },
+  {
+    "name": "A destroyed parent safely releases children without a reference error",
+    "pass": true,
+    "ms": 34.715239999999994
+  },
+  {
+    "name": "System adaptations stack in the existing ranked choice list",
+    "pass": true,
+    "ms": 0.3333820000000287
+  },
+  {
+    "name": "Fifty unique companion recipes span five disclosed rarities",
+    "pass": true,
+    "ms": 0.09784400000012283
+  },
+  {
+    "name": "Asteroid collisions collect water and DNA once, without instant mass credit",
+    "pass": true,
+    "ms": 0.558044000000109
+  },
+  {
+    "name": "Spawned fields carry finite life samples and pooled bodies reset resources",
+    "pass": true,
+    "ms": 5.701751000000058
+  },
+  {
+    "name": "DNA egg recipes deduct exact costs and reject duplicates or insufficient resources",
+    "pass": true,
+    "ms": 0.14843900000005306
+  },
+  {
+    "name": "Every named DNA recipe can hatch and equip its exact companion",
+    "pass": true,
+    "ms": 1.8114450000000488
+  },
+  {
+    "name": "Companion buffs resolve all five rarity tiers including the new shape passives",
+    "pass": true,
+    "ms": 0.3246390000001611
+  },
+  {
+    "name": "Discovery wheel maps the documented 59/35/5/1 odds across ten thousand samples",
+    "pass": true,
+    "ms": 2.7907319999999345
+  },
+  {
+    "name": "New lifetime statistics initialise, increment once, and survive a save round trip",
+    "pass": true,
+    "ms": 28.94922500000007
+  },
+  {
+    "name": "System stability bonus is zero after a disturbance and returns after thirty quiet seconds",
+    "pass": true,
+    "ms": 12.301058000000012
+  },
+  {
+    "name": "Companion collection normalization preserves valid discoveries and rejects invalid eggs",
+    "pass": true,
+    "ms": 0.16508399999997891
+  },
+  {
+    "name": "Planetary composition conserves weighted fractions and affects density",
+    "pass": true,
+    "ms": 0.1016700000000128
+  },
+  {
+    "name": "Boosted black-hole infall retains mass and resources after entering inner flow",
+    "pass": true,
+    "ms": 56.91674000000012
+  },
+  {
+    "name": "An escaping tidal stream retains unclaimed resources without awarding them",
+    "pass": true,
+    "ms": 56.33927799999992
+  },
+  {
+    "name": "Physical collection cannot be awarded again by the transferred stream",
+    "pass": true,
+    "ms": 1597.8958290000003
+  },
+  {
+    "name": "Dense gas leaves parcel capacity for coherent asteroid captures",
+    "pass": true,
+    "ms": 3.0092140000001564
+  },
+  {
+    "name": "Escaped parcels reclaim inactive world slots while conserving payloads",
+    "pass": true,
+    "ms": 4.319248999999672
+  },
+  {
+    "name": "Save validation accepts legacy parcels and rejects invalid new payloads",
+    "pass": true,
+    "ms": 0.5090119999999843
+  },
+  {
+    "name": "Moving habitable zones and surface climate use the current stellar source",
+    "pass": true,
+    "ms": 0.3837260000000242
+  },
+  {
+    "name": "Measured 2:1 stable orbits earn and lose the resonance bonus",
+    "pass": true,
+    "ms": 77.79314199999999
+  },
+  {
+    "name": "Orbital element reuse preserves three-dimensional invariants without mutating bodies",
+    "pass": true,
+    "ms": 0.25621899999987363
+  },
+  {
+    "name": "Gravity cache responds to source mass, gravity ranks and amplification",
+    "pass": true,
+    "ms": 0.06434499999977561
+  },
+  {
+    "name": "Valid composition objects are reused and invalid mixtures are repaired",
+    "pass": true,
+    "ms": 0.059077000000343105
+  },
+  {
+    "name": "Asteroid ribbons have narrow seeded geometry and respect the entity budget",
+    "pass": true,
+    "ms": 19.71495700000014
+  },
+  {
+    "name": "Comet corridors retain coherent motion instead of direct inward attraction",
+    "pass": true,
+    "ms": 0.6710210000001098
+  },
+  {
+    "name": "Stellar world passages include genuine capturable planetary masses",
+    "pass": true,
+    "ms": 1.7570350000000872
+  },
+  {
+    "name": "Rival orbital fields use their own host velocity and gravity well",
+    "pass": true,
+    "ms": 809.9037559999997
+  },
+  {
+    "name": "Class goals reward an adaptation once without granting mass or laboratory resources",
+    "pass": true,
+    "ms": 2.1211129999996956
+  },
+  {
+    "name": "Coasting goals measure control state and never count braking or boosting",
+    "pass": true,
+    "ms": 1.1179509999997208
+  },
+  {
+    "name": "Solar-system goals require sustained health and decay when disturbed",
+    "pass": true,
+    "ms": 1.044832999999926
+  },
+  {
+    "name": "Black-hole goals count accreted mass rather than captured mass",
+    "pass": true,
+    "ms": 1.032325000000128
+  },
+  {
+    "name": "Encounters retain finite clouds and defer when the physical budget is full",
+    "pass": true,
+    "ms": 5.067713999999796
+  },
+  {
+    "name": "Condensation previews identify eligible matter and birth conserves total mass",
+    "pass": true,
+    "ms": 0.846259999999802
+  },
+  {
+    "name": "Empty or plunging disks do not render fictitious formation previews",
+    "pass": true,
+    "ms": 0.11825399999997899
+  },
+  {
+    "name": "Matter observatory partitions stored mass into real incoming, disk and inner-flow states",
+    "pass": true,
+    "ms": 0.36471899999969537
+  },
+  {
+    "name": "Completed goals, encounters, field geometry and rival intentions survive a validated snapshot",
+    "pass": true,
+    "ms": 6.551346000000194
+  },
+  {
+    "name": "Save validation rejects malformed goals while accepting old checkpoints",
+    "pass": true,
+    "ms": 1.3711249999996653
+  },
+  {
+    "name": "Extended lifetime statistics account each new counter exactly once",
+    "pass": true,
+    "ms": 0.16033699999979945
+  },
+  {
+    "name": "The fifty-four milestone catalogue preserves all legacy IDs and has valid acyclic routes",
+    "pass": true,
+    "ms": 0.25647899999967194
+  },
+  {
+    "name": "New evolution achievements use attained classes and award exactly once",
+    "pass": true,
+    "ms": 0.2058640000000196
+  },
+  {
+    "name": "Capture milestones measure one journey and keep lifetime totals separate",
+    "pass": true,
+    "ms": 0.1344480000002477
+  },
+  {
+    "name": "Old achievements and new plaque settings normalize without losing a save",
+    "pass": true,
+    "ms": 0.1728150000003552
+  },
+  {
+    "name": "Sandbox advancement checks cannot mutate normal achievements or resources",
+    "pass": true,
+    "ms": 0.08308200000010402
+  },
+  {
+    "name": "Prestige requires a living stellar journey and four distinct class goals",
+    "pass": true,
+    "ms": 1.1490969999999834
+  },
+  {
+    "name": "Cosmetic migration rejects locked looks and allows earned companion accessories",
+    "pass": true,
+    "ms": 0.08575700000028519
+  },
+  {
+    "name": "Scar history caps at six, counts survived damage and resets with pooled bodies",
+    "pass": true,
+    "ms": 0.1445739999999205
+  },
+  {
+    "name": "Collision scars and sprite orientation survive checkpoint restoration",
+    "pass": true,
+    "ms": 0.331239000000096
+  },
+  {
+    "name": "An orbital blueprint requires owned, stable physical planets and a continuous hold",
+    "pass": true,
+    "ms": 1.5157290000001922
+  },
+  {
+    "name": "Custodian promises require stable nested moons and reset on a disturbed system",
+    "pass": true,
+    "ms": 1.3380059999999503
+  },
+  {
+    "name": "Black-hole expedition promises cannot count captured disk mass",
+    "pass": true,
+    "ms": 11.8639519999997
+  },
+  {
+    "name": "Blueprint and legacy lifetime counters account once in the existing profile",
+    "pass": true,
+    "ms": 0.16192899999987276
+  },
+  {
+    "name": "Hatching uses bounded stages and reduced motion reveals the actual creature immediately",
+    "pass": true,
+    "ms": 0.0905440000001363
+  },
+  {
+    "name": "Path selection keeps the starting star, momentum and adaptation balance",
+    "pass": true,
+    "ms": 0.6384029999999257
+  },
+  {
+    "name": "Four distinct precursor sequences replace the ordinary stellar stages",
+    "pass": true,
+    "ms": 1.1602640000000974
+  },
+  {
+    "name": "A path can change at the origin star but locks after its first branch evolution",
+    "pass": true,
+    "ms": 0.26143599999977596
+  },
+  {
+    "name": "Path selection preserves a partly filled mass goal and respects fivefold thresholds",
+    "pass": true,
+    "ms": 0.20600400000012087
+  },
+  {
+    "name": "Earlier 3.4 remnant states migrate without regressions, bonus points or repeat explosions",
+    "pass": true,
+    "ms": 0.2167699999999968
+  },
+  {
+    "name": "A reached precursor cannot silently de-evolve after mass loss",
+    "pass": true,
+    "ms": 0.2215169999999489
+  },
+  {
+    "name": "Remnant abilities and route crests wait for the third branch evolution",
+    "pass": true,
+    "ms": 0.5557509999998729
+  },
+  {
+    "name": "Massive Star supernova stays optional and the stellar class stops at Colossus",
+    "pass": true,
+    "ms": 0.07356900000013411
+  },
+  {
+    "name": "Singularity multiplies actual gravity by two and thrust by two-thirds",
+    "pass": true,
+    "ms": 0.4227650000002541
+  },
+  {
+    "name": "Singularity progresses through the original black-hole classes with a finite endpoint",
+    "pass": true,
+    "ms": 0.5715439999999035
+  },
+  {
+    "name": "Nebula erodes coherent bodies without gravity or instant contact absorption",
+    "pass": true,
+    "ms": 0.8028150000000096
+  },
+  {
+    "name": "Diffuse assimilation delays credit and conserves coherent plus stored mass",
+    "pass": true,
+    "ms": 8.89170200000035
+  },
+  {
+    "name": "Neutron, Magnetar and Strange Matter have distinct actual modifiers and conversion",
+    "pass": true,
+    "ms": 0.4943099999995866
+  },
+  {
+    "name": "Gravastar shell protection and gravity increase with attained tier",
+    "pass": true,
+    "ms": 0.3820440000004055
+  },
+  {
+    "name": "New routes preserve saved identity, mass baseline and partial-reaction fields",
+    "pass": true,
+    "ms": 1.564390000000003
+  },
+  {
+    "name": "Rerouted stellar milestones cannot incorrectly grant skipped black-hole achievements",
+    "pass": true,
+    "ms": 0.4096449999997276
+  },
+  {
+    "name": "Old compact checkpoints migrate without losing their class or momentum",
+    "pass": true,
+    "ms": 0.06985299999996641
+  },
+  {
+    "name": "Surface clock follows sub-step simulation time without running ahead",
+    "pass": true,
+    "ms": 0.07481099999995422
+  },
+  {
+    "name": "Surface clock freezes in pause and photo mode and never becomes negative",
+    "pass": true,
+    "ms": 0.033148999999866646
+  },
+  {
+    "name": "Reduced Motion freezes optional surface animation independently of physics",
+    "pass": true,
+    "ms": 0.05194699999992736
+  },
+  {
+    "name": "Body size and angle interpolate the same fixed-step interval as position",
+    "pass": true,
+    "ms": 0.03748500000028798
+  },
+  {
+    "name": "Physics records previous size and spin before integrating the next step",
+    "pass": true,
+    "ms": 0.07717400000001362
+  },
+  {
+    "name": "Surface caches and body histories reset together without creating another loop",
+    "pass": true,
+    "ms": 0.04673900000034337
+  },
+  {
+    "name": "A galactic encounter is optional, stellar and backed by finite matter",
+    "pass": true,
+    "ms": 1.5117129999998724
+  },
+  {
+    "name": "The two-hour encounter awards once and pauses with the existing game state",
+    "pass": true,
+    "ms": 1.3873390000003383
+  },
+  {
+    "name": "Galactic encounters serialize alongside their real gas and preserve older checkpoints",
+    "pass": true,
+    "ms": 2.763821999999891
+  },
+  {
+    "name": "The global palette catalogue preserves existing earned frames and resource rules",
+    "pass": true,
+    "ms": 0.1143090000000484
+  },
+  {
+    "name": "Branch HUD captions follow the selected journey and its actual attained tier",
+    "pass": true,
+    "ms": 0.10448499999984051
+  }
+]

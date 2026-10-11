@@ -1,0 +1,65 @@
+{
+  "version": "3.1.1",
+  "release": "Animated Cosmic Advancements",
+  "automatedChecksPassed": 247,
+  "suiteCounts": {
+    "physics": 84,
+    "advancement": 28,
+    "plaque-motion": 9,
+    "frontier": 16,
+    "life-integration": 5,
+    "wheel": 10,
+    "editorial": 9,
+    "expedition": 18,
+    "merge": 6,
+    "workspace": 19,
+    "camera": 19,
+    "slots": 13,
+    "collection": 11
+  },
+  "plaqueTiming": {
+    "formingEnd": 0.28,
+    "illuminationEnd": 0.54,
+    "readableAt": 1.08,
+    "exitDuration": 0.48,
+    "totalDuration": {
+      "task": 4.8,
+      "goal": 5.5,
+      "challenge": 6.3
+    }
+  },
+  "animationClock": "Existing UI update loop; no additional game RAF, timer or CSS animation clock",
+  "motionOptions": [
+    "Game reduced motion",
+    "Operating-system reduced motion",
+    "Top/bottom placement"
+  ],
+  "previewPage": "tests/advancement-animation.html",
+  "previewState": "Isolated production paint method and CSS; no game, storage or audio subsystem loaded",
+  "sourceAudit": {
+    "uniqueTitles": {
+      "Privacy policy | ACCRETION": "privacy.html",
+      "Sources and implementation | ACCRETION": "sources.html",
+      "Terms and conditions | ACCRETION": "terms.html",
+      "Page not found | ACCRETION": "404.html",
+      "ACCRETION | Offline space evolution game": "index.html",
+      "Life Lab integration diagnostics | ACCRETION": "tests/life-tests.html",
+      "Physics and progression diagnostics | ACCRETION": "tests/physics-tests.html",
+      "Cosmic system integration diagnostics | ACCRETION": "tests/cosmic-tests.html",
+      "Advancement animation preview | ACCRETION": "tests/advancement-animation.html"
+    },
+    "localReferences": 196,
+    "syntax": "PASS",
+    "remoteRuntimeDependencies": 0,
+    "issues": []
+  },
+  "browserVerification": {
+    "fileUrlLaunch": "unverified",
+    "htmlCssLayoutAndAnimation": "unverified",
+    "console": "unverified in a real browser; isolated-runtime tests pass",
+    "audibleOutput": "unverified; previous procedural synthesis checks pass"
+  },
+  "unchangedSimulationAndMetaFiles": 17,
+  "runtimeDependenciesAdded": 0,
+  "deployments": 0
+}

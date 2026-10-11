@@ -1,0 +1,19 @@
+{
+  "pages": 8,
+  "uniqueTitles": {
+    "ACCRETION | Offline space evolution game": "Accretion/index.html",
+    "Sources and implementation | ACCRETION": "Accretion/sources.html",
+    "Terms and conditions | ACCRETION": "Accretion/terms.html",
+    "Page not found | ACCRETION": "Accretion/404.html",
+    "Privacy policy | ACCRETION": "Accretion/privacy.html",
+    "Physics and progression diagnostics | ACCRETION": "Accretion/tests/physics-tests.html",
+    "ACCRETION | Cosmic diagnostics": "Accretion/tests/cosmic-tests.html",
+    "ACCRETION | Life diagnostics": "Accretion/tests/life-tests.html"
+  },
+  "localReferencesChecked": 173,
+  "externalReferenceLinks": 14,
+  "runtimeRemoteDependencies": 0,
+  "issues": [],
+  "sitemap": "Well-formed inactive XML, no public URLs. Domain required before production sitemap creation.",
+  "browserConsole": "Not available in this environment. No claim of a browser console pass."
+}

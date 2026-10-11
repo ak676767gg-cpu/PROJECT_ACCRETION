@@ -1,0 +1,283 @@
+{
+  "environment": "Local syntax and document audit",
+  "passed": 69,
+  "total": 69,
+  "results": [
+    {
+      "name": "Parse js/ai.js",
+      "pass": true
+    },
+    {
+      "name": "Parse js/audio.js",
+      "pass": true
+    },
+    {
+      "name": "Parse js/core.js",
+      "pass": true
+    },
+    {
+      "name": "Parse js/cosmic-rendering.js",
+      "pass": true
+    },
+    {
+      "name": "Parse js/cosmic-ui.js",
+      "pass": true
+    },
+    {
+      "name": "Parse js/cosmic.js",
+      "pass": true
+    },
+    {
+      "name": "Parse js/effects.js",
+      "pass": true
+    },
+    {
+      "name": "Parse js/expedition-ui.js",
+      "pass": true
+    },
+    {
+      "name": "Parse js/expedition.js",
+      "pass": true
+    },
+    {
+      "name": "Parse js/final-interstallar.js",
+      "pass": true
+    },
+    {
+      "name": "Parse js/final-render.js",
+      "pass": true
+    },
+    {
+      "name": "Parse js/final-ui.js",
+      "pass": true
+    },
+    {
+      "name": "Parse js/game.js",
+      "pass": true
+    },
+    {
+      "name": "Parse js/industry-rendering.js",
+      "pass": true
+    },
+    {
+      "name": "Parse js/industry-ui.js",
+      "pass": true
+    },
+    {
+      "name": "Parse js/industry.js",
+      "pass": true
+    },
+    {
+      "name": "Parse js/life.js",
+      "pass": true
+    },
+    {
+      "name": "Parse js/physics.js",
+      "pass": true
+    },
+    {
+      "name": "Parse js/planetary.js",
+      "pass": true
+    },
+    {
+      "name": "Parse js/player.js",
+      "pass": true
+    },
+    {
+      "name": "Parse js/rendering.js",
+      "pass": true
+    },
+    {
+      "name": "Parse js/save.js",
+      "pass": true
+    },
+    {
+      "name": "Parse js/supernova-rendering.js",
+      "pass": true
+    },
+    {
+      "name": "Parse js/supernova.js",
+      "pass": true
+    },
+    {
+      "name": "Parse js/ui.js",
+      "pass": true
+    },
+    {
+      "name": "Parse js/upgrades.js",
+      "pass": true
+    },
+    {
+      "name": "Parse js/world.js",
+      "pass": true
+    },
+    {
+      "name": "Parse tests/advancement-animation.js",
+      "pass": true
+    },
+    {
+      "name": "Parse tests/body-animation.js",
+      "pass": true
+    },
+    {
+      "name": "Parse tests/component-tests.js",
+      "pass": true
+    },
+    {
+      "name": "Parse tests/cosmic-tests-browser.js",
+      "pass": true
+    },
+    {
+      "name": "Parse tests/diagnostic-hooks.js",
+      "pass": true
+    },
+    {
+      "name": "Parse tests/final-interstallar-lab.js",
+      "pass": true
+    },
+    {
+      "name": "Parse tests/final-interstallar-tests.js",
+      "pass": true
+    },
+    {
+      "name": "Parse tests/horizon-tests.js",
+      "pass": true
+    },
+    {
+      "name": "Parse tests/isolation.js",
+      "pass": true
+    },
+    {
+      "name": "Parse tests/life-tests-browser.js",
+      "pass": true
+    },
+    {
+      "name": "Parse tests/physics-tests.js",
+      "pass": true
+    },
+    {
+      "name": "Parse tests/run-all.js",
+      "pass": true
+    },
+    {
+      "name": "Offline references and IDs: 404.html",
+      "pass": true
+    },
+    {
+      "name": "Unique title: 404.html",
+      "pass": true
+    },
+    {
+      "name": "Offline references and IDs: index.html",
+      "pass": true
+    },
+    {
+      "name": "Unique title: index.html",
+      "pass": true
+    },
+    {
+      "name": "27 ordered classic production scripts",
+      "pass": true
+    },
+    {
+      "name": "Offline references and IDs: privacy.html",
+      "pass": true
+    },
+    {
+      "name": "Unique title: privacy.html",
+      "pass": true
+    },
+    {
+      "name": "Offline references and IDs: sources.html",
+      "pass": true
+    },
+    {
+      "name": "Unique title: sources.html",
+      "pass": true
+    },
+    {
+      "name": "Offline references and IDs: terms.html",
+      "pass": true
+    },
+    {
+      "name": "Unique title: terms.html",
+      "pass": true
+    },
+    {
+      "name": "Offline references and IDs: tests/advancement-animation.html",
+      "pass": true
+    },
+    {
+      "name": "Unique title: tests/advancement-animation.html",
+      "pass": true
+    },
+    {
+      "name": "Offline references and IDs: tests/body-animation.html",
+      "pass": true
+    },
+    {
+      "name": "Unique title: tests/body-animation.html",
+      "pass": true
+    },
+    {
+      "name": "Offline references and IDs: tests/cosmic-tests.html",
+      "pass": true
+    },
+    {
+      "name": "Unique title: tests/cosmic-tests.html",
+      "pass": true
+    },
+    {
+      "name": "Offline references and IDs: tests/final-interstallar-lab.html",
+      "pass": true
+    },
+    {
+      "name": "Unique title: tests/final-interstallar-lab.html",
+      "pass": true
+    },
+    {
+      "name": "Offline references and IDs: tests/final-interstallar-tests.html",
+      "pass": true
+    },
+    {
+      "name": "Unique title: tests/final-interstallar-tests.html",
+      "pass": true
+    },
+    {
+      "name": "Offline references and IDs: tests/life-tests.html",
+      "pass": true
+    },
+    {
+      "name": "Unique title: tests/life-tests.html",
+      "pass": true
+    },
+    {
+      "name": "Offline references and IDs: tests/physics-tests.html",
+      "pass": true
+    },
+    {
+      "name": "Unique title: tests/physics-tests.html",
+      "pass": true
+    },
+    {
+      "name": "Offline references and IDs: tests/run-all.html",
+      "pass": true
+    },
+    {
+      "name": "Unique title: tests/run-all.html",
+      "pass": true
+    },
+    {
+      "name": "XML: sitemap.xml",
+      "pass": true
+    },
+    {
+      "name": "XML: favicon.svg",
+      "pass": true
+    },
+    {
+      "name": "No fetch, worker, module, runtime remote script or stylesheet",
+      "pass": true
+    }
+  ]
+}

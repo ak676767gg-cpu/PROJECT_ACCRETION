@@ -1,0 +1,387 @@
+{
+  "hero": "R1",
+  "heroReason": "R1 uniquely separates the dark core, thin bright ring, front band, both arches and disk striations in a full-object crop. R4 is larger but its ring is obscured by bloom.",
+  "method": "Pillow, NumPy and SciPy on original-resolution images, with documented visual estimates where the inverse geometry is ambiguous. Coded output is not a pixel-derived texture.",
+  "inventory": [
+    {
+      "id": "R1",
+      "filename": "image.png",
+      "width": 587,
+      "height": 587,
+      "aspect": 1.0,
+      "apparentType": "science-render",
+      "typeCaveat": "Visual classification only; provenance not independently established.",
+      "description": "Full warm shadow, narrow ring and front band; no detectable stars.",
+      "codedMeasurements": {
+        "shadowRadiusPx": 120.0,
+        "M1": 0.40886,
+        "M2": [
+          0.12692,
+          0.02811
+        ],
+        "M5": 0.0726,
+        "M6": 0.1935,
+        "M7": {
+          "offset": 0.1694,
+          "brightness": 1.024
+        },
+        "M8": {
+          "thickness": 0.0443,
+          "brightness": 0.39
+        },
+        "M10": {
+          "leftLowerBound": 2.968,
+          "rightLowerBound": 1.766,
+          "cropped": true
+        },
+        "M11": -1.341,
+        "M12": 1.07,
+        "peakRows": {
+          "upper": 162,
+          "lower": 455,
+          "band": 319,
+          "ring": 184
+        },
+        "M17": {
+          "blackP01": 0.0129,
+          "whiteP99": 0.9021
+        }
+      }
+    },
+    {
+      "id": "R2",
+      "filename": "image(1).png",
+      "width": 2048,
+      "height": 864,
+      "aspect": 2.37037,
+      "apparentType": "film-still",
+      "typeCaveat": "Visual classification only; provenance not independently established.",
+      "description": "Cropped, inclined warm disk with a spacecraft. Texture only; shadow diameter cannot be bounded.",
+      "codedMeasurements": {
+        "M1": "not measurable: cropped",
+        "M10": "not visible: cropped"
+      }
+    },
+    {
+      "id": "R3",
+      "filename": "image(2).png",
+      "width": 678,
+      "height": 452,
+      "aspect": 1.5,
+      "apparentType": "science-render",
+      "typeCaveat": "Visual classification only; provenance not independently established.",
+      "description": "Cool, strongly bloomed full object on a starfield.",
+      "codedMeasurements": {
+        "shadowRadiusPx": 77,
+        "M1": 0.34071,
+        "M2": [
+          0.00147,
+          0.00885
+        ],
+        "M5": -0.026,
+        "M6": 0.2338,
+        "M7": {
+          "offset": 0.013,
+          "brightness": 1.002
+        },
+        "M8": {
+          "thickness": 0.0288,
+          "brightness": 0.893
+        },
+        "M10": {
+          "leftLowerBound": 4.416,
+          "rightLowerBound": 4.39,
+          "cropped": true
+        },
+        "M11": 2.711,
+        "M12": 1.321,
+        "peakRows": {
+          "upper": 135,
+          "lower": 308,
+          "band": 228,
+          "ring": 149
+        },
+        "M17": {
+          "blackP01": 0.0096,
+          "whiteP99": 0.8431
+        }
+      }
+    },
+    {
+      "id": "R4",
+      "filename": "image(3).png",
+      "width": 1200,
+      "height": 800,
+      "aspect": 1.5,
+      "apparentType": "science-render",
+      "typeCaveat": "Visual classification only; provenance not independently established.",
+      "description": "Higher-resolution warm disk, inclined screen orientation; no clearly isolated thin photon ring.",
+      "codedMeasurements": {
+        "shadowRadiusPx": 87.0,
+        "M1": 0.2175,
+        "M2": [
+          0.00833,
+          0.00875
+        ],
+        "M5": 0.0121,
+        "M6": 0.2242,
+        "M7": {
+          "offset": 0.0606,
+          "brightness": 0.982
+        },
+        "M8": {
+          "thickness": null,
+          "brightness": 0.311
+        },
+        "M10": {
+          "leftLowerBound": 3.697,
+          "rightLowerBound": 3.576,
+          "cropped": true
+        },
+        "M11": null,
+        "M12": 17.454,
+        "peakRows": {
+          "upper": 205,
+          "lower": 582,
+          "band": 409,
+          "ring": 242
+        },
+        "M17": {
+          "blackP01": 0.0,
+          "whiteP99": 0.8344
+        }
+      }
+    },
+    {
+      "id": "R5",
+      "filename": "image(4).png",
+      "width": 1000,
+      "height": 562,
+      "aspect": 1.77936,
+      "apparentType": "other",
+      "typeCaveat": "Visual classification only; provenance not independently established.",
+      "description": "Watermarked stock illustration; context only, excluded from numerical fitting.",
+      "codedMeasurements": {
+        "M1": "not measured: watermark excluded",
+        "M10": "not visible: cropped"
+      }
+    }
+  ],
+  "measurements": {
+    "M1": {
+      "value": 0.40886,
+      "uncertainty": 0.014,
+      "method": "Darkest central region threshold, excluding the foreground band; widest horizontal run above band."
+    },
+    "M2": {
+      "value": [
+        0.12692,
+        0.02811
+      ],
+      "uncertainty": [
+        0.009,
+        0.009
+      ],
+      "method": "Circle-centre estimate checked at enlarged ring crop. Threshold centroid is biased by the foreground band."
+    },
+    "M5": {
+      "value": 0.0726,
+      "uncertainty": 0.025,
+      "method": "Brightest smoothed centre column within \u00b10.3 shadow radii."
+    },
+    "M6": {
+      "value": 0.1935,
+      "uncertainty": 0.18,
+      "method": "Brightest line in smoothed upper-arch column; multi-striation peak ambiguity."
+    },
+    "M7": {
+      "value": {
+        "offset": 0.1694,
+        "brightness": 1.024
+      },
+      "uncertainty": {
+        "offset": 0.18,
+        "brightness": 0.12
+      },
+      "method": "Lower-column maximum and upper/lower luminance ratio."
+    },
+    "M8": {
+      "value": {
+        "thickness": 0.0443,
+        "brightness": 0.39
+      },
+      "uncertainty": {
+        "thickness": 0.012,
+        "brightness": 0.08
+      },
+      "method": "FWHM of isolated ring peak above the shadow; 3x3 smoothing."
+    },
+    "M10": {
+      "value": {
+        "leftLowerBound": 2.968,
+        "rightLowerBound": 1.766,
+        "cropped": true
+      },
+      "uncertainty": null,
+      "method": "Image borders crop both ends; only lower bounds can be stated."
+    },
+    "M11": {
+      "value": -1.341,
+      "uncertainty": 1.0,
+      "method": "Least-squares power-law fit on right band at 1.65\u20132.5 radii; cropped, noisy and graded."
+    },
+    "M12": {
+      "value": 1.07,
+      "uncertainty": 0.15,
+      "method": "Mean luminance of symmetric band intervals 1.5\u20132.1 radii."
+    },
+    "M17": {
+      "value": {
+        "blackP01": 0.0129,
+        "whiteP99": 0.9021
+      },
+      "uncertainty": 0.01,
+      "method": "Luminance percentiles excluding white frame in qualitative interpretation."
+    },
+    "M3": {
+      "value": 1.0,
+      "uncertainty": 0.05,
+      "method": "Thin central ring nearly circular. Outer dark gap is asymmetric, not identified as the shadow boundary."
+    },
+    "M4": {
+      "value": 5.0,
+      "uncertainty": 3.0,
+      "method": "Visual inference from thin primary band, near-equal arches. Cannot uniquely recover inclination from a graded image."
+    },
+    "M9": {
+      "value": {
+        "left": 0.43,
+        "right": 0.035
+      },
+      "uncertainty": 0.08,
+      "method": "Enlarged near-horizontal ring/inner-disk edges; strong asymmetric gap indicates rotating-hole geometry or perspective."
+    },
+    "M13": {
+      "value": {
+        "inner disk": {
+          "point": [
+            400,
+            317
+          ],
+          "sRGB": "#fae3d7",
+          "approxTemperatureK": 6000,
+          "temperatureCaveat": "A graded RGB image is not a physical thermometer; broad visual estimate only."
+        },
+        "mid disk": {
+          "point": [
+            517,
+            314
+          ],
+          "sRGB": "#f5d7bf",
+          "approxTemperatureK": 4700,
+          "temperatureCaveat": "A graded RGB image is not a physical thermometer; broad visual estimate only."
+        },
+        "outer disk": {
+          "point": [
+            65,
+            318
+          ],
+          "sRGB": "#bd9080",
+          "approxTemperatureK": 3500,
+          "temperatureCaveat": "A graded RGB image is not a physical thermometer; broad visual estimate only."
+        },
+        "upper arch": {
+          "point": [
+            368,
+            161
+          ],
+          "sRGB": "#e5d1c1",
+          "approxTemperatureK": 4700,
+          "temperatureCaveat": "A graded RGB image is not a physical thermometer; broad visual estimate only."
+        },
+        "lower arch": {
+          "point": [
+            368,
+            466
+          ],
+          "sRGB": "#e0b7a7",
+          "approxTemperatureK": 4700,
+          "temperatureCaveat": "A graded RGB image is not a physical thermometer; broad visual estimate only."
+        },
+        "ring": {
+          "point": [
+            368,
+            184
+          ],
+          "sRGB": "#b59589",
+          "approxTemperatureK": 6000,
+          "temperatureCaveat": "A graded RGB image is not a physical thermometer; broad visual estimate only."
+        },
+        "bloom": {
+          "point": [
+            369,
+            89
+          ],
+          "sRGB": "#442f26",
+          "approxTemperatureK": null,
+          "temperatureCaveat": "A graded RGB image is not a physical thermometer; broad visual estimate only."
+        },
+        "sky": {
+          "point": [
+            50,
+            50
+          ],
+          "sRGB": "#000506",
+          "approxTemperatureK": null,
+          "temperatureCaveat": "A graded RGB image is not a physical thermometer; broad visual estimate only."
+        }
+      },
+      "uncertainty": "\u00b112 sRGB code values, Kelvin uncertainty at least \u00b12000 K; sky has no meaningful CCT.",
+      "method": "Median of 3x3 point samples. No sampled strips or arrays shipped."
+    },
+    "M14": {
+      "value": {
+        "width": 0.025,
+        "orientation": "orbital striations with sparse broader clumps"
+      },
+      "uncertainty": 0.015,
+      "method": "Peak separation and enlarged crops."
+    },
+    "M15": {
+      "value": 0.19,
+      "uncertainty": 0.09,
+      "method": "Upper halo smoothed column reaches 10% around 24 pixels beyond outer bright region; no clear long isolated anamorphic streak."
+    },
+    "M16": {
+      "value": {
+        "stars": 0,
+        "area": "587x587 excluding disk/frame",
+        "distribution": "No visible stars to infer lensing from this image."
+      },
+      "uncertainty": 0,
+      "method": "Visual full-resolution check and background threshold components; borders excluded."
+    }
+  },
+  "conflicts": [
+    {
+      "id": "REF-1",
+      "issue": "R1 gap and outer arches offset relative to nearly circular inner ring. Schwarzschild is symmetric.",
+      "decision": "Retain the near-circular shadow, fit a small arch offset in the procedural low-cost display model; label rotating-hole differences and GPU limitations."
+    },
+    {
+      "id": "REF-2",
+      "issue": "R3 cool/lavender exposure differs from R1 warm cream and brown.",
+      "decision": "Warm R1 is shipped default; a cool lab preset only. No purple gradient UI."
+    },
+    {
+      "id": "REF-3",
+      "issue": "R2/R4 screen-plane tilt differs from R1 near-horizontal band.",
+      "decision": "Independent display rotation parameter and lab preset, without changing physical inclination."
+    },
+    {
+      "id": "REF-4",
+      "issue": "R1 front band crosses the dark core and R1 disk extent is cropped.",
+      "decision": "Exclude genuine foreground-band pixels from shadow-blackness test. Report M10 as a lower bound, not a false exact match."
+    }
+  ]
+}

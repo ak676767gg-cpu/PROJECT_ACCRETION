@@ -1,0 +1,31 @@
+{
+  "results": [
+    {
+      "name": "Seeded ordinary fields yield scarce DNA and lower water amounts",
+      "pass": true
+    },
+    {
+      "name": "Legendary cost is enforced before crafting with exact deductions",
+      "pass": true
+    },
+    {
+      "name": "Long incubation survives real Save.load and keeps its displayed fraction",
+      "pass": true
+    },
+    {
+      "name": "Legacy eggs and nicknames survive migration without an added wait",
+      "pass": true
+    },
+    {
+      "name": "Previously spawned resource amounts remain intact in checkpoints",
+      "pass": true
+    }
+  ],
+  "sample": {
+    "asteroids": 96000,
+    "icy": 11400,
+    "dnaSamples": 2320,
+    "water": 17101,
+    "fieldsWithoutDNA": 2232
+  }
+}
