@@ -1,0 +1,140 @@
+{
+  "version": "3.0.0",
+  "build": "Living Frontier",
+  "basedOn": "2.4.3 collection and pointer repair",
+  "totalChecks": 205,
+  "allPassed": true,
+  "suites": [
+    {
+      "suite": "physics",
+      "checks": 79,
+      "passed": 79,
+      "report": "physics-results.json"
+    },
+    {
+      "suite": "save-slots",
+      "checks": 13,
+      "passed": 13,
+      "report": "slots-results.json"
+    },
+    {
+      "suite": "life-lab",
+      "checks": 5,
+      "passed": 5,
+      "report": "life-integration-results.json"
+    },
+    {
+      "suite": "discovery-wheel",
+      "checks": 10,
+      "passed": 10,
+      "report": "wheel-results.json"
+    },
+    {
+      "suite": "presentation-runtime",
+      "checks": 9,
+      "passed": 9,
+      "report": "editorial-results.json"
+    },
+    {
+      "suite": "expedition",
+      "checks": 18,
+      "passed": 18,
+      "report": "expedition-results.json"
+    },
+    {
+      "suite": "combined-systems",
+      "checks": 6,
+      "passed": 6,
+      "report": "merge-results.json"
+    },
+    {
+      "suite": "workspace",
+      "checks": 19,
+      "passed": 19,
+      "report": "workspace-results.json"
+    },
+    {
+      "suite": "camera-forecast",
+      "checks": 19,
+      "passed": 19,
+      "report": "camera-results.json"
+    },
+    {
+      "suite": "collection",
+      "checks": 11,
+      "passed": 11,
+      "report": "collection-results.json"
+    },
+    {
+      "suite": "living-frontier",
+      "checks": 16,
+      "passed": 16,
+      "report": "frontier-results.json"
+    }
+  ],
+  "diagnosticPage": {
+    "definitionScripts": 19,
+    "checksPassed": 79,
+    "noGameLoop": true,
+    "restoresSandboxAndSavedState": true,
+    "runtime": "isolated VM; not a browser"
+  },
+  "audit": {
+    "uniqueTitles": {
+      "Terms and conditions | ACCRETION": "terms.html",
+      "ACCRETION | Offline space evolution game": "index.html",
+      "Page not found | ACCRETION": "404.html",
+      "Privacy policy | ACCRETION": "privacy.html",
+      "Sources and implementation | ACCRETION": "sources.html",
+      "Physics and progression diagnostics | ACCRETION": "tests/physics-tests.html",
+      "Life Lab integration diagnostics | ACCRETION": "tests/life-tests.html",
+      "Cosmic system integration diagnostics | ACCRETION": "tests/cosmic-tests.html"
+    },
+    "localReferences": 186,
+    "syntax": "PASS",
+    "remoteRuntimeDependencies": 0,
+    "issues": []
+  },
+  "runtime": "Production ordered classic scripts in isolated VM/DOM and native software Canvas",
+  "console": "No warnings or errors in the targeted isolated rendering/menu runtime; real browser console unverified",
+  "visualInspection": "Native Canvas at stellar and black-hole scales, including real matter flow and observatory diagrams",
+  "browserVerification": {
+    "fileLaunch": false,
+    "console": false,
+    "htmlCss": false,
+    "audibleOutput": false,
+    "downloads": false,
+    "desktopFps": false,
+    "reason": "No usable browser engine in this environment"
+  },
+  "performance": {
+    "method": "Identical saved initial scenes; 40 warmup and 110 measured steps; paired stellar repeats after variable initial measurement",
+    "raw": [
+      "dense-legacy-matched.json",
+      "dense-final-matched.json",
+      "stellar-repeat.json"
+    ],
+    "browserFpsClaim": false
+  },
+  "preserved": {
+    "storageKey": "accretion.v1",
+    "saveSlots": 3,
+    "checkpointCadence": "three evolutions or explicit authorized saves",
+    "classes": 21,
+    "rivals": 9,
+    "adaptations": 18,
+    "pets": 50,
+    "wheelCostWater": 500,
+    "wheelCostDNA": 100,
+    "wheelPercentages": {
+      "common": 59,
+      "rare": 35,
+      "epic": 5,
+      "legendary": 1
+    },
+    "pointer": "original dotted trajectory and circular endpoint",
+    "camera": "player-centered",
+    "runtimeDependencies": 0,
+    "published": false
+  }
+}

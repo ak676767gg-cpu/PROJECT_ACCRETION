@@ -1,0 +1,75 @@
+{
+  "version": "3.2.0",
+  "release": "Legacy & Origins",
+  "uniqueChecksPassed": 289,
+  "suites": {
+    "physics": 93,
+    "heritage": 33,
+    "advancements": 28,
+    "plaqueMotion": 9,
+    "frontier": 16,
+    "companions": 5,
+    "wheel": 10,
+    "editorial": 9,
+    "expedition": 18,
+    "merge": 6,
+    "workspace": 19,
+    "camera": 19,
+    "slots": 13,
+    "collection": 11
+  },
+  "runtime": "Production classic scripts in isolated VM/DOM with native software Canvas. Not a live browser.",
+  "preserved": {
+    "classes": 21,
+    "rivals": 9,
+    "adaptations": 18,
+    "companions": 50,
+    "achievements": 48,
+    "saveSlots": 3,
+    "runtimeScripts": 19,
+    "storageKey": "accretion.v1",
+    "wheelFee": {
+      "water": 500,
+      "dna": 100
+    },
+    "rarityChance": {
+      "commonSector": 0.59,
+      "rare": 0.35,
+      "epic": 0.05,
+      "legendary": 0.01
+    }
+  },
+  "newSystems": {
+    "blueprints": 5,
+    "cosmeticChoicesIncludingDefaults": 18,
+    "expeditionRanks": 20,
+    "optionalPromises": 3,
+    "scarCapPerBody": 6,
+    "hatchSeconds": [
+      2.8,
+      3,
+      3.5,
+      4,
+      5
+    ],
+    "dock": "F-only opening; 5s idle timeout, .65s pointer-leave timeout, close on window open"
+  },
+  "loopAndRestart": "One RAF owner and stable listener counts over retained 20-restart checks and 12 prestige/restart cycles. All runtime objects and transient hatch/dock state reset.",
+  "browser": {
+    "status": "NOT VERIFIED",
+    "launchAttempt": "Headless Chromium terminated with SIGTRAP (exit 133) before loading the local page; no DOM or console was obtained.",
+    "limits": [
+      "file:// browser launch",
+      "live browser console",
+      "CSS layout and transitions",
+      "audible output",
+      "browser FPS"
+    ]
+  },
+  "measurements": [
+    "heritage-performance.json",
+    "heritage-active-performance.json"
+  ],
+  "offlineAudit": "heritage-audit.json",
+  "newIntegrationDetails": "heritage-results.json"
+}

@@ -1,0 +1,12 @@
+'use strict';
+(function(root){
+ root.runComponentTests=function(A){const results=[],g=A.game,S=A.Save,old={data:S.data,vault:S.vault,write:S.write,session:S.sessionOpen};S.data=S.cleanProfile({version:1});S.vault=JSON.parse(JSON.stringify(S.vault));S.vault.mode='journey';S.sessionOpen=false;S.write=()=>true;
+  const test=(suite,name,fn)=>{try{fn();results.push({suite,name,pass:true});}catch(e){results.push({suite,name,pass:false,error:e.message});}},assert=(q,m)=>{if(!q)throw Error(m||'Assertion failed');};
+  try{g.start();g.state='playing';g.evolutionTime=0;g.player.grace=0;g.world.bodies=[g.player];g.renderer.cosmic||=new A.CosmicRenderer(g.renderer);
+   for(const stage of [0,3,5,7,9,14,15,17,19,21,24])test('surfaces','Finite production drawing at class '+stage,()=>{const p=g.player;p.path=null;p.pathSchema=0;p.remnantLevel=0;p.evolution=stage;p.setMass(5**stage);A.Supernova.prepare(g);g.renderer.body(p,{x:500,y:450},24);assert(p.r>0&&Number.isFinite(p.r));});
+   test('surfaces','Reduced Motion freezes the production clock',()=>{S.data.settings.reducedMotion=true;g.renderer.clock=5;assert(g.renderer.animationTime()===0);g.renderer.clock=15;assert(g.renderer.animationTime()===0);S.data.settings.reducedMotion=false;});
+   for(const type of ['task','goal','challenge'])test('advancements','Production '+type+' plaque completes its reveal',()=>{const painter={activeAchievement:{age:0,duration:type==='challenge'?6.3:type==='goal'?5.5:4.8,systemReduced:false},plaquePaint:null},plaque=document.getElementById('advancement-plaque');plaque.className='advancement-plaque plaque-'+type;A.UI.prototype.paintAchievementPlaque.call(painter);assert(plaque.dataset.phase==='forming');painter.activeAchievement.age=1.4;A.UI.prototype.paintAchievementPlaque.call(painter);assert(plaque.dataset.phase==='hold');painter.activeAchievement.age=painter.activeAchievement.duration-.1;A.UI.prototype.paintAchievementPlaque.call(painter);assert(plaque.dataset.phase==='fading');});
+   test('advancements','Reduced Motion removes the plaque light wash',()=>{S.data.settings.reducedMotion=true;const painter={activeAchievement:{age:.4,duration:5.5,systemReduced:false},plaquePaint:null};A.UI.prototype.paintAchievementPlaque.call(painter);assert(document.getElementById('advancement-plaque').style.cssText.includes('--plaque-wash:0'));S.data.settings.reducedMotion=false;});
+  }finally{g.mainMenu();S.data=old.data;S.vault=old.vault;S.write=old.write;S.sessionOpen=old.session;g.ui.main();}return results;
+ };
+})(window);

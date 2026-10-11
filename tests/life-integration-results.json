@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Life Lab works from main menu with all fifty procedurally rendered cards",
+    "pass": true
+  },
+  {
+    "name": "Craft, active-flight incubation, pause, hatch, equip and unequip",
+    "pass": true
+  },
+  {
+    "name": "Reload restores companion, egg progress, samples and claimed asteroid together",
+    "pass": true
+  },
+  {
+    "name": "Repeated restarts retain collection without multiplying listeners or animation loops",
+    "pass": true
+  },
+  {
+    "name": "Companion scanner reveals samples farther away without creating physics entities",
+    "pass": true
+  }
+]

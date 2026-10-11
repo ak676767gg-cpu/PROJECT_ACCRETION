@@ -1,0 +1,10 @@
+[
+  {
+    "page": "tests/cosmic-tests.html",
+    "report": "PASS  Circular, eccentric and hyperbolic trajectories use actual energy\nPASS  A stellar satellite remains stable over two complete revolutions\nPASS  An energetic flyby escapes without arbitrary capture\nPASS  Planet/moon hierarchy persists with an inclined moon\nPASS  Gentle stellar thrust preserves independent orbital motion\nPASS  Violent stellar velocity changes eject outer planets\nPASS  Collapse drains angular momentum without teleporting\nPASS  Early absorption stores and gradually assimilates conserved matter\nPASS  Black-hole disks rotate before gradually adding mass\nPASS  Planetesimals condense from existing cooled disk mass\nPASS  Nebula gravity response and density loss conserve captured gas\nPASS  Lensing is localized and finite at its center\nPASS  Galactic density and bounded gas regions are procedural\nPASS  Management screen inspects bodies and controls orbit collapse\nPASS  Cosmic save/settings restore without losing reservoirs\nPASS  Repeated restarts clear cosmic state without listener duplication\nPASS  Every cosmic class renders finite Canvas frames\nPASS  Asteroid belt detection groups real stable rocky orbits\nPASS  A comparable companion moves both bodies about a shared barycenter\nPASS  Legacy saves remain valid; corrupt cosmic reservoirs are rejected\nPASS  Restarts never schedule an additional animation loop\nPASS  Selected stellar journey retains matter through black-hole formation\n\n22 / 22 passed"
+  },
+  {
+    "page": "tests/life-tests.html",
+    "report": "PASS Life Lab shows fifty species and three Legendary species through its collection filter\nPASS A wheel spin spends 500 water and 100 DNA, then pauses incubation in menus\nPASS Hatch, equip, nickname and inner-contact collection persist together\nPASS Rarity chances stay Common 59%, Rare 35%, Epic 5% and Legendary 1%\nPASS Repeated restarts retain the companion collection without extra loops, listeners or physics pets\n\n5 / 5 passed"
+  }
+]

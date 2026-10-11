@@ -1,0 +1,102 @@
+{
+  "level": "V1",
+  "method": "Actual fixed-step production simulation, 600 steps/checkpoint/restore/600 versus uninterrupted 1200. Spawn/event timers held outside the measured interval to isolate orbit and flight restoration. Both releases use identical fixtures and inputs. Player tolerance is the baseline drift + 1e-6 world units; landmark tolerance 1e-6.",
+  "results": [
+    {
+      "stage": 0,
+      "baseline": {
+        "positionError": 0,
+        "massError": 0,
+        "rngEqual": true,
+        "landmarkError": null
+      },
+      "current": {
+        "positionError": 0,
+        "massError": 0,
+        "rngEqual": true,
+        "landmarkError": null
+      },
+      "pass": true
+    },
+    {
+      "stage": 5,
+      "baseline": {
+        "positionError": 0,
+        "massError": 0,
+        "rngEqual": true,
+        "landmarkError": null
+      },
+      "current": {
+        "positionError": 0,
+        "massError": 0,
+        "rngEqual": true,
+        "landmarkError": null
+      },
+      "pass": true
+    },
+    {
+      "stage": 9,
+      "baseline": {
+        "positionError": 0,
+        "massError": 0,
+        "rngEqual": true,
+        "landmarkError": null
+      },
+      "current": {
+        "positionError": 0,
+        "massError": 0,
+        "rngEqual": true,
+        "landmarkError": null
+      },
+      "pass": true
+    },
+    {
+      "stage": 15,
+      "baseline": {
+        "positionError": 0,
+        "massError": 0,
+        "rngEqual": true,
+        "landmarkError": null
+      },
+      "current": {
+        "positionError": 0,
+        "massError": 0,
+        "rngEqual": true,
+        "landmarkError": 0
+      },
+      "pass": true
+    },
+    {
+      "stage": 19,
+      "baseline": {
+        "positionError": 0,
+        "massError": 0,
+        "rngEqual": true,
+        "landmarkError": null
+      },
+      "current": {
+        "positionError": 0,
+        "massError": 0,
+        "rngEqual": true,
+        "landmarkError": 0
+      },
+      "pass": true
+    },
+    {
+      "stage": 21,
+      "baseline": {
+        "positionError": 0,
+        "massError": 0,
+        "rngEqual": true,
+        "landmarkError": null
+      },
+      "current": {
+        "positionError": 0,
+        "massError": 0,
+        "rngEqual": true,
+        "landmarkError": 0
+      },
+      "pass": true
+    }
+  ]
+}

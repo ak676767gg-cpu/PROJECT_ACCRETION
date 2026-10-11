@@ -1,0 +1,29 @@
+{
+  "method": "Warmed native software Canvas timings, not browser FPS. Final body: 20 warm-up + 80 samples. Dense scene: 20 warm-up + 50 samples; up to nine final-stage rivals, eight nebula regions, and 148 coarse matter parcels. Runs sequentially.",
+  "results": [
+    {
+      "quality": "high",
+      "bodyRenderMedianMs": 0.08,
+      "bodyRenderP95Ms": 0.154,
+      "sceneSimulationMedianMs": 9.644,
+      "sceneRenderMedianMs": 31.493,
+      "sceneRenderP95Ms": 36.944,
+      "bodies": 313,
+      "parcels": 156,
+      "gasCells": 224,
+      "cachedFinalAtlases": 0
+    },
+    {
+      "quality": "low",
+      "bodyRenderMedianMs": 0.061,
+      "bodyRenderP95Ms": 0.157,
+      "sceneSimulationMedianMs": 6.937,
+      "sceneRenderMedianMs": 17.382,
+      "sceneRenderP95Ms": 19.298,
+      "bodies": 236,
+      "parcels": 152,
+      "gasCells": 224,
+      "cachedFinalAtlases": 0
+    }
+  ]
+}

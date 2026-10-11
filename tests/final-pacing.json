@@ -1,0 +1,57 @@
+{
+  "method": "Production Input.update, Physics.step, FinalInterstallar and Game.step at fixed 1/60. Steering changes desired direction and brake key, never teleports or sets velocity. Other sources and procedural spawning are disabled to isolate the approach. Merger advances in simulated active real-frame seconds with the existing 0.24 slow-motion factor.",
+  "results": [
+    {
+      "stage": 21,
+      "reactionDelaySeconds": 0,
+      "elapsedSeconds": 314.15,
+      "minimumR": 0,
+      "hp": 100,
+      "state": "paused",
+      "merged": true,
+      "mergerStartedSeconds": 304.15000000005205,
+      "escaped": false,
+      "gravityCap": 24,
+      "points": 1
+    },
+    {
+      "stage": 15,
+      "reactionDelaySeconds": 0,
+      "elapsedSeconds": 3.4,
+      "minimumR": 4.5,
+      "hp": 93.26,
+      "state": "playing",
+      "merged": false,
+      "mergerStartedSeconds": null,
+      "escaped": true,
+      "gravityCap": 24,
+      "points": 0
+    },
+    {
+      "stage": 15,
+      "reactionDelaySeconds": 5,
+      "elapsedSeconds": 16.933,
+      "minimumR": 2.9707,
+      "hp": 61.66,
+      "state": "playing",
+      "merged": false,
+      "mergerStartedSeconds": null,
+      "escaped": true,
+      "gravityCap": 24,
+      "points": 0
+    },
+    {
+      "stage": 15,
+      "reactionDelaySeconds": 7,
+      "elapsedSeconds": 21.017,
+      "minimumR": 2.3458,
+      "hp": 50.18,
+      "state": "playing",
+      "merged": false,
+      "mergerStartedSeconds": null,
+      "escaped": true,
+      "gravityCap": 24,
+      "points": 0
+    }
+  ]
+}

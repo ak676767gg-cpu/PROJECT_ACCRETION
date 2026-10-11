@@ -1,0 +1,22 @@
+[
+  {
+    "name": "The offline gallery loads definition-only scripts, all classes and all branch previews",
+    "pass": true
+  },
+  {
+    "name": "Its single animation loop displays actual production surface motion",
+    "pass": true
+  },
+  {
+    "name": "Pause freezes the selected preview without changing any game save",
+    "pass": true
+  },
+  {
+    "name": "Every selectable class renders through the original controls and renderer",
+    "pass": true
+  },
+  {
+    "name": "Performance and Reduced Motion controls remain local to the inspection page",
+    "pass": true
+  }
+]

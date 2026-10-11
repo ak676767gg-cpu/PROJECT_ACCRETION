@@ -1,0 +1,9 @@
+{
+  "clients": 2,
+  "productionTransport": true,
+  "sharedSnapshots": true,
+  "inputs": true,
+  "render": true,
+  "saveIsolation": true,
+  "disconnectCleanup": true
+}

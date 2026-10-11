@@ -1,0 +1,76 @@
+{
+  "level": "V1",
+  "status": "PASS",
+  "checks": [
+    "JavaScript syntax",
+    "unique titles and IDs",
+    "local HTML references",
+    "classic script order and required DOM",
+    "CSS delimiter balance",
+    "SVG/XML parsing",
+    "offline runtime APIs",
+    "single storage key",
+    "media exclusion",
+    "publication gates"
+  ],
+  "javascriptFiles": 35,
+  "localReferences": 377,
+  "uniqueTitles": {
+    "Page not found | ACCRETION": "404.html",
+    "ACCRETION | Offline space evolution game": "index.html",
+    "Privacy policy | ACCRETION": "privacy.html",
+    "Sources and implementation | ACCRETION": "sources.html",
+    "Terms and conditions | ACCRETION": "terms.html",
+    "Advancement animation preview | ACCRETION": "tests/advancement-animation.html",
+    "Body animation inspection | ACCRETION": "tests/body-animation.html",
+    "Cosmic systems diagnostics | ACCRETION": "tests/cosmic-tests.html",
+    "Renderer lab \u00b7 ACCRETION 3.8": "tests/final-interstallar-lab.html",
+    "Final horizon diagnostics \u00b7 ACCRETION 3.8": "tests/final-interstallar-tests.html",
+    "Life Lab diagnostics | ACCRETION": "tests/life-tests.html",
+    "Physics and progression diagnostics | ACCRETION": "tests/physics-tests.html",
+    "All diagnostics \u00b7 ACCRETION 3.8": "tests/run-all.html"
+  },
+  "classicOrder": [
+    "core.js",
+    "planetary.js",
+    "life.js",
+    "save.js",
+    "audio.js",
+    "upgrades.js",
+    "player.js",
+    "world.js",
+    "ai.js",
+    "physics.js",
+    "effects.js",
+    "rendering.js",
+    "ui.js",
+    "cosmic.js",
+    "cosmic-rendering.js",
+    "cosmic-ui.js",
+    "expedition.js",
+    "expedition-ui.js",
+    "supernova.js",
+    "supernova-rendering.js",
+    "final-interstallar.js",
+    "final-render.js",
+    "final-ui.js",
+    "game.js"
+  ],
+  "fullGamePages": [
+    "index.html",
+    "tests/cosmic-tests.html",
+    "tests/final-interstallar-lab.html",
+    "tests/final-interstallar-tests.html",
+    "tests/life-tests.html",
+    "tests/run-all.html"
+  ],
+  "storageKeys": [
+    "accretion.v1"
+  ],
+  "fileCount": 147,
+  "issues": [],
+  "limitations": [
+    "Static inspection and isolated runtime only. Browser console, actual file-origin launch, browser storage policy, layout/accessibility and WebGL execution are not verified.",
+    "Standalone body and advancement definition galleries intentionally use only their required production subsets."
+  ]
+}

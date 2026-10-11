@@ -1,0 +1,56 @@
+{
+  "version": "2.4.3",
+  "checks": 171,
+  "passed": 171,
+  "suites": {
+    "physics": {
+      "passed": 61,
+      "total": 61
+    },
+    "collection": {
+      "passed": 11,
+      "total": 11
+    },
+    "save slots": {
+      "passed": 13,
+      "total": 13
+    },
+    "Life Lab": {
+      "passed": 5,
+      "total": 5
+    },
+    "discovery wheel": {
+      "passed": 10,
+      "total": 10
+    },
+    "presentation": {
+      "passed": 9,
+      "total": 9
+    },
+    "expedition": {
+      "passed": 18,
+      "total": 18
+    },
+    "combined systems": {
+      "passed": 6,
+      "total": 6
+    },
+    "workspace": {
+      "passed": 19,
+      "total": 19
+    },
+    "camera": {
+      "passed": 19,
+      "total": 19
+    }
+  },
+  "runtime": "Ordered production scripts in isolated DOM and native software Canvas runtimes",
+  "actualFrameLoopCollection": true,
+  "directBrowserVerification": false,
+  "offlineAudit": {
+    "classicScripts": true,
+    "remoteRuntimeDependencies": 0,
+    "localReferences": 174,
+    "issues": []
+  }
+}

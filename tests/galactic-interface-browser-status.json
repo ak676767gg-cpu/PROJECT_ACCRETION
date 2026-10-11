@@ -1,0 +1,8 @@
+{
+  "fileLaunch": "UNVERIFIED",
+  "browserConsole": "UNVERIFIED",
+  "browserLayout": "UNVERIFIED",
+  "browserFps": "UNVERIFIED",
+  "reason": "Chromium exited before opening the file entry point; no browser page was created.",
+  "substituteChecks": "Ordered production scripts, native Canvas, local-file dependency audit, storage and restart logic."
+}

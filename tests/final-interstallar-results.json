@@ -1,0 +1,611 @@
+{
+  "environment": "Node 24, VM, native software Canvas. No browser or GL.",
+  "verification": "V1",
+  "counts": {
+    "pass": 60,
+    "fail": 0,
+    "unverified": 15
+  },
+  "results": [
+    {
+      "id": "A1",
+      "name": "Critical null rays bracket the shadow",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 6.293068000000062
+    },
+    {
+      "id": "A2",
+      "name": "Weak-field deflection agrees within 10 percent",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.8888670000000047
+    },
+    {
+      "id": "A3",
+      "name": "Captured radial boundary is circular in a face-on model",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 1.8829040000000532
+    },
+    {
+      "id": "A4",
+      "name": "Primary and secondary lens images remain finite",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.6587869999999612
+    },
+    {
+      "id": "A5",
+      "name": "Image magnifications tend smoothly to their weak limits",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.7330309999999827
+    },
+    {
+      "id": "A6",
+      "name": "Production emission lookup is finite and declines outward",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 368.7845219999999
+    },
+    {
+      "id": "A7",
+      "name": "Differential rotation and wrapped material continuity",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 195.45318799999995
+    },
+    {
+      "id": "A8",
+      "name": "CPU images are deterministic without simulation RNG",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 129.1902359999999
+    },
+    {
+      "id": "B1",
+      "name": "Dark shadow away from the foreground emitting band",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 220.24098800000002
+    },
+    {
+      "id": "B2",
+      "name": "A distinct thin photon ring is configured from the measured rim",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 220.72574299999997
+    },
+    {
+      "id": "B3",
+      "name": "Ray map contains far-side and higher-order disk intersections",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 219.40267999999992
+    },
+    {
+      "id": "B4",
+      "name": "The emitting band crosses only a narrow portion of the core",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 220.29606700000022
+    },
+    {
+      "id": "B5",
+      "name": "Cinematic radiance is balanced; beaming changes the disk",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 136.51856499999985
+    },
+    {
+      "id": "B6",
+      "name": "The baked footprint is transparent at the border",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 105.51093000000037
+    },
+    {
+      "id": "B7",
+      "name": "GPU/CPU cross-tier image agreement",
+      "status": "unverified",
+      "pass": null,
+      "level": "V0",
+      "reason": "WebGL execution is unavailable in this environment; shader text parsing is not image verification."
+    },
+    {
+      "id": "B8",
+      "name": "Small footprints and Reduced Motion use bounded tiers",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.11702900000000227
+    },
+    {
+      "id": "B9",
+      "name": "Zero/tiny footprints and extreme ray parameters are finite",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 2.3142079999997804
+    },
+    {
+      "id": "B10",
+      "name": "All cosmetics and scars are visually clear",
+      "status": "unverified",
+      "pass": null,
+      "level": "V0",
+      "reason": "Automated catalogue preservation is checked in G6; human visual review of every cosmetic in both settings remains required."
+    },
+    {
+      "id": "C1",
+      "name": "Full M1–M17 hero-reference tolerances",
+      "status": "unverified",
+      "pass": null,
+      "level": "V0",
+      "reason": "Measured comparison is recorded separately in final-fidelity.json. Full reference parity is not claimed."
+    },
+    {
+      "id": "C2",
+      "name": "Additional reference presets meet every tolerance",
+      "status": "unverified",
+      "pass": null,
+      "level": "V0",
+      "reason": "Additional presets are interpretation controls; film still and stock-watermarked reference are excluded from exact fitting."
+    },
+    {
+      "id": "C3",
+      "name": "Reference colour samples satisfy Delta E thresholds",
+      "status": "unverified",
+      "pass": null,
+      "level": "V0",
+      "reason": "The final-fidelity.json reports measured colour differences, including failures."
+    },
+    {
+      "id": "C4",
+      "name": "Own-frame visual regression is deterministic",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 119.15856499999973
+    },
+    {
+      "id": "D1",
+      "name": "Landmark placement is seeded without advancing world RNG",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.3376140000000305
+    },
+    {
+      "id": "D2",
+      "name": "Landmark survives 10,000 actual World.update calls and culling",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 45.24055099999987
+    },
+    {
+      "id": "D3",
+      "name": "Rebase preserves relative position, distance and merger origin",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.2933719999996356
+    },
+    {
+      "id": "D4",
+      "name": "Acceleration is finite, truncated and writes only the supplied output",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 14.681240999999773
+    },
+    {
+      "id": "D5",
+      "name": "Effective gravitational parameter is capped through class 30",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.536047999999937
+    },
+    {
+      "id": "D6",
+      "name": "Zones classify in order and one-time notes stay one-time",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.2821219999996174
+    },
+    {
+      "id": "D7",
+      "name": "Inner horizon ends the journey with the final-source reason",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 2.987409999999727
+    },
+    {
+      "id": "D8",
+      "name": "Every merge gate resets the continuous hold",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.9909999999999854
+    },
+    {
+      "id": "D9",
+      "name": "Visible-time merger pauses and completes once with mass conservation",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 1.9470000000001164
+    },
+    {
+      "id": "D10",
+      "name": "Swallowed parcels and gas credit only the landmark",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.4237710000002153
+    },
+    {
+      "id": "D11",
+      "name": "Outer disk exposure survives 45 seconds and defence reduces damage",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 21.728046000000177
+    },
+    {
+      "id": "D12",
+      "name": "Rivals steer away nearby and swallowed mass remains finite",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 1.2769359999997505
+    },
+    {
+      "id": "D13",
+      "name": "Sandbox placements do not award journey achievements",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.49498399999993126
+    },
+    {
+      "id": "D14",
+      "name": "Five connected achievements extend the catalogue to 59",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.05576699999983248
+    },
+    {
+      "id": "D15",
+      "name": "Prestige retirement success and storage-failure rollback",
+      "status": "unverified",
+      "pass": null,
+      "level": "V0",
+      "reason": "Covered by final-migration.json and the existing legacy retirement tests; this live suite does not destroy its shared fixture."
+    },
+    {
+      "id": "D16",
+      "name": "Five-minute approach and delayed escape margins",
+      "status": "unverified",
+      "pass": null,
+      "level": "V0",
+      "reason": "Dedicated actual fixed-step autopilot results are in final-pacing.json."
+    },
+    {
+      "id": "E2",
+      "name": "Optional final block is bounded and round-trips exactly",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 1.2853620000000774
+    },
+    {
+      "id": "E3",
+      "name": "Malformed landmark state is discarded without losing a valid old run",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 1.2504069999999956
+    },
+    {
+      "id": "E4",
+      "name": "Slot and Sandbox landmark states are independent",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.9853969999999208
+    },
+    {
+      "id": "E5",
+      "name": "Three-evolution cadence and explicit manual exception remain",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.4492960000002313
+    },
+    {
+      "id": "E6",
+      "name": "A failed persistence write does not reverse a completed merger",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.6665979999997944
+    },
+    {
+      "id": "E7",
+      "name": "New settings defaults and invalid options are cleaned",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.13145600000007107
+    },
+    {
+      "id": "E8",
+      "name": "A saved partial merger resumes continuously and credits once",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.6946619999998802
+    },
+    {
+      "id": "F1",
+      "name": "Final instrument joins key 8 and hides before discovery",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 25.556526000000304
+    },
+    {
+      "id": "F2",
+      "name": "Beacon is readable beside pointer and threats",
+      "status": "unverified",
+      "pass": null,
+      "level": "V0",
+      "reason": "Requires real-browser layout and visual review; geometric and labels gating are present."
+    },
+    {
+      "id": "F3",
+      "name": "Chart targets update from the current rebased coordinates",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.36054799999965326
+    },
+    {
+      "id": "F4",
+      "name": "Dock uses the original five-second idle behavior",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.1521509999997761
+    },
+    {
+      "id": "F5",
+      "name": "New audio cues are safe before activation and respect paused state",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.09568599999965954
+    },
+    {
+      "id": "F6",
+      "name": "Screen-area flash thresholds with both flash settings",
+      "status": "unverified",
+      "pass": null,
+      "level": "V0",
+      "reason": "No browser frame recording was possible. Slow envelopes, bounded feeding and local effects are implemented, but this is not a certified photosensitivity check."
+    },
+    {
+      "id": "F7",
+      "name": "Reduced Motion keeps the merger position static until the final handover",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.08319600000004357
+    },
+    {
+      "id": "F8",
+      "name": "Each final setting has a production control",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.022335000000111904
+    },
+    {
+      "id": "F9",
+      "name": "Finale keyboard focus in a real browser",
+      "status": "unverified",
+      "pass": null,
+      "level": "V0",
+      "reason": "The dialog uses the existing showPanel focus path; native key navigation remains unverified."
+    },
+    {
+      "id": "F11",
+      "name": "Photo mode offers exact 1x and capped 2x Canvas exports",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 49.95008599999983
+    },
+    {
+      "id": "F10",
+      "name": "Film-copy deny-list and source audit",
+      "status": "unverified",
+      "pass": null,
+      "level": "V0",
+      "reason": "The release static audit writes final-static-audit.json; references to source titles are allowed only in documentation."
+    },
+    {
+      "id": "G1",
+      "name": "Twenty starts reuse the same Game and single frame owner",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 600.798366
+    },
+    {
+      "id": "G2",
+      "name": "WebGL context absence falls back without throwing",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 3.8991769999997814
+    },
+    {
+      "id": "G3",
+      "name": "Injected draw failure leaves a visible Canvas fallback",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.4729890000003252
+    },
+    {
+      "id": "G8",
+      "name": "Mocked GL precision, compile, loss and restoration use bounded fallback",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.5585289999999077
+    },
+    {
+      "id": "G9",
+      "name": "Auto tier hysteresis lowers and recovers with measured frame rates",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.8237519999997858
+    },
+    {
+      "id": "G4",
+      "name": "Complete parse, local-reference, ID and dependency audit",
+      "status": "unverified",
+      "pass": null,
+      "level": "V0",
+      "reason": "Automated external audit is recorded in final-static-audit.json."
+    },
+    {
+      "id": "G5",
+      "name": "Fresh ZIP extraction and hash comparison",
+      "status": "unverified",
+      "pass": null,
+      "level": "V0",
+      "reason": "Performed after packaging and recorded in the delivery manifest."
+    },
+    {
+      "id": "G6",
+      "name": "Core catalogue sizes remain 22 classes, 50 pets and 18 adaptations",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.03680099999974118
+    },
+    {
+      "id": "G7",
+      "name": "Every class and mass beyond the final class has finite display geometry",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 1.0435999999999694
+    },
+    {
+      "id": "G10",
+      "name": "Early unplaced landmark checks do not allocate appearance data",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 1.178146000000197
+    },
+    {
+      "id": "G11",
+      "name": "Physical-mode toggles invalidate CPU assets without changing simulation",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.3639229999998861
+    },
+    {
+      "id": "G12",
+      "name": "Large CPU filaments bake once and stay under the memory budget",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 670.3257479999997
+    },
+    {
+      "id": "H1",
+      "name": "Only black-hole routes naturally discover the landmark",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.63866999999982
+    },
+    {
+      "id": "H2",
+      "name": "All seven black-hole classes use the new renderer",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.3540629999997691
+    },
+    {
+      "id": "H3",
+      "name": "Only two rival bodies get richer baked detail each frame",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 2.948554999999942
+    },
+    {
+      "id": "H4",
+      "name": "Continuous disk growth preserves the physical shadow radius",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.6349510000000009
+    },
+    {
+      "id": "H5",
+      "name": "Material decoration uses the existing paused clock",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.6058710000002065
+    },
+    {
+      "id": "H6",
+      "name": "Galactic encounter, themes, routes and FPS regression suites",
+      "status": "unverified",
+      "pass": null,
+      "level": "V0",
+      "reason": "All 359 original checks are rerun by the external regression harness."
+    },
+    {
+      "id": "E1",
+      "name": "Golden-save migration of all old fields",
+      "status": "unverified",
+      "pass": null,
+      "level": "V0",
+      "reason": "Dedicated fixture comparison results are in final-migration.json."
+    }
+  ]
+}

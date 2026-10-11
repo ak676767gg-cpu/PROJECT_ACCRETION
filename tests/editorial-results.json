@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Mouse-down updates its target without requiring a prior mousemove",
+    "pass": true
+  },
+  {
+    "name": "Leaving the playfield stops mouse steering and preserves keyboard thrust",
+    "pass": true
+  },
+  {
+    "name": "Steering has a small center dead zone and ignores menu clicks",
+    "pass": true
+  },
+  {
+    "name": "All retained menus have meaningful dialog labels",
+    "pass": true
+  },
+  {
+    "name": "Adaptations use numbered marks and remain selectable",
+    "pass": true
+  },
+  {
+    "name": "Saved mute preference has an accurate initial label",
+    "pass": true
+  },
+  {
+    "name": "All 21 classes render, update menus and retain finite state without runtime logging errors",
+    "pass": true
+  },
+  {
+    "name": "404 links remain relative offline and resolve from the host root online",
+    "pass": true
+  },
+  {
+    "name": "Menu and runtime version match the delivered package",
+    "pass": true
+  }
+]

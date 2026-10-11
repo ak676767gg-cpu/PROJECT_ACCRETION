@@ -1,0 +1,184 @@
+{
+  "verification": "V1",
+  "method": "Fifteen fixtures built by pristine 3.7 production scripts. Both releases clean/load/start/checkpoint the exact same JSON. Recursive comparison visits every old primitive field and array element; only new fields and run version 4→5 are permitted. No original fields are deleted from the comparator.",
+  "fixtures": [
+    {
+      "fixture": "class-3",
+      "pass": true,
+      "fieldsCompared": 89494,
+      "loadedVersion": 4,
+      "savedVersion": 5,
+      "mode": "journey",
+      "firstDifference": null
+    },
+    {
+      "fixture": "class-9",
+      "pass": true,
+      "fieldsCompared": 89698,
+      "loadedVersion": 4,
+      "savedVersion": 5,
+      "mode": "journey",
+      "firstDifference": null
+    },
+    {
+      "fixture": "class-14",
+      "pass": true,
+      "fieldsCompared": 89708,
+      "loadedVersion": 4,
+      "savedVersion": 5,
+      "mode": "journey",
+      "firstDifference": null
+    },
+    {
+      "fixture": "class-15",
+      "pass": true,
+      "fieldsCompared": 89710,
+      "loadedVersion": 4,
+      "savedVersion": 5,
+      "mode": "journey",
+      "firstDifference": null
+    },
+    {
+      "fixture": "class-17",
+      "pass": true,
+      "fieldsCompared": 89714,
+      "loadedVersion": 4,
+      "savedVersion": 5,
+      "mode": "journey",
+      "firstDifference": null
+    },
+    {
+      "fixture": "class-19",
+      "pass": true,
+      "fieldsCompared": 89718,
+      "loadedVersion": 4,
+      "savedVersion": 5,
+      "mode": "journey",
+      "firstDifference": null
+    },
+    {
+      "fixture": "class-21",
+      "pass": true,
+      "fieldsCompared": 89722,
+      "loadedVersion": 4,
+      "savedVersion": 5,
+      "mode": "journey",
+      "firstDifference": null
+    },
+    {
+      "fixture": "class-24",
+      "pass": true,
+      "fieldsCompared": 89722,
+      "loadedVersion": 4,
+      "savedVersion": 5,
+      "mode": "journey",
+      "firstDifference": null
+    },
+    {
+      "fixture": "route-nebula",
+      "pass": true,
+      "fieldsCompared": 89708,
+      "loadedVersion": 4,
+      "savedVersion": 5,
+      "mode": "journey",
+      "firstDifference": null
+    },
+    {
+      "fixture": "route-neutron",
+      "pass": true,
+      "fieldsCompared": 89708,
+      "loadedVersion": 4,
+      "savedVersion": 5,
+      "mode": "journey",
+      "firstDifference": null
+    },
+    {
+      "fixture": "route-gravastar",
+      "pass": true,
+      "fieldsCompared": 89708,
+      "loadedVersion": 4,
+      "savedVersion": 5,
+      "mode": "journey",
+      "firstDifference": null
+    },
+    {
+      "fixture": "old-singularity",
+      "pass": true,
+      "fieldsCompared": 89712,
+      "loadedVersion": 4,
+      "savedVersion": 5,
+      "mode": "journey",
+      "firstDifference": null
+    },
+    {
+      "fixture": "companions",
+      "pass": true,
+      "fieldsCompared": 89738,
+      "loadedVersion": 4,
+      "savedVersion": 5,
+      "mode": "journey",
+      "firstDifference": null
+    },
+    {
+      "fixture": "blueprint-prestige",
+      "pass": true,
+      "fieldsCompared": 89768,
+      "loadedVersion": 4,
+      "savedVersion": 5,
+      "mode": "journey",
+      "firstDifference": null
+    },
+    {
+      "fixture": "sandbox",
+      "pass": true,
+      "fieldsCompared": 89244,
+      "loadedVersion": 4,
+      "savedVersion": 5,
+      "mode": "sandbox",
+      "firstDifference": null
+    }
+  ],
+  "extra": [
+    {
+      "name": "New final block survives full storage/load/start",
+      "pass": true
+    },
+    {
+      "name": "Run version 1 remains valid",
+      "pass": true
+    },
+    {
+      "name": "Run version 2 remains valid",
+      "pass": true
+    },
+    {
+      "name": "Run version 3 remains valid",
+      "pass": true
+    },
+    {
+      "name": "Run version 4 remains valid",
+      "pass": true
+    },
+    {
+      "name": "Run version 5 remains valid",
+      "pass": true
+    },
+    {
+      "name": "Failed retirement preserves live landmark",
+      "pass": true
+    },
+    {
+      "name": "Successful retirement resets landmark and preserves lifetime chart",
+      "pass": true
+    },
+    {
+      "name": "20 restarts and 10 slot switches preserve listener and loop counts",
+      "pass": true,
+      "loops": 1,
+      "listeners": 47
+    }
+  ],
+  "fieldsCompared": 1345072,
+  "passed": 24,
+  "failed": 0
+}

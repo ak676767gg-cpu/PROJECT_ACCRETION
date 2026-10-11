@@ -1,0 +1,227 @@
+[
+  {
+    "name": "Six shared palettes reuse all six existing earned advancement frames",
+    "pass": true,
+    "ms": 77.499279
+  },
+  {
+    "name": "The global theme migrates from a legacy saved frame",
+    "pass": true,
+    "ms": 65.62039500000003
+  },
+  {
+    "name": "A modern vault migrates the active slot frame when no theme setting exists",
+    "pass": true,
+    "ms": 64.986379
+  },
+  {
+    "name": "Earned theme availability carries across slots while markings remain per slot",
+    "pass": true,
+    "ms": 63.83255499999996
+  },
+  {
+    "name": "Unearned and malformed palette choices fall back safely",
+    "pass": true,
+    "ms": 61.43251000000009
+  },
+  {
+    "name": "One settings listener applies shared semantic tokens and rejects locked selections",
+    "pass": true,
+    "ms": 62.16570300000001
+  },
+  {
+    "name": "Settings owns the only frame control; Appearance still offers marks and accessories",
+    "pass": true,
+    "ms": 76.92042400000003
+  },
+  {
+    "name": "Palette text, muted labels and highlights remain legible on their panel surfaces",
+    "pass": true,
+    "ms": 61.26586299999997
+  },
+  {
+    "name": "Theme changes never mint water, DNA, mass, upgrades, or gameplay bonuses",
+    "pass": true,
+    "ms": 101.54193799999996
+  },
+  {
+    "name": "The encounter is optional and starts only once after reaching star scale",
+    "pass": true,
+    "ms": 89.01362500000005
+  },
+  {
+    "name": "Exactly 7,200 active seconds complete the encounter and rewards cannot be repeated",
+    "pass": true,
+    "ms": 89.44190800000001
+  },
+  {
+    "name": "Each thirty-minute phase releases one finite budget, including skipped-frame catchup",
+    "pass": true,
+    "ms": 87.53554200000008
+  },
+  {
+    "name": "Paused, upgrade, photo, menu, game-over and hidden states do not advance time",
+    "pass": true,
+    "ms": 87.10861099999988
+  },
+  {
+    "name": "The production render clock ignores slow motion and suspended frame gaps",
+    "pass": true,
+    "ms": 90.291111
+  },
+  {
+    "name": "Pause/resume resets timestamps so short menu intervals are excluded",
+    "pass": true,
+    "ms": 87.49317900000005
+  },
+  {
+    "name": "Finite gas emission debits the ledger and does not instantly add player mass",
+    "pass": true,
+    "ms": 87.330739
+  },
+  {
+    "name": "Ordinary gravity captures released gas into delayed packets with conserved donor mass",
+    "pass": true,
+    "ms": 88.38312300000007
+  },
+  {
+    "name": "Crowded gas regions apply backpressure without creating particles or consuming the budget",
+    "pass": true,
+    "ms": 90.14625699999988
+  },
+  {
+    "name": "Exhausted cloud slots are reused and their released matter is not resurrected",
+    "pass": true,
+    "ms": 88.0249040000001
+  },
+  {
+    "name": "Travelling outside the bridge stops new matter emission",
+    "pass": true,
+    "ms": 89.50865599999997
+  },
+  {
+    "name": "World condensation spends the same finite supply as gas, without duplicating matter",
+    "pass": true,
+    "ms": 88.9317030000002
+  },
+  {
+    "name": "Galactic-scale bridge condensation forms coherent young stars",
+    "pass": true,
+    "ms": 90.37380399999984
+  },
+  {
+    "name": "Atlas density and bridge course follow the actual encounter location",
+    "pass": true,
+    "ms": 90.70992000000024
+  },
+  {
+    "name": "Tidal passages affect outer player and rival orbits while protecting inner bodies and direct control",
+    "pass": true,
+    "ms": 91.2835170000003
+  },
+  {
+    "name": "Completion modifies real gravity and gas intake without compounding cached system bonuses",
+    "pass": true,
+    "ms": 95.75194600000032
+  },
+  {
+    "name": "Nebula journeys keep zero gravity and gain 20% intake through actual dissolution",
+    "pass": true,
+    "ms": 122.293541
+  },
+  {
+    "name": "The adaptation bank cap is respected and its alert states the actual awarded points",
+    "pass": true,
+    "ms": 87.14172899999994
+  },
+  {
+    "name": "Full checkpoints restore elapsed time, matter ledger, phase and live gas cells",
+    "pass": true,
+    "ms": 91.24684300000035
+  },
+  {
+    "name": "Minute clock persistence respects the three-evolution mass and world checkpoint cadence",
+    "pass": true,
+    "ms": 89.33618100000012
+  },
+  {
+    "name": "A saved clock catches pending phases once after restoring the last flight checkpoint",
+    "pass": true,
+    "ms": 89.8266249999997
+  },
+  {
+    "name": "Storage failures roll back clock writes instead of falsely claiming persistence",
+    "pass": true,
+    "ms": 87.1355739999999
+  },
+  {
+    "name": "Completion rewards and lifetime counters survive reload and account only once",
+    "pass": true,
+    "ms": 97.19225800000004
+  },
+  {
+    "name": "Corrupt timer, reward and mass-ledger snapshots are rejected while old runs remain valid",
+    "pass": true,
+    "ms": 90.54577100000006
+  },
+  {
+    "name": "Separate slots do not share encounter state, mass or completion rewards",
+    "pass": true,
+    "ms": 136.22916299999997
+  },
+  {
+    "name": "The HUD, selectable phases and galaxy diagrams show actual state and finite resources",
+    "pass": true,
+    "ms": 97.44250799999963
+  },
+  {
+    "name": "The encounter uses 960 cached tracers; Performance reduces samples and distant drawing is culled",
+    "pass": true,
+    "ms": 91.63478900000018
+  },
+  {
+    "name": "Reduced Motion holds decorative galaxy rotation while the phase geometry remains simulated",
+    "pass": true,
+    "ms": 100.11119899999994
+  },
+  {
+    "name": "Measured FPS reads 30, 60 and 120 on their real render cadence",
+    "pass": true,
+    "ms": 291.515852
+  },
+  {
+    "name": "Slow render cadence is not inflated by the fixed-step delta clamp",
+    "pass": true,
+    "ms": 95.40546799999993
+  },
+  {
+    "name": "Hidden tabs and long suspension clear stale FPS samples",
+    "pass": true,
+    "ms": 92.0907830000001
+  },
+  {
+    "name": "FPS remains inside the telemetry and follows existing HUD and panel visibility controls",
+    "pass": true,
+    "ms": 91.287867
+  },
+  {
+    "name": "Selected route labels never alternate with regular stage names on mismatched UI refreshes",
+    "pass": true,
+    "ms": 380.6545249999999
+  },
+  {
+    "name": "Mature routes, mass loss, completed paths and restored journeys retain their actual stage label",
+    "pass": true,
+    "ms": 467.38478099999975
+  },
+  {
+    "name": "The ordinary stellar route stays capped at Stellar Colossus without black-hole labels",
+    "pass": true,
+    "ms": 87.58715099999972
+  },
+  {
+    "name": "Repeated restarts preserve one loop and listener set while clearing encounter and FPS state",
+    "pass": true,
+    "ms": 390.3768650000002
+  }
+]

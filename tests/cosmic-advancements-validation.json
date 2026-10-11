@@ -1,0 +1,56 @@
+{
+  "version": "3.1.0",
+  "release": "Cosmic Advancements",
+  "automatedChecksPassed": 238,
+  "suiteCounts": {
+    "physics": 84,
+    "advancement": 28,
+    "frontier": 16,
+    "life-integration": 5,
+    "wheel": 10,
+    "editorial": 9,
+    "expedition": 18,
+    "merge": 6,
+    "workspace": 19,
+    "camera": 19,
+    "slots": 13,
+    "collection": 11
+  },
+  "newMilestones": 20,
+  "totalMilestones": 44,
+  "branches": 6,
+  "originalSvgIconKinds": 22,
+  "diagnosticPage": {
+    "definitionScripts": 19,
+    "checksPassed": 84,
+    "noGameLoop": true,
+    "restoresSandboxAndSavedState": true,
+    "runtime": "isolated VM; not a browser"
+  },
+  "sourceAudit": {
+    "uniqueTitles": {
+      "Privacy policy | ACCRETION": "privacy.html",
+      "Sources and implementation | ACCRETION": "sources.html",
+      "Terms and conditions | ACCRETION": "terms.html",
+      "Page not found | ACCRETION": "404.html",
+      "ACCRETION | Offline space evolution game": "index.html",
+      "Life Lab integration diagnostics | ACCRETION": "tests/life-tests.html",
+      "Physics and progression diagnostics | ACCRETION": "tests/physics-tests.html",
+      "Cosmic system integration diagnostics | ACCRETION": "tests/cosmic-tests.html"
+    },
+    "localReferences": 188,
+    "syntax": "PASS",
+    "remoteRuntimeDependencies": 0,
+    "issues": []
+  },
+  "runtime": "Production ordered classic scripts in isolated VM/DOM and native software Canvas",
+  "browserVerification": {
+    "fileUrlLaunch": "unverified",
+    "htmlCssLayout": "unverified",
+    "console": "unverified in a real browser; isolated runtimes have no errors",
+    "audibleOutput": "unverified; synthesis and mute control tested",
+    "reason": "Downloaded Chromium identifies its version but exits with SIGTRAP before a page opens in this environment."
+  },
+  "dependenciesAdded": 0,
+  "deployments": 0
+}

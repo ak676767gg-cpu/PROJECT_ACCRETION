@@ -1,0 +1,526 @@
+{
+  "hero": "R1",
+  "environment": "V1: native software Canvas on the production T1 draw path, 256 crossing map with a 512 contour layer, 587x587 framing, cx=368 cy=310 R=124. Not a browser or GPU image.",
+  "iterations": 8,
+  "copyrightHandling": "Reference and difference panels remain private. Only original procedural renders are distributed.",
+  "largestDifferences": [
+    "The upper/inner dark gap differs from the asymmetric supplied reference; the display offset is not a Kerr metric.",
+    "The CPU arches are broader and smoother, with less coloured fine turbulence.",
+    "Observed ring/arch colour and brightness differ at several registered sample points."
+  ],
+  "rows": [
+    {
+      "quantity": "M1",
+      "reference": 0.40886,
+      "render": 0.4276,
+      "status": "pass",
+      "difference": 0.01874,
+      "reason": "",
+      "level": "V1"
+    },
+    {
+      "quantity": "M2",
+      "reference": [
+        0.12692,
+        0.02811
+      ],
+      "render": [
+        0.12692,
+        0.02811
+      ],
+      "status": "pass",
+      "difference": 0,
+      "reason": "Aligned by explicit framing, not an automatic recognition result.",
+      "level": "V1"
+    },
+    {
+      "quantity": "M3",
+      "reference": 1.0,
+      "render": 1.0,
+      "status": "not independently verified",
+      "difference": 0,
+      "reason": "Circular critical shadow by model convention; photo flattening was a visual inference.",
+      "level": "V0"
+    },
+    {
+      "quantity": "M4",
+      "reference": 5.0,
+      "render": 5.0,
+      "status": "not independently verified",
+      "difference": 0,
+      "reason": "Default view elevation is the inferred R1 value; inverse physical inclination is not uniquely measurable.",
+      "level": "V0"
+    },
+    {
+      "quantity": "M5",
+      "reference": 0.0726,
+      "render": 0.0806,
+      "status": "pass",
+      "difference": 0.008,
+      "reason": "",
+      "level": "V1"
+    },
+    {
+      "quantity": "M6",
+      "reference": 0.1935,
+      "render": 0.1935,
+      "status": "pass",
+      "difference": 0.0,
+      "reason": "",
+      "level": "V1"
+    },
+    {
+      "quantity": "M7",
+      "reference": {
+        "offset": 0.1694,
+        "brightness": 1.024
+      },
+      "render": {
+        "offset": 0.1694,
+        "brightness": 1.019
+      },
+      "status": "pass",
+      "difference": 0.0,
+      "reason": "Measured lower-arch peak. The reference has near-equal arches; our coarse CPU image has a different broad emission profile.",
+      "level": "V1"
+    },
+    {
+      "quantity": "M8",
+      "reference": {
+        "thickness": 0.0443,
+        "brightness": 0.39
+      },
+      "render": {
+        "thickness": 0.0435,
+        "brightness": 0.445
+      },
+      "status": "pass",
+      "difference": 0.0008,
+      "reason": "Pixel footprint and a vector-AA core change the observed ring width; configured Gaussian FWHM is 0.0443 R.",
+      "level": "V1"
+    },
+    {
+      "quantity": "M9",
+      "reference": {
+        "left": 0.43,
+        "right": 0.035
+      },
+      "render": {
+        "leftApprox": 0.15,
+        "rightApprox": 0
+      },
+      "status": "fail",
+      "difference": {
+        "left": 0.28,
+        "right": 0.035
+      },
+      "reason": "Display asymmetry is small and not a Kerr solution; exact asymmetric dark gap is not reproduced.",
+      "level": "V1"
+    },
+    {
+      "quantity": "M10",
+      "reference": {
+        "leftLowerBound": 2.968,
+        "rightLowerBound": 1.766,
+        "cropped": true
+      },
+      "render": {
+        "leftLowerBound": 2.968,
+        "rightLowerBound": 1.766,
+        "cropped": true
+      },
+      "status": "lower bounds agree",
+      "difference": 0,
+      "reason": "Both images crop the disk; absolute extent cannot be established from R1.",
+      "level": "V0"
+    },
+    {
+      "quantity": "M11",
+      "reference": -1.341,
+      "render": 0.674,
+      "status": "fail",
+      "difference": 2.015,
+      "reason": "Same coded axis/threshold method; a bounded Schwarzschild display model cannot reproduce the reference rotating-hole gap.",
+      "level": "V1"
+    },
+    {
+      "quantity": "M12",
+      "reference": 1.07,
+      "render": 0.985,
+      "status": "pass",
+      "difference": 0.085,
+      "reason": "",
+      "level": "V1"
+    },
+    {
+      "quantity": "M13",
+      "reference": {
+        "inner disk": {
+          "point": [
+            400,
+            317
+          ],
+          "sRGB": "#fae3d7",
+          "approxTemperatureK": 6000,
+          "temperatureCaveat": "A graded RGB image is not a physical thermometer; broad visual estimate only."
+        },
+        "mid disk": {
+          "point": [
+            517,
+            314
+          ],
+          "sRGB": "#f5d7bf",
+          "approxTemperatureK": 4700,
+          "temperatureCaveat": "A graded RGB image is not a physical thermometer; broad visual estimate only."
+        },
+        "outer disk": {
+          "point": [
+            65,
+            318
+          ],
+          "sRGB": "#bd9080",
+          "approxTemperatureK": 3500,
+          "temperatureCaveat": "A graded RGB image is not a physical thermometer; broad visual estimate only."
+        },
+        "upper arch": {
+          "point": [
+            368,
+            161
+          ],
+          "sRGB": "#e5d1c1",
+          "approxTemperatureK": 4700,
+          "temperatureCaveat": "A graded RGB image is not a physical thermometer; broad visual estimate only."
+        },
+        "lower arch": {
+          "point": [
+            368,
+            466
+          ],
+          "sRGB": "#e0b7a7",
+          "approxTemperatureK": 4700,
+          "temperatureCaveat": "A graded RGB image is not a physical thermometer; broad visual estimate only."
+        },
+        "ring": {
+          "point": [
+            368,
+            184
+          ],
+          "sRGB": "#b59589",
+          "approxTemperatureK": 6000,
+          "temperatureCaveat": "A graded RGB image is not a physical thermometer; broad visual estimate only."
+        },
+        "bloom": {
+          "point": [
+            369,
+            89
+          ],
+          "sRGB": "#442f26",
+          "approxTemperatureK": null,
+          "temperatureCaveat": "A graded RGB image is not a physical thermometer; broad visual estimate only."
+        },
+        "sky": {
+          "point": [
+            50,
+            50
+          ],
+          "sRGB": "#000506",
+          "approxTemperatureK": null,
+          "temperatureCaveat": "A graded RGB image is not a physical thermometer; broad visual estimate only."
+        }
+      },
+      "render": [
+        {
+          "sample": "inner disk",
+          "point": [
+            400,
+            317
+          ],
+          "reference": "#fae3d7",
+          "render": "#d9c5b7",
+          "deltaE76": 11.063232,
+          "tolerance": 14,
+          "pass": true
+        },
+        {
+          "sample": "mid disk",
+          "point": [
+            517,
+            314
+          ],
+          "reference": "#f5d7bf",
+          "render": "#f6f3e4",
+          "deltaE76": 14.000652,
+          "tolerance": 14,
+          "pass": false
+        },
+        {
+          "sample": "outer disk",
+          "point": [
+            65,
+            318
+          ],
+          "reference": "#bd9080",
+          "render": "#aa988d",
+          "deltaE76": 12.114297,
+          "tolerance": 14,
+          "pass": true
+        },
+        {
+          "sample": "upper arch",
+          "point": [
+            368,
+            161
+          ],
+          "reference": "#e5d1c1",
+          "render": "#cec4bc",
+          "deltaE76": 7.757229,
+          "tolerance": 14,
+          "pass": true
+        },
+        {
+          "sample": "lower arch",
+          "point": [
+            368,
+            466
+          ],
+          "reference": "#e0b7a7",
+          "render": "#cab9b0",
+          "deltaE76": 10.591964,
+          "tolerance": 14,
+          "pass": true
+        },
+        {
+          "sample": "ring",
+          "point": [
+            368,
+            184
+          ],
+          "reference": "#b59589",
+          "render": "#b08d7b",
+          "deltaE76": 4.778862,
+          "tolerance": 14,
+          "pass": true
+        },
+        {
+          "sample": "bloom",
+          "point": [
+            369,
+            89
+          ],
+          "reference": "#442f26",
+          "render": "#32241d",
+          "deltaE76": 6.963693,
+          "tolerance": 20,
+          "pass": true
+        },
+        {
+          "sample": "sky",
+          "point": [
+            50,
+            50
+          ],
+          "reference": "#000506",
+          "render": "#000506",
+          "deltaE76": 0.0,
+          "tolerance": 20,
+          "pass": true
+        }
+      ],
+      "status": "fail",
+      "difference": 14.000652,
+      "reason": "Sparse registered 3x3 medians, converted from sRGB to D65 Lab. Film grading, finite CPU resolution and the radial emission model produce remaining colour errors.",
+      "level": "V1"
+    },
+    {
+      "quantity": "M14",
+      "reference": {
+        "width": 0.025,
+        "orientation": "orbital striations with sparse broader clumps"
+      },
+      "render": {
+        "configuredFilaments": 56,
+        "map": 256,
+        "orientation": "Null-ray isoradius curves with differential motion"
+      },
+      "status": "not independently verified",
+      "difference": null,
+      "reason": "The CPU image is smoother and more regular than the supplied fine, turbulent striations. Configured texture values are not a photo texture measurement.",
+      "level": "V0"
+    },
+    {
+      "quantity": "M15",
+      "reference": 0.19,
+      "render": {
+        "bloomParameterR": 0.19
+      },
+      "status": "not independently verified",
+      "difference": null,
+      "reason": "Parameter is inferred from R1, but broad disk emission cannot be separated reliably from local glow in this frame.",
+      "level": "V0"
+    },
+    {
+      "quantity": "M16",
+      "reference": {
+        "stars": 0,
+        "area": "587x587 excluding disk/frame",
+        "distribution": "No visible stars to infer lensing from this image."
+      },
+      "render": {
+        "background": "Plain procedural #000506; no stars in comparison"
+      },
+      "status": "not comparable",
+      "difference": null,
+      "reason": "The hero has no visible stars; lens image numerical tests use a separate starfield scene.",
+      "level": "V0"
+    },
+    {
+      "quantity": "M17",
+      "reference": {
+        "blackP01": 0.0129,
+        "whiteP99": 0.9021
+      },
+      "render": {
+        "blackP01": 0.0,
+        "whiteP99": 0.847
+      },
+      "status": "measured, no target tolerance",
+      "difference": null,
+      "reason": "Same coded luminance percentiles; source has a thin white image border, which is not reproduced.",
+      "level": "V0"
+    }
+  ],
+  "rawMeasurements": {
+    "shadowRadiusPx": 125.5,
+    "M1": 0.4276,
+    "M2": [
+      0.12692,
+      0.02811
+    ],
+    "M5": 0.0806,
+    "M6": 0.1935,
+    "M7": {
+      "offset": 0.1694,
+      "brightness": 1.019
+    },
+    "M8": {
+      "thickness": 0.0435,
+      "brightness": 0.445
+    },
+    "M10": {
+      "leftLowerBound": 2.968,
+      "rightLowerBound": 1.766,
+      "cropped": true
+    },
+    "M11": 0.674,
+    "M12": 0.985,
+    "peakRows": {
+      "upper": 162,
+      "lower": 455,
+      "band": 320,
+      "ring": 183
+    },
+    "M17": {
+      "blackP01": 0.0,
+      "whiteP99": 0.847
+    }
+  },
+  "colorSamples": [
+    {
+      "sample": "inner disk",
+      "point": [
+        400,
+        317
+      ],
+      "reference": "#fae3d7",
+      "render": "#d9c5b7",
+      "deltaE76": 11.063232,
+      "tolerance": 14,
+      "pass": true
+    },
+    {
+      "sample": "mid disk",
+      "point": [
+        517,
+        314
+      ],
+      "reference": "#f5d7bf",
+      "render": "#f6f3e4",
+      "deltaE76": 14.000652,
+      "tolerance": 14,
+      "pass": false
+    },
+    {
+      "sample": "outer disk",
+      "point": [
+        65,
+        318
+      ],
+      "reference": "#bd9080",
+      "render": "#aa988d",
+      "deltaE76": 12.114297,
+      "tolerance": 14,
+      "pass": true
+    },
+    {
+      "sample": "upper arch",
+      "point": [
+        368,
+        161
+      ],
+      "reference": "#e5d1c1",
+      "render": "#cec4bc",
+      "deltaE76": 7.757229,
+      "tolerance": 14,
+      "pass": true
+    },
+    {
+      "sample": "lower arch",
+      "point": [
+        368,
+        466
+      ],
+      "reference": "#e0b7a7",
+      "render": "#cab9b0",
+      "deltaE76": 10.591964,
+      "tolerance": 14,
+      "pass": true
+    },
+    {
+      "sample": "ring",
+      "point": [
+        368,
+        184
+      ],
+      "reference": "#b59589",
+      "render": "#b08d7b",
+      "deltaE76": 4.778862,
+      "tolerance": 14,
+      "pass": true
+    },
+    {
+      "sample": "bloom",
+      "point": [
+        369,
+        89
+      ],
+      "reference": "#442f26",
+      "render": "#32241d",
+      "deltaE76": 6.963693,
+      "tolerance": 20,
+      "pass": true
+    },
+    {
+      "sample": "sky",
+      "point": [
+        50,
+        50
+      ],
+      "reference": "#000506",
+      "render": "#000506",
+      "deltaE76": 0.0,
+      "tolerance": 20,
+      "pass": true
+    }
+  ],
+  "fullParity": false
+}

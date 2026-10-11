@@ -1,0 +1,1051 @@
+{
+  "version": "3.3.0",
+  "checks": 184,
+  "passed": 184,
+  "browserVerified": false,
+  "suites": [
+    {
+      "name": "Physics and progression",
+      "count": 93
+    },
+    {
+      "name": "Interstallar integration and rendering",
+      "count": 11
+    },
+    {
+      "name": "Advancement catalogue and notifications",
+      "count": 28
+    },
+    {
+      "name": "Save slots and migration",
+      "count": 13
+    },
+    {
+      "name": "Camera and pointer",
+      "count": 19
+    },
+    {
+      "name": "Collection and inner-flow transfer",
+      "count": 11
+    },
+    {
+      "name": "Plaque reveal and restart",
+      "count": 9
+    }
+  ],
+  "results": [
+    {
+      "name": "Astronomical landmarks, continuity, and tiny-fragment units",
+      "pass": true,
+      "ms": 0.45159000000001015,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "All classes share normalized thrust and scale-relative cruise speed",
+      "pass": true,
+      "ms": 103.215597,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Boost, upgrades and braking stay uniform at planetary, stellar and compact scales",
+      "pass": true,
+      "ms": 14.993154000000004,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Spatial partition finds neighbors across cell boundaries",
+      "pass": true,
+      "ms": 0.18184400000001233,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Bound objects follow curved orbits instead of radial homing",
+      "pass": true,
+      "ms": 3.050589000000002,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Bound orbits dissipate energy into eventual absorption",
+      "pass": true,
+      "ms": 12.190167999999971,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Above-escape-speed objects can leave a gravity well",
+      "pass": true,
+      "ms": 3.2751670000000104,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Massive bodies deflect passing flight trajectories",
+      "pass": true,
+      "ms": 3.744503000000009,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Absorption conserves mass including shed fragments and mixes momentum",
+      "pass": true,
+      "ms": 0.18546900000001187,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Similar-mass collisions bounce and produce recoverable debris",
+      "pass": true,
+      "ms": 0.4685850000000187,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "High-speed impacts shed more mass than slow captures",
+      "pass": true,
+      "ms": 0.26869400000003907,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "A stronger rival cannot end a healthy player in one impact",
+      "pass": true,
+      "ms": 0.3889649999999847,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Spawn protection allows safe captures but blocks dangerous impacts",
+      "pass": true,
+      "ms": 0.12253499999997075,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Repeated severe impacts eventually produce game over",
+      "pass": true,
+      "ms": 0.6551159999999641,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Relaxed difficulty reduces damage and fragmentation",
+      "pass": true,
+      "ms": 0.5082340000000158,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "AI competitors absorb and evolve without player participation",
+      "pass": true,
+      "ms": 1.1627790000000005,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Cautious AI flees a nearby dominant body",
+      "pass": true,
+      "ms": 0.1449880000000121,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Aggressive AI hunts a weaker player",
+      "pass": true,
+      "ms": 0.0872410000000059,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Upgrade choices require points and apply stacking effects",
+      "pass": true,
+      "ms": 0.6680149999999685,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Boost consumes energy and increases acceleration",
+      "pass": true,
+      "ms": 0.09939999999994598,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Save serialization preserves position, velocity, rivals and upgrades",
+      "pass": true,
+      "ms": 0.7176789999999755,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Repeated checkpoints do not double-count lifetime statistics",
+      "pass": true,
+      "ms": 0.28804300000001604,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Corrupt and non-finite saved bodies are rejected",
+      "pass": true,
+      "ms": 0.16892400000000407,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Procedural streaming maintains resources while travelling",
+      "pass": true,
+      "ms": 39.293038000000024,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Gravity remains finite at fifteen astronomical stages",
+      "pass": true,
+      "ms": 17.240224000000012,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Very unequal masses avoid pathological spatial scans",
+      "pass": true,
+      "ms": 0.23371100000008482,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Stable orbit classification distinguishes circular capture and escape",
+      "pass": true,
+      "ms": 45.20784600000002,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Rival star builds a stable hierarchical planet and moon system",
+      "pass": true,
+      "ms": 88.33081500000003,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Player can steal a rival world when the new gravity well dominates",
+      "pass": true,
+      "ms": 42.964000000000055,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Passing massive rival destabilizes the player outer system",
+      "pass": true,
+      "ms": 26.844693000000007,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Rival black hole strips stored disk matter without instant mass credit",
+      "pass": true,
+      "ms": 0.9509909999999309,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Black-hole inner transfer has a meaningful delay and conserves mass",
+      "pass": true,
+      "ms": 33.747795999999994,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Gentle stellar movement preserves bound, independent orbital motion",
+      "pass": true,
+      "ms": 38.411621999999966,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Orbital assistance retains existing stress, harmony ranks and disruptive boosts",
+      "pass": true,
+      "ms": 0.4188000000000329,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Orbit carry stops accelerating satellites when the star reaches cruise equilibrium",
+      "pass": true,
+      "ms": 0.12886399999990772,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Extended achievements and lifetime counters are idempotent",
+      "pass": true,
+      "ms": 108.877163,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "A genuine rotating reservoir unlocks the disk achievement",
+      "pass": true,
+      "ms": 9.063945000000103,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Black-hole merger achievement requires substantial inner assimilation",
+      "pass": true,
+      "ms": 64.689212,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Surviving a disturbance awards the existing achievement system",
+      "pass": true,
+      "ms": 30.811529000000064,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Rival hierarchy, disk ownership and new counters survive checkpoint",
+      "pass": true,
+      "ms": 47.54497100000003,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "A destroyed parent safely releases children without a reference error",
+      "pass": true,
+      "ms": 60.50488700000005,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "System adaptations stack in the existing ranked choice list",
+      "pass": true,
+      "ms": 0.3810630000000401,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Fifty unique companion recipes span five disclosed rarities",
+      "pass": true,
+      "ms": 0.09930999999983214,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Asteroid collisions collect water and DNA once, without instant mass credit",
+      "pass": true,
+      "ms": 0.5872229999999945,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Spawned fields carry finite life samples and pooled bodies reset resources",
+      "pass": true,
+      "ms": 6.173876999999948,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "DNA egg recipes deduct exact costs and reject duplicates or insufficient resources",
+      "pass": true,
+      "ms": 0.15584400000011556,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Every named DNA recipe can hatch and equip its exact companion",
+      "pass": true,
+      "ms": 2.913802999999916,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Companion buffs resolve all five rarity tiers including the new shape passives",
+      "pass": true,
+      "ms": 0.4579989999999725,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Discovery wheel maps the documented 59/35/5/1 odds across ten thousand samples",
+      "pass": true,
+      "ms": 3.262467000000015,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "New lifetime statistics initialise, increment once, and survive a save round trip",
+      "pass": true,
+      "ms": 43.02090599999997,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "System stability bonus is zero after a disturbance and returns after thirty quiet seconds",
+      "pass": true,
+      "ms": 21.361382999999933,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Companion collection normalization preserves valid discoveries and rejects invalid eggs",
+      "pass": true,
+      "ms": 0.3615140000001702,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Planetary composition conserves weighted fractions and affects density",
+      "pass": true,
+      "ms": 0.16027099999996608,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Boosted black-hole infall retains mass and resources after entering inner flow",
+      "pass": true,
+      "ms": 76.18216000000007,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "An escaping tidal stream retains unclaimed resources without awarding them",
+      "pass": true,
+      "ms": 54.59661899999992,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Physical collection cannot be awarded again by the transferred stream",
+      "pass": true,
+      "ms": 1608.0435519999999,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Dense gas leaves parcel capacity for coherent asteroid captures",
+      "pass": true,
+      "ms": 3.156178000000182,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Escaped parcels reclaim inactive world slots while conserving payloads",
+      "pass": true,
+      "ms": 4.193740000000162,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Save validation accepts legacy parcels and rejects invalid new payloads",
+      "pass": true,
+      "ms": 0.35196899999982634,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Moving habitable zones and surface climate use the current stellar source",
+      "pass": true,
+      "ms": 0.42180499999994936,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Measured 2:1 stable orbits earn and lose the resonance bonus",
+      "pass": true,
+      "ms": 77.77999099999988,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Orbital element reuse preserves three-dimensional invariants without mutating bodies",
+      "pass": true,
+      "ms": 0.3433469999999943,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Gravity cache responds to source mass, gravity ranks and amplification",
+      "pass": true,
+      "ms": 0.09234900000001289,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Valid composition objects are reused and invalid mixtures are repaired",
+      "pass": true,
+      "ms": 0.08138200000030338,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Asteroid ribbons have narrow seeded geometry and respect the entity budget",
+      "pass": true,
+      "ms": 17.706286999999975,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Comet corridors retain coherent motion instead of direct inward attraction",
+      "pass": true,
+      "ms": 0.6195819999998093,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Stellar world passages include genuine capturable planetary masses",
+      "pass": true,
+      "ms": 1.802621000000272,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Rival orbital fields use their own host velocity and gravity well",
+      "pass": true,
+      "ms": 836.594529,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Class goals reward an adaptation once without granting mass or laboratory resources",
+      "pass": true,
+      "ms": 0.8090980000001764,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Coasting goals measure control state and never count braking or boosting",
+      "pass": true,
+      "ms": 0.12539899999956106,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Solar-system goals require sustained health and decay when disturbed",
+      "pass": true,
+      "ms": 0.09229899999991176,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Black-hole goals count accreted mass rather than captured mass",
+      "pass": true,
+      "ms": 0.09564399999999296,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Encounters retain finite clouds and defer when the physical budget is full",
+      "pass": true,
+      "ms": 3.6561000000001513,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Condensation previews identify eligible matter and birth conserves total mass",
+      "pass": true,
+      "ms": 0.5809639999997671,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Empty or plunging disks do not render fictitious formation previews",
+      "pass": true,
+      "ms": 0.11265899999989415,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Matter observatory partitions stored mass into real incoming, disk and inner-flow states",
+      "pass": true,
+      "ms": 0.35373200000003635,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Completed goals, encounters, field geometry and rival intentions survive a validated snapshot",
+      "pass": true,
+      "ms": 2.0479709999999614,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Save validation rejects malformed goals while accepting old checkpoints",
+      "pass": true,
+      "ms": 0.2932710000000043,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Extended lifetime statistics account each new counter exactly once",
+      "pass": true,
+      "ms": 0.14747199999965233,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "The forty-nine milestone catalogue preserves all legacy IDs and has valid acyclic routes",
+      "pass": true,
+      "ms": 0.2306669999998121,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "New evolution achievements use attained classes and award exactly once",
+      "pass": true,
+      "ms": 0.20650100000011662,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Capture milestones measure one journey and keep lifetime totals separate",
+      "pass": true,
+      "ms": 0.12294499999961772,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Old achievements and new plaque settings normalize without losing a save",
+      "pass": true,
+      "ms": 0.15378199999986464,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Sandbox advancement checks cannot mutate normal achievements or resources",
+      "pass": true,
+      "ms": 0.08221399999956702,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Prestige requires a living stellar journey and four distinct class goals",
+      "pass": true,
+      "ms": 0.1669210000000021,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Cosmetic migration rejects locked looks and allows earned companion accessories",
+      "pass": true,
+      "ms": 0.1043880000001991,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Scar history caps at six, counts survived damage and resets with pooled bodies",
+      "pass": true,
+      "ms": 0.08251400000017384,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Collision scars and sprite orientation survive checkpoint restoration",
+      "pass": true,
+      "ms": 0.30528899999990244,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "An orbital blueprint requires owned, stable physical planets and a continuous hold",
+      "pass": true,
+      "ms": 0.5065519999998287,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Custodian promises require stable nested moons and reset on a disturbed system",
+      "pass": true,
+      "ms": 0.3101070000002437,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Black-hole expedition promises cannot count captured disk mass",
+      "pass": true,
+      "ms": 11.681073000000197,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Blueprint and legacy lifetime counters account once in the existing profile",
+      "pass": true,
+      "ms": 0.1651480000000447,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Hatching uses bounded stages and reduced motion reveals the actual creature immediately",
+      "pass": true,
+      "ms": 0.0953429999999571,
+      "suite": "Physics and progression"
+    },
+    {
+      "name": "Final threshold follows Ultramassive, keeps continuous mass, and remains final at extreme mass",
+      "pass": true,
+      "suite": "Interstallar integration and rendering"
+    },
+    {
+      "name": "Natural final evolution awards its point and achievement once, then growth adds no phantom classes",
+      "pass": true,
+      "suite": "Interstallar integration and rendering"
+    },
+    {
+      "name": "The final stage, achievement, simulation time and original slot state survive a real save/load",
+      "pass": true,
+      "suite": "Interstallar integration and rendering"
+    },
+    {
+      "name": "A preceding-class checkpoint loads as Ultramassive with its mass and momentum intact",
+      "pass": true,
+      "suite": "Interstallar integration and rendering"
+    },
+    {
+      "name": "Ring filaments animate in both detail settings while the central shadow stays opaque",
+      "pass": true,
+      "suite": "Interstallar integration and rendering"
+    },
+    {
+      "name": "Reduced motion freezes the final render while accretion still changes its feeding intensity",
+      "pass": true,
+      "suite": "Interstallar integration and rendering"
+    },
+    {
+      "name": "Paused and photo views do not spin the rings as the renderer clock advances",
+      "pass": true,
+      "suite": "Interstallar integration and rendering"
+    },
+    {
+      "name": "Rendering has no simulation, RNG, save, listener or animation-loop side effects and only two bounded atlases",
+      "pass": true,
+      "suite": "Interstallar integration and rendering"
+    },
+    {
+      "name": "Sandbox exposes the final class and never grants its journey achievement",
+      "pass": true,
+      "suite": "Interstallar integration and rendering"
+    },
+    {
+      "name": "Final-stage restart clears cached atlases and transient matter without duplicate listeners or loops",
+      "pass": true,
+      "suite": "Interstallar integration and rendering"
+    },
+    {
+      "name": "Final-stage accretion remains delayed and transfers a captured parcel through the existing simulation",
+      "pass": true,
+      "suite": "Interstallar integration and rendering"
+    },
+    {
+      "name": "All forty-nine original and new milestones have unique metadata and local vector badges",
+      "pass": true,
+      "suite": "Advancement catalogue and notifications"
+    },
+    {
+      "name": "Every newly represented evolution class has an exact attained-stage threshold",
+      "pass": true,
+      "suite": "Advancement catalogue and notifications"
+    },
+    {
+      "name": "Evolution queues its milestone without covering the cinematic or interrupting flight",
+      "pass": true,
+      "suite": "Advancement catalogue and notifications"
+    },
+    {
+      "name": "One-journey capture milestones ignore totals from older journeys",
+      "pass": true,
+      "suite": "Advancement catalogue and notifications"
+    },
+    {
+      "name": "A physically stable star, planet and moon hierarchy earns World with Company",
+      "pass": true,
+      "suite": "Advancement catalogue and notifications"
+    },
+    {
+      "name": "Six real stable small bodies form a belt and unlock its milestone",
+      "pass": true,
+      "suite": "Advancement catalogue and notifications"
+    },
+    {
+      "name": "Orbital resonance must be actually established rather than a short-lived period estimate",
+      "pass": true,
+      "suite": "Advancement catalogue and notifications"
+    },
+    {
+      "name": "Final companion specialization unlocks Growing Together through the existing branch action",
+      "pass": true,
+      "suite": "Advancement catalogue and notifications"
+    },
+    {
+      "name": "Six finite discoveries earn Field Notes while five do not",
+      "pass": true,
+      "suite": "Advancement catalogue and notifications"
+    },
+    {
+      "name": "Six class goals earn Pathfinder without awarding additional resources or adaptation points",
+      "pass": true,
+      "suite": "Advancement catalogue and notifications"
+    },
+    {
+      "name": "A last-second capture milestone is retained at game over",
+      "pass": true,
+      "suite": "Advancement catalogue and notifications"
+    },
+    {
+      "name": "Rapid real unlocks queue once, in order, without using the ordinary alert stack",
+      "pass": true,
+      "suite": "Advancement catalogue and notifications"
+    },
+    {
+      "name": "Task, goal and challenge plaques use one DOM element and play their cue at display time",
+      "pass": true,
+      "suite": "Advancement catalogue and notifications"
+    },
+    {
+      "name": "Menus, evolution, photo mode and hidden HUD defer queued plaques",
+      "pass": true,
+      "suite": "Advancement catalogue and notifications"
+    },
+    {
+      "name": "An already visible plaque pauses its clock while a menu or HUD hiding obscures it",
+      "pass": true,
+      "suite": "Advancement catalogue and notifications"
+    },
+    {
+      "name": "Notification opt-out retains achievements and adds no popup or chime",
+      "pass": true,
+      "suite": "Advancement catalogue and notifications"
+    },
+    {
+      "name": "Top and bottom placement work from the very first displayed frame",
+      "pass": true,
+      "suite": "Advancement catalogue and notifications"
+    },
+    {
+      "name": "Advancement menu has all six complete branches, exact earned counts and earned filtering",
+      "pass": true,
+      "suite": "Advancement catalogue and notifications"
+    },
+    {
+      "name": "Search examines all branches and safely handles arbitrary typed text",
+      "pass": true,
+      "suite": "Advancement catalogue and notifications"
+    },
+    {
+      "name": "Selection displays real progress and related links do not gate earning",
+      "pass": true,
+      "suite": "Advancement catalogue and notifications"
+    },
+    {
+      "name": "Records and journey log remain available alongside the advancement map",
+      "pass": true,
+      "suite": "Advancement catalogue and notifications"
+    },
+    {
+      "name": "J toggles the advancement window without becoming a movement input",
+      "pass": true,
+      "suite": "Advancement catalogue and notifications"
+    },
+    {
+      "name": "Checkpoint and full load preserve new unlocks and notification settings in the original slot",
+      "pass": true,
+      "suite": "Advancement catalogue and notifications"
+    },
+    {
+      "name": "Old profile migration reconciles only attained new classes without a burst of fake notifications",
+      "pass": true,
+      "suite": "Advancement catalogue and notifications"
+    },
+    {
+      "name": "Repeated restarts clear active and pending plaques without new listeners or animation loops",
+      "pass": true,
+      "suite": "Advancement catalogue and notifications"
+    },
+    {
+      "name": "Sandbox keeps its milestone queue and normal-slot achievement collection untouched",
+      "pass": true,
+      "suite": "Advancement catalogue and notifications"
+    },
+    {
+      "name": "Arrow navigation focuses another real node and updates selection without an unlock",
+      "pass": true,
+      "suite": "Advancement catalogue and notifications"
+    },
+    {
+      "name": "All three plaque chimes synthesize in the single procedural context and obey mute",
+      "pass": true,
+      "suite": "Advancement catalogue and notifications"
+    },
+    {
+      "name": "Version-1 migration preserves run, pets, nicknames, records and settings",
+      "pass": true,
+      "suite": "Save slots and migration"
+    },
+    {
+      "name": "Two evolutions, pauses and settings writes do not advance the checkpoint",
+      "pass": true,
+      "suite": "Save slots and migration"
+    },
+    {
+      "name": "Third evolution atomically saves world, resource claims, pets and achievements",
+      "pass": true,
+      "suite": "Save slots and migration"
+    },
+    {
+      "name": "Three more evolutions are required after a milestone or manual save",
+      "pass": true,
+      "suite": "Save slots and migration"
+    },
+    {
+      "name": "Reload rolls back the whole unsaved journey without duplicating resources",
+      "pass": true,
+      "suite": "Save slots and migration"
+    },
+    {
+      "name": "Slot toggles preserve three independent journeys and companion collections",
+      "pass": true,
+      "suite": "Save slots and migration"
+    },
+    {
+      "name": "Disabling cadence restores timed saves and settings remain global",
+      "pass": true,
+      "suite": "Save slots and migration"
+    },
+    {
+      "name": "Game over records the result and clears only the active run",
+      "pass": true,
+      "suite": "Save slots and migration"
+    },
+    {
+      "name": "Admin method, menu and keyboard shortcut have been removed",
+      "pass": true,
+      "suite": "Save slots and migration"
+    },
+    {
+      "name": "Companion live preview animates and all 50 species render",
+      "pass": true,
+      "suite": "Save slots and migration"
+    },
+    {
+      "name": "Size controls persist and do not change buffs; reduced motion freezes creatures",
+      "pass": true,
+      "suite": "Save slots and migration"
+    },
+    {
+      "name": "Twenty restarts and slot switches add no RAF loops or event listeners",
+      "pass": true,
+      "suite": "Save slots and migration"
+    },
+    {
+      "name": "Failed storage does not falsely advance the last successful checkpoint",
+      "pass": true,
+      "suite": "Save slots and migration"
+    },
+    {
+      "name": "Camera locks to the interpolated body center at all 21 classes and all render phases",
+      "pass": true,
+      "suite": "Camera and pointer"
+    },
+    {
+      "name": "Production drawing stays centered through high speed, depth, pause and selected-system view",
+      "pass": true,
+      "suite": "Camera and pointer"
+    },
+    {
+      "name": "Background uses the same camera transform as bodies and the forecast",
+      "pass": true,
+      "suite": "Camera and pointer"
+    },
+    {
+      "name": "Photo mode keeps its free camera and restores the saved camera without forcing a lock",
+      "pass": true,
+      "suite": "Camera and pointer"
+    },
+    {
+      "name": "R recenters and resets zoom while photo controls remain independent",
+      "pass": true,
+      "suite": "Camera and pointer"
+    },
+    {
+      "name": "Depth-aware camera and pointer remain aligned after floating-origin rebasing",
+      "pass": true,
+      "suite": "Camera and pointer"
+    },
+    {
+      "name": "Resize, cinematic zoom and restart cannot displace the locked body",
+      "pass": true,
+      "suite": "Camera and pointer"
+    },
+    {
+      "name": "Forecast begins at the drawn body position on all axes rather than at the raw simulation point",
+      "pass": true,
+      "suite": "Camera and pointer"
+    },
+    {
+      "name": "Fast forecasts clip to the inset with a visible endpoint in every direction and astronomical scale",
+      "pass": true,
+      "suite": "Camera and pointer"
+    },
+    {
+      "name": "Forecast horizon no longer jumps by astronomical class",
+      "pass": true,
+      "suite": "Camera and pointer"
+    },
+    {
+      "name": "Fixed-step gravity forecast matches actual coasting against a static source",
+      "pass": true,
+      "suite": "Camera and pointer"
+    },
+    {
+      "name": "Continuous relative contact detects moving fast threats before a path passes through them",
+      "pass": true,
+      "suite": "Camera and pointer"
+    },
+    {
+      "name": "Forecast and local pointer handle near-rest, depth motion and zero speed without nonfinite values",
+      "pass": true,
+      "suite": "Camera and pointer"
+    },
+    {
+      "name": "Mouse steering uses the rendered center and corrects projection tilt",
+      "pass": true,
+      "suite": "Camera and pointer"
+    },
+    {
+      "name": "Forecast calculations never mutate simulation positions, velocities, or mass",
+      "pass": true,
+      "suite": "Camera and pointer"
+    },
+    {
+      "name": "Performance mode bounds prediction sources and samples under dense nearby gravity",
+      "pass": true,
+      "suite": "Camera and pointer"
+    },
+    {
+      "name": "Microscopic and crowded field labels cannot cover the body or its local pointer",
+      "pass": true,
+      "suite": "Camera and pointer"
+    },
+    {
+      "name": "Photo panning an offscreen player does not leave a stray local pointer on screen",
+      "pass": true,
+      "suite": "Camera and pointer"
+    },
+    {
+      "name": "Fixed-step input keeps mouse aim centered before the next render updates the camera",
+      "pass": true,
+      "suite": "Camera and pointer"
+    },
+    {
+      "name": "Actual production frame loop collects both mass and samples during a boosted encounter",
+      "pass": true,
+      "suite": "Collection and inner-flow transfer"
+    },
+    {
+      "name": "Black-hole collection works during coasting, sustained thrust and boost across three late classes",
+      "pass": true,
+      "suite": "Collection and inner-flow transfer"
+    },
+    {
+      "name": "Inner flow retains continuous relative motion instead of rigidly copying source position",
+      "pass": true,
+      "suite": "Collection and inner-flow transfer"
+    },
+    {
+      "name": "Inner-flow save and restore preserves remaining matter and prevents duplicate samples",
+      "pass": true,
+      "suite": "Collection and inner-flow transfer"
+    },
+    {
+      "name": "Old snapshots with no payload or inner-flow fields still resume feeding",
+      "pass": true,
+      "suite": "Collection and inner-flow transfer"
+    },
+    {
+      "name": "Starting asteroid and planetary collisions retain their original resource yield",
+      "pass": true,
+      "suite": "Collection and inner-flow transfer"
+    },
+    {
+      "name": "Original circular pointer has no extra local chevron or thrust dot",
+      "pass": true,
+      "suite": "Collection and inner-flow transfer"
+    },
+    {
+      "name": "Boost particles spawn and draw on the source depth plane while the camera remains centered",
+      "pass": true,
+      "suite": "Collection and inner-flow transfer"
+    },
+    {
+      "name": "Pooled effects cannot leak depth into a later particle",
+      "pass": true,
+      "suite": "Collection and inner-flow transfer"
+    },
+    {
+      "name": "Repeated restarts reset accepted matter and particle payloads without duplicate listeners or loops",
+      "pass": true,
+      "suite": "Collection and inner-flow transfer"
+    },
+    {
+      "name": "Collection leaves wheel pricing, rarity odds and three-evolution checkpoints intact",
+      "pass": true,
+      "suite": "Collection and inner-flow transfer"
+    },
+    {
+      "name": "The actual plaque builds its frame, illuminates, reveals badge and text, then holds",
+      "pass": true,
+      "suite": "Plaque reveal and restart"
+    },
+    {
+      "name": "Top and bottom anchors use mirrored entrance and exit offsets with the same reveal",
+      "pass": true,
+      "suite": "Plaque reveal and restart"
+    },
+    {
+      "name": "Opening a menu during illumination freezes every visual value and resumes without replay",
+      "pass": true,
+      "suite": "Plaque reveal and restart"
+    },
+    {
+      "name": "Cinematic evolution and HUD hiding freeze both the reveal and the final fade",
+      "pass": true,
+      "suite": "Plaque reveal and restart"
+    },
+    {
+      "name": "Game and operating-system reduced motion remove the light wash, blur and movement",
+      "pass": true,
+      "suite": "Plaque reveal and restart"
+    },
+    {
+      "name": "The next queued plaque resets all reveal values after the preceding fade",
+      "pass": true,
+      "suite": "Plaque reveal and restart"
+    },
+    {
+      "name": "Restart during the light reveal clears presentation state without new listeners or loops",
+      "pass": true,
+      "suite": "Plaque reveal and restart"
+    },
+    {
+      "name": "Every plaque has a readable hold, finite bounded motion, and no redundant hold style writes",
+      "pass": true,
+      "suite": "Plaque reveal and restart"
+    },
+    {
+      "name": "The offline preview uses production paint, never touches storage, and replays on one loop",
+      "pass": true,
+      "suite": "Plaque reveal and restart"
+    }
+  ]
+}

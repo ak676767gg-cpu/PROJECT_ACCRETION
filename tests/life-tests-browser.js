@@ -1,0 +1,23 @@
+/* Uses the existing game and restores the complete active profile after synchronous checks. */
+'use strict';
+window.runLifePageTests=function(){
+  this.disabled=true;const A=window.AC,g=A.game,results=[],metrics=window.__testMetrics,listeners=window.__testListeners;
+  const original={vault:A.Save.vault,data:A.Save.data,session:A.Save.sessionOpen,write:A.Save.write,load:A.Save.load,audio:g.audio.play};
+  let saved=null;
+  const assert=(q,m)=>{if(!q)throw Error(m);},test=(name,fn)=>{try{fn();results.push({name,pass:true});}catch(e){results.push({name,pass:false,error:e.message});}};
+  try{
+    A.Save.vault=JSON.parse(JSON.stringify(original.vault));A.Save.vault.mode='journey';A.Save.slot.everyThree=false;A.Save.sessionOpen=false;
+    A.Save.data=JSON.parse(JSON.stringify(original.data));A.Save.data.lifeLab=A.lifeDefaults();A.Save.data.settings=A.Save.vault.settings;
+    A.Save.write=()=>{saved=JSON.stringify(A.Save.data);return true;};A.Save.load=()=>{if(saved)A.Save.data=A.Save.cleanProfile(JSON.parse(saved));return A.Save.data;};g.audio.play=()=>{};g.mainMenu();
+    test('Life Lab shows fifty species and three Legendary species through its collection filter',()=>{g.ui.labTab='collection';g.ui.action('lab');assert((document.getElementById('lab-pets').innerHTML.match(/class="pet-card/g)||[]).length===50,'Missing species');g.ui.action('life:filter:Legendary');assert((document.getElementById('lab-pets').innerHTML.match(/class="pet-card/g)||[]).length===3,'Wrong Legendary catalogue');g.life.filter='All';g.ui.back();});
+    test('A wheel spin spends 500 water and 100 DNA, then pauses incubation in menus',()=>{g.start();const d=A.Save.data.lifeLab;d.water=1500;d.dna=300;g.ui.wheelTime=0;g.ui.action('lab');g.ui.action('life:spin');assert(d.eggs.length===1&&d.water===1000&&d.dna===200,'Wheel cost or egg');const remaining=d.eggs[0].remaining;for(let i=0;i<30;i++)g.step(1/60);assert(d.eggs[0].remaining===remaining,'Incubated while paused');g.resume();g.world.bodies=[g.player];g.world.update=()=>{};g.world.rebuild();for(let i=0;i<Math.ceil(remaining*60)+2;i++)g.step(1/60);assert(d.eggs[0].remaining===0,'Egg never became ready');});
+    test('Hatch, equip, nickname and inner-contact collection persist together',()=>{const d=A.Save.data.lifeLab,id=d.eggs[0].id;g.ui.action('life:hatch:'+id);assert(d.owned.includes(id)&&d.equipped===id,'Hatch or equip');g.ui.action('hatch-return');g.ui.action('life:equip:none');assert(d.equipped===null,'Unequip');g.ui.action('life:equip:'+id);document.getElementById('pet-nickname').value='Little Orbit';g.ui.action('life:rename');assert(g.life.displayName(id)==='Little Orbit','Nickname missing');g.resume();const b=g.world.make(g.player.x,g.player.y,.01);b.water=4;b.dna=1;b.material='ice';g.life.collect(b);assert(A.Save.checkpoint(g,'manual'),'Checkpoint failed');const water=d.water,bodyId=b.id;A.Save.load();g.start(true);assert(A.Save.data.lifeLab.equipped===id&&g.life.displayName(id)==='Little Orbit','Profile lost');assert(A.Save.data.lifeLab.water===water,'Water lost');const restored=g.world.bodies.find(q=>q.id===bodyId);assert(restored.lifeClaimed&&!g.life.collect(restored),'Duplicate resource collection');});
+    test('Rarity chances stay Common 59%, Rare 35%, Epic 5% and Legendary 1%',()=>{const counts={0:0,2:0,3:0,4:0};for(let i=0;i<10000;i++)counts[A.Life.wheelTier((i+.5)/10000)]++;assert(counts[0]===5900&&counts[2]===3500&&counts[3]===500&&counts[4]===100,'Wheel sectors changed');});
+    test('Repeated restarts retain the companion collection without extra loops, listeners or physics pets',()=>{const count=JSON.stringify(Object.entries(listeners).map(([k,v])=>[k,v.length])),raf=metrics.rafCalls,id=A.Save.data.lifeLab.equipped;for(let i=0;i<6;i++){g.restart();g.ui.showLab();g.resume();assert(!g.life.scan.length&&!g.life.pendingWater,'Runtime leak');}assert(metrics.rafCalls===raf,'Additional animation loop');assert(JSON.stringify(Object.entries(listeners).map(([k,v])=>[k,v.length]))===count,'Additional event listener');assert(A.Save.data.lifeLab.equipped===id&&A.Save.data.lifeLab.owned.length===1,'Collection lost');});
+  }finally{
+    g.mainMenu();A.Save.vault=original.vault;A.Save.data=original.data;A.Save.sessionOpen=original.session;A.Save.write=original.write;A.Save.load=original.load;g.audio.play=original.audio;g.life=new A.Life(g);g.ui.main();this.disabled=false;
+  }
+  document.getElementById('cosmic-test-output').textContent=results.map(r=>(r.pass?'PASS ':'FAIL ')+r.name+(r.error?' ; '+r.error:'')).join('\n')+'\n\n'+results.filter(r=>r.pass).length+' / '+results.length+' passed';
+  return results;
+};
+document.getElementById('run-cosmic-tests').addEventListener('click',window.runLifePageTests);

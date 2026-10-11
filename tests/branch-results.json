@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Selection preserves the exact body, flight profile, progress, point balance and pending adaptations",
+    "pass": true
+  },
+  {
+    "name": "Early selection and changing a path after the first branch evolution are blocked",
+    "pass": true
+  },
+  {
+    "name": "Origin-stage changes never heal, reset timers, shift mass goals or mint adaptation points",
+    "pass": true
+  },
+  {
+    "name": "Every route follows its complete distinct sequence without regular supergiant stages",
+    "pass": true
+  },
+  {
+    "name": "A threshold awards once, holds below the goal and catches large gains one class at a time",
+    "pass": true
+  },
+  {
+    "name": "Remnant abilities, achievements and supernova occur only at the actual remnant stage",
+    "pass": true
+  },
+  {
+    "name": "Choosing at later stellar classes keeps that exact starting form and next mass target",
+    "pass": true
+  },
+  {
+    "name": "Mass loss cannot unlock origin switching below Massive Star or silently de-evolve a branch",
+    "pass": true
+  },
+  {
+    "name": "Nebula selection leaves orbits and stored matter intact until its transformation",
+    "pass": true
+  },
+  {
+    "name": "Each precursor has a playable journey objective without requiring black-hole feeding",
+    "pass": true
+  },
+  {
+    "name": "Precursor and mature saves reload without moving the body or replaying transformation",
+    "pass": true
+  },
+  {
+    "name": "Every older 3.4 route tier migrates exactly once and retains its form, mass and point balance",
+    "pass": true
+  },
+  {
+    "name": "New save schema rejects unknown versions, invalid origins and out-of-route tiers",
+    "pass": true
+  },
+  {
+    "name": "Route inspector shows real stages, selection and locked state through the existing dock menu",
+    "pass": true
+  },
+  {
+    "name": "Restart clears new path schema and origin state without duplicating loops or listeners",
+    "pass": true
+  },
+  {
+    "name": "Precursor filaments have changing route-specific frames and respect Reduced Motion",
+    "pass": true
+  }
+]

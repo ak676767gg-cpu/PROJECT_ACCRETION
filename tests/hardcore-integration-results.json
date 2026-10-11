@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Hardcore setting starts with half cohesion and nine unchanged rivals",
+    "pass": true
+  },
+  {
+    "name": "Changing next-journey difficulty does not weaken the current run",
+    "pass": true
+  },
+  {
+    "name": "Evolution healing and idle regeneration cannot exceed half cohesion",
+    "pass": true
+  },
+  {
+    "name": "All four route evolutions retain Hardcore cohesion",
+    "pass": true
+  },
+  {
+    "name": "Saved difficulty and damaged cohesion survive reload after changing future settings",
+    "pass": true
+  },
+  {
+    "name": "Older or edited Hardcore checkpoints above 50 restore safely at the cap",
+    "pass": true
+  },
+  {
+    "name": "Sandbox class switches and final-merger healing respect Hardcore limit",
+    "pass": true
+  },
+  {
+    "name": "Hardcore HUD shows the cap, mode and absolute 50-percent cohesion",
+    "pass": true
+  },
+  {
+    "name": "World rarity decreases across planetary, stellar and black-hole stages",
+    "pass": true
+  },
+  {
+    "name": "Route-aware peer threshold uses selected-path mass rather than visual class index",
+    "pass": true
+  },
+  {
+    "name": "Twenty Hardcore restarts add no listeners, loops or accumulated simulation objects",
+    "pass": true
+  },
+  {
+    "name": "Copyright is present in launch menu, credits, support pages and license without removing MIT notice",
+    "pass": true
+  },
+  {
+    "name": "Natural rare worlds carry caches while ordinary rocks and other modes do not",
+    "pass": true
+  },
+  {
+    "name": "Rare body and stored disk cache survive save/load, then credit exactly once",
+    "pass": true
+  },
+  {
+    "name": "Full body pool transfers cache into saved drone cargo and delivers without duplication",
+    "pass": true
+  },
+  {
+    "name": "Standard cannot collect bonus Research Points and malformed payloads are rejected",
+    "pass": true
+  },
+  {
+    "name": "Recycled bodies cannot retain a previously claimed rare cache",
+    "pass": true
+  }
+]

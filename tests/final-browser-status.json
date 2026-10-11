@@ -1,0 +1,18 @@
+{
+  "level": "V0",
+  "success": false,
+  "localAttempt": "Chromium exited before loading file://index.html. No console or interactive page check executed.",
+  "cloudAttempt": "Browser security policy rejected file:// URLs; only http/https permitted. No workaround or server used.",
+  "consoleStatus": "UNVERIFIED: empty failed-launch arrays are not evidence of a clean console.",
+  "manualChecksRequired": [
+    "file:// launch",
+    "browser console and unhandled rejections",
+    "CSS layout and keyboard focus",
+    "file-origin storage permissions and slot reload",
+    "WebGL compile/loss/recovery",
+    "photo download",
+    "audible mix",
+    "DPR/resize and screen-area flash bounds",
+    "hardware FPS"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "environment": "Isolated runtime with native software Canvas. These are timings, not browser FPS measurements.",
+  "scenes": [
+    {
+      "stage": "Red dwarf star",
+      "quality": "high",
+      "bodies": 520,
+      "gasCells": 224,
+      "packets": 160,
+      "replayFrames": 6,
+      "simulation": {
+        "medianMs": 6.301,
+        "p95Ms": 12.539
+      },
+      "expeditionIncrement": {
+        "medianMs": 0.009,
+        "p95Ms": 0.656
+      },
+      "nativeSoftwareCanvas": {
+        "medianMs": 18.235,
+        "p95Ms": 24.023
+      },
+      "rafLoops": 1
+    },
+    {
+      "stage": "Red dwarf star",
+      "quality": "low",
+      "bodies": 400,
+      "gasCells": 224,
+      "packets": 160,
+      "replayFrames": 4,
+      "simulation": {
+        "medianMs": 5.043,
+        "p95Ms": 9.031
+      },
+      "expeditionIncrement": {
+        "medianMs": 0.01,
+        "p95Ms": 0.569
+      },
+      "nativeSoftwareCanvas": {
+        "medianMs": 9.573,
+        "p95Ms": 14.646
+      },
+      "rafLoops": 1
+    },
+    {
+      "stage": "Stellar-origin black hole",
+      "quality": "low",
+      "bodies": 260,
+      "gasCells": 224,
+      "packets": 126,
+      "replayFrames": 4,
+      "simulation": {
+        "medianMs": 6.914,
+        "p95Ms": 9.225
+      },
+      "expeditionIncrement": {
+        "medianMs": 0.011,
+        "p95Ms": 0.371
+      },
+      "nativeSoftwareCanvas": {
+        "medianMs": 8.024,
+        "p95Ms": 11.997
+      },
+      "rafLoops": 1
+    }
+  ]
+}

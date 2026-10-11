@@ -1,0 +1,102 @@
+[
+  {
+    "displayHz": 60,
+    "cap": 30,
+    "observedFps": 30
+  },
+  {
+    "displayHz": 60,
+    "cap": 60,
+    "observedFps": 60
+  },
+  {
+    "displayHz": 60,
+    "cap": 120,
+    "observedFps": 60
+  },
+  {
+    "displayHz": 60,
+    "cap": 240,
+    "observedFps": 60
+  },
+  {
+    "displayHz": 60,
+    "cap": "unlimited",
+    "observedFps": 60
+  },
+  {
+    "displayHz": 120,
+    "cap": 30,
+    "observedFps": 30
+  },
+  {
+    "displayHz": 120,
+    "cap": 60,
+    "observedFps": 60
+  },
+  {
+    "displayHz": 120,
+    "cap": 120,
+    "observedFps": 120
+  },
+  {
+    "displayHz": 120,
+    "cap": 240,
+    "observedFps": 120
+  },
+  {
+    "displayHz": 120,
+    "cap": "unlimited",
+    "observedFps": 120
+  },
+  {
+    "displayHz": 144,
+    "cap": 30,
+    "observedFps": 30
+  },
+  {
+    "displayHz": 144,
+    "cap": 60,
+    "observedFps": 60
+  },
+  {
+    "displayHz": 144,
+    "cap": 120,
+    "observedFps": 120
+  },
+  {
+    "displayHz": 144,
+    "cap": 240,
+    "observedFps": 144
+  },
+  {
+    "displayHz": 144,
+    "cap": "unlimited",
+    "observedFps": 144
+  },
+  {
+    "displayHz": 240,
+    "cap": 30,
+    "observedFps": 30
+  },
+  {
+    "displayHz": 240,
+    "cap": 60,
+    "observedFps": 60
+  },
+  {
+    "displayHz": 240,
+    "cap": 120,
+    "observedFps": 120
+  },
+  {
+    "displayHz": 240,
+    "cap": 240,
+    "observedFps": 240
+  },
+  {
+    "displayHz": 240,
+    "cap": "unlimited",
+    "observedFps": 240
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Merged shape passive and permanent evolution apply together",
+    "pass": true
+  },
+  {
+    "name": "Tabs retain equipped evolution and nickname while hiding other tab sections",
+    "pass": true
+  },
+  {
+    "name": "Adaptive hash does not enlarge the unequipped life scanner",
+    "pass": true
+  },
+  {
+    "name": "Both save formats preserve new attachment fields and current expedition state",
+    "pass": true
+  },
+  {
+    "name": "New sandbox statistics never credit normal journey records",
+    "pass": true
+  },
+  {
+    "name": "Both source additions remain available across stellar and black-hole rendering",
+    "pass": true
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "version": "3.6.0",
+  "method": "Production classic-script isolated runtimes and native software Canvas. Not a browser runtime.",
+  "suites": {
+    "physics": {
+      "passed": 116,
+      "total": 116
+    },
+    "branch": {
+      "passed": 16,
+      "total": 16
+    },
+    "supernova": {
+      "passed": 36,
+      "total": 36
+    },
+    "interstallar": {
+      "passed": 11,
+      "total": 11
+    },
+    "advancements": {
+      "passed": 28,
+      "total": 28
+    },
+    "slots": {
+      "passed": 13,
+      "total": 13
+    },
+    "collection": {
+      "passed": 11,
+      "total": 11
+    },
+    "plaques": {
+      "passed": 9,
+      "total": 9
+    },
+    "animation": {
+      "passed": 45,
+      "total": 45
+    },
+    "gallery": {
+      "passed": 5,
+      "total": 5
+    },
+    "camera": {
+      "passed": 19,
+      "total": 19
+    }
+  },
+  "passed": 309,
+  "total": 309,
+  "browserFileLaunch": "Blocked: Chromium exited before opening a page. Console, CSS, browser FPS and file-origin storage behavior not verified.",
+  "preservedArchitecture": "21 ordered window.AC scripts, no module imports, workers, fetch or runtime dependencies",
+  "surfaces": {
+    "pendingMapCap": 2,
+    "highMapCap": 24,
+    "performanceMapCap": 12,
+    "ordinaryAnimatedHigh": 3,
+    "ordinaryAnimatedPerformance": 1,
+    "playerAndSelectionReserved": true,
+    "softRowBudgetMsHigh": 2,
+    "softRowBudgetMsPerformance": 1.2
+  }
+}

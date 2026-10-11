@@ -1,0 +1,269 @@
+{
+  "method": "Native software Canvas components on this execution host: 40 warm-up and 120 samples with pixel readback. Galaxy layer and 640 x 260 management chart measured separately. These timings are not browser, GPU or whole-game FPS measurements.",
+  "results": [
+    {
+      "mode": "High",
+      "phase": "Approach",
+      "worldLayer": {
+        "medianMs": 0.938,
+        "p95Ms": 1.071,
+        "samples": 120
+      },
+      "managementDiagram": {
+        "medianMs": 1.437,
+        "p95Ms": 1.55,
+        "samples": 120
+      },
+      "cachedTracers": 960,
+      "maximumDrawSamples": 480,
+      "glowStamps": 2
+    },
+    {
+      "mode": "High",
+      "phase": "First passage",
+      "worldLayer": {
+        "medianMs": 1.888,
+        "p95Ms": 2.174,
+        "samples": 120
+      },
+      "managementDiagram": {
+        "medianMs": 1.445,
+        "p95Ms": 1.707,
+        "samples": 120
+      },
+      "cachedTracers": 960,
+      "maximumDrawSamples": 480,
+      "glowStamps": 2
+    },
+    {
+      "mode": "High",
+      "phase": "Tidal return",
+      "worldLayer": {
+        "medianMs": 2.185,
+        "p95Ms": 2.551,
+        "samples": 120
+      },
+      "managementDiagram": {
+        "medianMs": 1.452,
+        "p95Ms": 1.753,
+        "samples": 120
+      },
+      "cachedTracers": 960,
+      "maximumDrawSamples": 480,
+      "glowStamps": 2
+    },
+    {
+      "mode": "High",
+      "phase": "Core coalescence",
+      "worldLayer": {
+        "medianMs": 2.802,
+        "p95Ms": 3.052,
+        "samples": 120
+      },
+      "managementDiagram": {
+        "medianMs": 1.466,
+        "p95Ms": 1.617,
+        "samples": 120
+      },
+      "cachedTracers": 960,
+      "maximumDrawSamples": 480,
+      "glowStamps": 2
+    },
+    {
+      "mode": "High",
+      "fullRegionBackpressure": {
+        "attempts": 20000,
+        "elapsedMs": 28.321,
+        "accepted": 0,
+        "before": {
+          "bodies": 1,
+          "reservoir": 61035156250,
+          "released": 0
+        },
+        "after": {
+          "bodies": 1,
+          "reservoir": 61035156250,
+          "released": 0,
+          "regions": 8,
+          "cells": 224
+        }
+      }
+    },
+    {
+      "mode": "Performance",
+      "phase": "Approach",
+      "worldLayer": {
+        "medianMs": 0.494,
+        "p95Ms": 0.659,
+        "samples": 120
+      },
+      "managementDiagram": {
+        "medianMs": 0.476,
+        "p95Ms": 0.588,
+        "samples": 120
+      },
+      "cachedTracers": 960,
+      "maximumDrawSamples": 160,
+      "glowStamps": 0
+    },
+    {
+      "mode": "Performance",
+      "phase": "First passage",
+      "worldLayer": {
+        "medianMs": 0.55,
+        "p95Ms": 0.693,
+        "samples": 120
+      },
+      "managementDiagram": {
+        "medianMs": 0.491,
+        "p95Ms": 0.631,
+        "samples": 120
+      },
+      "cachedTracers": 960,
+      "maximumDrawSamples": 160,
+      "glowStamps": 0
+    },
+    {
+      "mode": "Performance",
+      "phase": "Tidal return",
+      "worldLayer": {
+        "medianMs": 0.51,
+        "p95Ms": 0.594,
+        "samples": 120
+      },
+      "managementDiagram": {
+        "medianMs": 0.49,
+        "p95Ms": 0.593,
+        "samples": 120
+      },
+      "cachedTracers": 960,
+      "maximumDrawSamples": 160,
+      "glowStamps": 0
+    },
+    {
+      "mode": "Performance",
+      "phase": "Core coalescence",
+      "worldLayer": {
+        "medianMs": 0.51,
+        "p95Ms": 0.606,
+        "samples": 120
+      },
+      "managementDiagram": {
+        "medianMs": 0.493,
+        "p95Ms": 0.598,
+        "samples": 120
+      },
+      "cachedTracers": 960,
+      "maximumDrawSamples": 160,
+      "glowStamps": 0
+    },
+    {
+      "mode": "Performance",
+      "fullRegionBackpressure": {
+        "attempts": 20000,
+        "elapsedMs": 26.236,
+        "accepted": 0,
+        "before": {
+          "bodies": 1,
+          "reservoir": 61035156250,
+          "released": 0
+        },
+        "after": {
+          "bodies": 1,
+          "reservoir": 61035156250,
+          "released": 0,
+          "regions": 8,
+          "cells": 224
+        }
+      }
+    },
+    {
+      "mode": "Adaptive",
+      "phase": "Approach",
+      "worldLayer": {
+        "medianMs": 0.49,
+        "p95Ms": 0.603,
+        "samples": 120
+      },
+      "managementDiagram": {
+        "medianMs": 0.477,
+        "p95Ms": 0.555,
+        "samples": 120
+      },
+      "cachedTracers": 960,
+      "maximumDrawSamples": 160,
+      "glowStamps": 0
+    },
+    {
+      "mode": "Adaptive",
+      "phase": "First passage",
+      "worldLayer": {
+        "medianMs": 0.549,
+        "p95Ms": 0.65,
+        "samples": 120
+      },
+      "managementDiagram": {
+        "medianMs": 0.491,
+        "p95Ms": 0.595,
+        "samples": 120
+      },
+      "cachedTracers": 960,
+      "maximumDrawSamples": 160,
+      "glowStamps": 0
+    },
+    {
+      "mode": "Adaptive",
+      "phase": "Tidal return",
+      "worldLayer": {
+        "medianMs": 0.522,
+        "p95Ms": 0.677,
+        "samples": 120
+      },
+      "managementDiagram": {
+        "medianMs": 0.492,
+        "p95Ms": 0.608,
+        "samples": 120
+      },
+      "cachedTracers": 960,
+      "maximumDrawSamples": 160,
+      "glowStamps": 0
+    },
+    {
+      "mode": "Adaptive",
+      "phase": "Core coalescence",
+      "worldLayer": {
+        "medianMs": 0.512,
+        "p95Ms": 0.667,
+        "samples": 120
+      },
+      "managementDiagram": {
+        "medianMs": 0.485,
+        "p95Ms": 0.57,
+        "samples": 120
+      },
+      "cachedTracers": 960,
+      "maximumDrawSamples": 160,
+      "glowStamps": 0
+    },
+    {
+      "mode": "Adaptive",
+      "fullRegionBackpressure": {
+        "attempts": 20000,
+        "elapsedMs": 27.58,
+        "accepted": 0,
+        "before": {
+          "bodies": 1,
+          "reservoir": 61035156250,
+          "released": 0
+        },
+        "after": {
+          "bodies": 1,
+          "reservoir": 61035156250,
+          "released": 0,
+          "regions": 8,
+          "cells": 224
+        }
+      }
+    }
+  ]
+}

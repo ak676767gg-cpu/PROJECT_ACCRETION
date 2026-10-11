@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Version-1 migration preserves run, pets, nicknames, records and settings",
+    "pass": true
+  },
+  {
+    "name": "Two evolutions, pauses and settings writes do not advance the checkpoint",
+    "pass": true
+  },
+  {
+    "name": "Third evolution atomically saves world, resource claims, pets and achievements",
+    "pass": true
+  },
+  {
+    "name": "Three more evolutions are required after a milestone or manual save",
+    "pass": true
+  },
+  {
+    "name": "Reload rolls back the whole unsaved journey without duplicating resources",
+    "pass": true
+  },
+  {
+    "name": "Slot toggles preserve three independent journeys and companion collections",
+    "pass": true
+  },
+  {
+    "name": "Disabling cadence restores timed saves and settings remain global",
+    "pass": true
+  },
+  {
+    "name": "Game over records the result and clears only the active run",
+    "pass": true
+  },
+  {
+    "name": "Admin method, menu and keyboard shortcut have been removed",
+    "pass": true
+  },
+  {
+    "name": "Companion live preview animates and all 50 species render",
+    "pass": true
+  },
+  {
+    "name": "Size controls persist and do not change buffs; reduced motion freezes creatures",
+    "pass": true
+  },
+  {
+    "name": "Twenty restarts and slot switches add no RAF loops or event listeners",
+    "pass": true
+  },
+  {
+    "name": "Failed storage does not falsely advance the last successful checkpoint",
+    "pass": true
+  }
+]

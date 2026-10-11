@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Nicknames save with existing collection and survive reload/restart",
+    "pass": true
+  },
+  {
+    "name": "Nickname markup remains plain text and Enter saves without flight input",
+    "pass": true
+  },
+  {
+    "name": "Reset restores species name and old saves migrate safely",
+    "pass": true
+  },
+  {
+    "name": "H toggles during flight only, ignores repeat, and preserves simulation",
+    "pass": true
+  },
+  {
+    "name": "Pause remains visible, resume remembers quiet flight, and restart restores HUD",
+    "pass": true
+  },
+  {
+    "name": "No extra event listeners or animation loops from repeated rename/toggle",
+    "pass": true
+  }
+]

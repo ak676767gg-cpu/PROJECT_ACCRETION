@@ -1,0 +1,7 @@
+{
+  "definitionScripts": 19,
+  "checksPassed": 93,
+  "noGameLoop": true,
+  "restoresSandboxAndSavedState": true,
+  "runtime": "isolated VM; not a browser"
+}

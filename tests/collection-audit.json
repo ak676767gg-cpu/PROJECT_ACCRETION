@@ -1,0 +1,16 @@
+{
+  "uniqueTitles": {
+    "Sources and implementation | ACCRETION": "sources.html",
+    "Terms and conditions | ACCRETION": "terms.html",
+    "Privacy policy | ACCRETION": "privacy.html",
+    "ACCRETION | Offline space evolution game": "index.html",
+    "Page not found | ACCRETION": "404.html",
+    "Cosmic system integration diagnostics | ACCRETION": "tests/cosmic-tests.html",
+    "Physics and progression diagnostics | ACCRETION": "tests/physics-tests.html",
+    "Life Lab integration diagnostics | ACCRETION": "tests/life-tests.html"
+  },
+  "localReferences": 174,
+  "syntax": "PASS",
+  "remoteRuntimeDependencies": 0,
+  "issues": []
+}

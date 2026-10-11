@@ -1,0 +1,515 @@
+{
+  "automatedChecksPassed": 111,
+  "suites": {
+    "run-tests": [
+      {
+        "name": "Astronomical landmarks, continuity, and tiny-fragment units",
+        "pass": true,
+        "ms": 0.4405869999999936
+      },
+      {
+        "name": "Spatial partition finds neighbors across cell boundaries",
+        "pass": true,
+        "ms": 0.39783199999999397
+      },
+      {
+        "name": "Bound objects follow curved orbits instead of radial homing",
+        "pass": true,
+        "ms": 4.88043399999998
+      },
+      {
+        "name": "Bound orbits dissipate energy into eventual absorption",
+        "pass": true,
+        "ms": 13.974152000000004
+      },
+      {
+        "name": "Above-escape-speed objects can leave a gravity well",
+        "pass": true,
+        "ms": 8.920717000000025
+      },
+      {
+        "name": "Massive bodies deflect passing flight trajectories",
+        "pass": true,
+        "ms": 6.835030999999958
+      },
+      {
+        "name": "Absorption conserves mass including shed fragments and mixes momentum",
+        "pass": true,
+        "ms": 0.22460000000000946
+      },
+      {
+        "name": "Similar-mass collisions bounce and produce recoverable debris",
+        "pass": true,
+        "ms": 0.30645300000003317
+      },
+      {
+        "name": "High-speed impacts shed more mass than slow captures",
+        "pass": true,
+        "ms": 0.23518599999999878
+      },
+      {
+        "name": "A stronger rival cannot end a healthy player in one impact",
+        "pass": true,
+        "ms": 0.3626689999999826
+      },
+      {
+        "name": "Spawn protection allows safe captures but blocks dangerous impacts",
+        "pass": true,
+        "ms": 0.142866999999967
+      },
+      {
+        "name": "Repeated severe impacts eventually produce game over",
+        "pass": true,
+        "ms": 2.526982999999973
+      },
+      {
+        "name": "Relaxed difficulty reduces damage and fragmentation",
+        "pass": true,
+        "ms": 0.47982600000000275
+      },
+      {
+        "name": "AI competitors absorb and evolve without player participation",
+        "pass": true,
+        "ms": 0.9504380000000197
+      },
+      {
+        "name": "Cautious AI flees a nearby dominant body",
+        "pass": true,
+        "ms": 0.11443300000001955
+      },
+      {
+        "name": "Aggressive AI hunts a weaker player",
+        "pass": true,
+        "ms": 0.1027960000000121
+      },
+      {
+        "name": "Upgrade choices require points and apply stacking effects",
+        "pass": true,
+        "ms": 0.7696450000000254
+      },
+      {
+        "name": "Boost consumes energy and increases acceleration",
+        "pass": true,
+        "ms": 0.11759799999998677
+      },
+      {
+        "name": "Save serialization preserves position, velocity, rivals and upgrades",
+        "pass": true,
+        "ms": 0.5571329999999648
+      },
+      {
+        "name": "Repeated checkpoints do not double-count lifetime statistics",
+        "pass": true,
+        "ms": 0.2939649999999574
+      },
+      {
+        "name": "Corrupt and non-finite saved bodies are rejected",
+        "pass": true,
+        "ms": 0.13344200000000228
+      },
+      {
+        "name": "Procedural streaming maintains resources while travelling",
+        "pass": true,
+        "ms": 50.673204999999996
+      },
+      {
+        "name": "Gravity remains finite at fifteen astronomical stages",
+        "pass": true,
+        "ms": 29.513072000000022
+      },
+      {
+        "name": "Very unequal masses avoid pathological spatial scans",
+        "pass": true,
+        "ms": 0.4115929999999821
+      },
+      {
+        "name": "Stable orbit classification distinguishes circular capture and escape",
+        "pass": true,
+        "ms": 50.64514300000002
+      },
+      {
+        "name": "Rival star builds a stable hierarchical planet and moon system",
+        "pass": true,
+        "ms": 113.44474100000008
+      },
+      {
+        "name": "Player can steal a rival world when the new gravity well dominates",
+        "pass": true,
+        "ms": 41.613248
+      },
+      {
+        "name": "Passing massive rival destabilizes the player outer system",
+        "pass": true,
+        "ms": 27.422990000000027
+      },
+      {
+        "name": "Rival black hole strips stored disk matter without instant mass credit",
+        "pass": true,
+        "ms": 0.8492449999999963
+      },
+      {
+        "name": "Black-hole inner transfer has a meaningful delay and conserves mass",
+        "pass": true,
+        "ms": 31.605898000000025
+      },
+      {
+        "name": "Extended achievements and lifetime counters are idempotent",
+        "pass": true,
+        "ms": 125.01363800000001
+      },
+      {
+        "name": "A genuine rotating reservoir unlocks the disk achievement",
+        "pass": true,
+        "ms": 6.833618999999999
+      },
+      {
+        "name": "Black-hole merger achievement requires substantial inner assimilation",
+        "pass": true,
+        "ms": 61.07185900000002
+      },
+      {
+        "name": "Surviving a disturbance awards the existing achievement system",
+        "pass": true,
+        "ms": 31.959002000000055
+      },
+      {
+        "name": "Rival hierarchy, disk ownership and new counters survive checkpoint",
+        "pass": true,
+        "ms": 73.13707299999999
+      },
+      {
+        "name": "A destroyed parent safely releases children without a reference error",
+        "pass": true,
+        "ms": 48.367661999999996
+      },
+      {
+        "name": "System adaptations stack in the existing ranked choice list",
+        "pass": true,
+        "ms": 0.3621180000000095
+      },
+      {
+        "name": "Fifty unique companion recipes span five disclosed rarities",
+        "pass": true,
+        "ms": 0.10207400000012967
+      },
+      {
+        "name": "Asteroid collisions collect water and DNA once, without instant mass credit",
+        "pass": true,
+        "ms": 0.5428809999998521
+      },
+      {
+        "name": "Spawned fields carry finite life samples and pooled bodies reset resources",
+        "pass": true,
+        "ms": 4.558476000000155
+      },
+      {
+        "name": "DNA egg recipes deduct exact costs and reject duplicates or insufficient resources",
+        "pass": true,
+        "ms": 0.16933700000004137
+      },
+      {
+        "name": "Every named DNA recipe can hatch and equip its exact companion",
+        "pass": true,
+        "ms": 2.066827000000103
+      },
+      {
+        "name": "Companion buffs resolve all five rarity tiers including the new shape passives",
+        "pass": true,
+        "ms": 0.34121600000003127
+      },
+      {
+        "name": "Discovery wheel maps the documented 59/35/5/1 odds across ten thousand samples",
+        "pass": true,
+        "ms": 3.736022999999932
+      },
+      {
+        "name": "New lifetime statistics initialise, increment once, and survive a save round trip",
+        "pass": true,
+        "ms": 30.123374999999896
+      },
+      {
+        "name": "System stability bonus is zero after a disturbance and returns after thirty quiet seconds",
+        "pass": true,
+        "ms": 13.831786000000193
+      },
+      {
+        "name": "Companion collection normalization preserves valid discoveries and rejects invalid eggs",
+        "pass": true,
+        "ms": 0.31951299999991534
+      },
+      {
+        "name": "Planetary composition conserves weighted fractions and affects density",
+        "pass": true,
+        "ms": 0.10772300000007817
+      },
+      {
+        "name": "Moving habitable zones and surface climate use the current stellar source",
+        "pass": true,
+        "ms": 0.38056600000004437
+      },
+      {
+        "name": "Measured 2:1 stable orbits earn and lose the resonance bonus",
+        "pass": true,
+        "ms": 79.14802699999996
+      }
+    ],
+    "slots-check": [
+      {
+        "name": "Version-1 migration preserves run, pets, nicknames, records and settings",
+        "pass": true
+      },
+      {
+        "name": "Two evolutions, pauses and settings writes do not advance the checkpoint",
+        "pass": true
+      },
+      {
+        "name": "Third evolution atomically saves world, resource claims, pets and achievements",
+        "pass": true
+      },
+      {
+        "name": "Three more evolutions are required after a milestone or manual save",
+        "pass": true
+      },
+      {
+        "name": "Reload rolls back the whole unsaved journey without duplicating resources",
+        "pass": true
+      },
+      {
+        "name": "Slot toggles preserve three independent journeys and companion collections",
+        "pass": true
+      },
+      {
+        "name": "Disabling cadence restores timed saves and settings remain global",
+        "pass": true
+      },
+      {
+        "name": "Game over records the result and clears only the active run",
+        "pass": true
+      },
+      {
+        "name": "Admin method, menu and keyboard shortcut have been removed",
+        "pass": true
+      },
+      {
+        "name": "Companion live preview animates and all 50 species render",
+        "pass": true
+      },
+      {
+        "name": "Size controls persist and do not change buffs; reduced motion freezes creatures",
+        "pass": true
+      },
+      {
+        "name": "Twenty restarts and slot switches add no RAF loops or event listeners",
+        "pass": true
+      },
+      {
+        "name": "Failed storage does not falsely advance the last successful checkpoint",
+        "pass": true
+      }
+    ],
+    "life-integration": [
+      {
+        "name": "Life Lab works from main menu with all fifty procedurally rendered cards",
+        "pass": true
+      },
+      {
+        "name": "Craft, active-flight incubation, pause, hatch, equip and unequip",
+        "pass": true
+      },
+      {
+        "name": "Reload restores companion, egg progress, samples and claimed asteroid together",
+        "pass": true
+      },
+      {
+        "name": "Repeated restarts retain collection without multiplying listeners or animation loops",
+        "pass": true
+      },
+      {
+        "name": "Companion scanner reveals samples farther away without creating physics entities",
+        "pass": true
+      }
+    ],
+    "editorial-check": [
+      {
+        "name": "Mouse-down updates its target without requiring a prior mousemove",
+        "pass": true
+      },
+      {
+        "name": "Leaving the playfield stops mouse steering and preserves keyboard thrust",
+        "pass": true
+      },
+      {
+        "name": "Steering has a small center dead zone and ignores menu clicks",
+        "pass": true
+      },
+      {
+        "name": "All retained menus have meaningful dialog labels",
+        "pass": true
+      },
+      {
+        "name": "Adaptations use numbered marks and remain selectable",
+        "pass": true
+      },
+      {
+        "name": "Saved mute preference has an accurate initial label",
+        "pass": true
+      },
+      {
+        "name": "All 21 classes render, update menus and retain finite state without runtime logging errors",
+        "pass": true
+      },
+      {
+        "name": "404 links remain relative offline and resolve from the host root online",
+        "pass": true
+      },
+      {
+        "name": "Menu and runtime version match the delivered package",
+        "pass": true
+      }
+    ],
+    "expedition-check": [
+      {
+        "name": "Galaxy chart survives checkpoint, reload and floating-origin rebasing",
+        "pass": true,
+        "ms": 114.56793499999998
+      },
+      {
+        "name": "Extraction depletes the same sector that drives future galactic matter",
+        "pass": true,
+        "ms": 77.59849200000002
+      },
+      {
+        "name": "Pet evolution requires bond and experience; forks preserve species rarity and buffs",
+        "pass": true,
+        "ms": 74.03514100000007
+      },
+      {
+        "name": "Planet composition changes radius, mixes by mass and resets pooled state",
+        "pass": true,
+        "ms": 81.53340600000001
+      },
+      {
+        "name": "Habitable zone moves with stellar growth and climate reflects atmosphere and flare heat",
+        "pass": true,
+        "ms": 76.58865400000002
+      },
+      {
+        "name": "Physical stable 2:1 orbits acquire a bonus after dwell and lose it when disturbed",
+        "pass": true,
+        "ms": 230.88258699999994
+      },
+      {
+        "name": "Planet and moon retain hierarchical parentage during coasting",
+        "pass": true,
+        "ms": 193.6811879999999
+      },
+      {
+        "name": "Flare is forecast before a physical wave strips atmosphere and perturbs velocity once",
+        "pass": true,
+        "ms": 70.56322799999998
+      },
+      {
+        "name": "Magnetar encounter is an actual compact source and wave state reloads safely",
+        "pass": true,
+        "ms": 71.21969200000012
+      },
+      {
+        "name": "Sandbox grants and deaths never alter normal-slot resources, records or achievements",
+        "pass": true,
+        "ms": 249.87304399999994
+      },
+      {
+        "name": "Replay samples live positions without mutating physics and survives game over",
+        "pass": true,
+        "ms": 126.97956299999987
+      },
+      {
+        "name": "Photo pauses simulation, exports a PNG canvas and restores the exact camera and state",
+        "pass": true,
+        "ms": 239.72943699999996
+      },
+      {
+        "name": "New controls, paused map/replay rendering and all pet branches draw without errors",
+        "pass": true,
+        "ms": 191.1069590000002
+      },
+      {
+        "name": "Replay browsing follows the selected save, not the previous live scene",
+        "pass": true,
+        "ms": 87.68394100000023
+      },
+      {
+        "name": "Companion specializations have distinct procedural silhouettes",
+        "pass": true,
+        "ms": 63.02428199999986
+      },
+      {
+        "name": "Twenty restarts and mode switches add no loops, listeners or accumulated replay frames",
+        "pass": true,
+        "ms": 2388.3770970000005
+      },
+      {
+        "name": "New procedural cue names use the existing synthesizer without parallel audio objects",
+        "pass": true,
+        "ms": 66.07371599999988
+      },
+      {
+        "name": "Malformed expedition reservoirs are rejected and new panels have precise accessible labels",
+        "pass": true,
+        "ms": 101.80286199999955
+      }
+    ],
+    "merge-check": [
+      {
+        "name": "Merged shape passive and permanent evolution apply together",
+        "pass": true
+      },
+      {
+        "name": "Tabs retain equipped evolution and nickname while hiding other tab sections",
+        "pass": true
+      },
+      {
+        "name": "Adaptive hash does not enlarge the unequipped life scanner",
+        "pass": true
+      },
+      {
+        "name": "Both save formats preserve new attachment fields and current expedition state",
+        "pass": true
+      },
+      {
+        "name": "New sandbox statistics never credit normal journey records",
+        "pass": true
+      },
+      {
+        "name": "Both source additions remain available across stellar and black-hole rendering",
+        "pass": true
+      }
+    ],
+    "wheel-check": {
+      "passed": 10,
+      "odds": [
+        5900,
+        0,
+        3500,
+        500,
+        100
+      ]
+    }
+  },
+  "audit": {
+    "uniqueTitles": {
+      "Page not found | ACCRETION": "404.html",
+      "Sources and implementation | ACCRETION": "sources.html",
+      "Privacy policy | ACCRETION": "privacy.html",
+      "ACCRETION | Offline space evolution game": "index.html",
+      "Terms and conditions | ACCRETION": "terms.html",
+      "Cosmic system integration diagnostics | ACCRETION": "tests/cosmic-tests.html",
+      "Life Lab integration diagnostics | ACCRETION": "tests/life-tests.html",
+      "Physics and progression diagnostics | ACCRETION": "tests/physics-tests.html"
+    },
+    "localReferences": 174,
+    "syntax": "PASS",
+    "remoteRuntimeDependencies": 0,
+    "issues": []
+  }
+}

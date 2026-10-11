@@ -1,0 +1,217 @@
+{
+  "level": "V1",
+  "method": "Fresh isolated production runtimes plus exact original-source hashes. Not a browser UX audit.",
+  "checks": [
+    {
+      "name": "STAGES",
+      "pass": true,
+      "evidence": "Production namespace table compared recursively through JSON, pristine 3.7.0 versus 3.8.0."
+    },
+    {
+      "name": "FLIGHT",
+      "pass": true,
+      "evidence": "Production namespace table compared recursively through JSON, pristine 3.7.0 versus 3.8.0."
+    },
+    {
+      "name": "PETS",
+      "pass": true,
+      "evidence": "Production namespace table compared recursively through JSON, pristine 3.7.0 versus 3.8.0."
+    },
+    {
+      "name": "PET_BUFFS",
+      "pass": true,
+      "evidence": "Production namespace table compared recursively through JSON, pristine 3.7.0 versus 3.8.0."
+    },
+    {
+      "name": "PET_PASSIVES",
+      "pass": true,
+      "evidence": "Production namespace table compared recursively through JSON, pristine 3.7.0 versus 3.8.0."
+    },
+    {
+      "name": "PET_PASSIVE_SHAPES",
+      "pass": true,
+      "evidence": "Production namespace table compared recursively through JSON, pristine 3.7.0 versus 3.8.0."
+    },
+    {
+      "name": "PASSIVE_KEYS",
+      "pass": true,
+      "evidence": "Production namespace table compared recursively through JSON, pristine 3.7.0 versus 3.8.0."
+    },
+    {
+      "name": "RARITIES",
+      "pass": true,
+      "evidence": "Production namespace table compared recursively through JSON, pristine 3.7.0 versus 3.8.0."
+    },
+    {
+      "name": "EGG_FLAVOUR",
+      "pass": true,
+      "evidence": "Production namespace table compared recursively through JSON, pristine 3.7.0 versus 3.8.0."
+    },
+    {
+      "name": "UPGRADES",
+      "pass": true,
+      "evidence": "Production namespace table compared recursively through JSON, pristine 3.7.0 versus 3.8.0."
+    },
+    {
+      "name": "COSMETICS",
+      "pass": true,
+      "evidence": "Production namespace table compared recursively through JSON, pristine 3.7.0 versus 3.8.0."
+    },
+    {
+      "name": "THEMES",
+      "pass": true,
+      "evidence": "Production namespace table compared recursively through JSON, pristine 3.7.0 versus 3.8.0."
+    },
+    {
+      "name": "BLUEPRINTS",
+      "pass": true,
+      "evidence": "Production namespace table compared recursively through JSON, pristine 3.7.0 versus 3.8.0."
+    },
+    {
+      "name": "LEGACY_TRIALS",
+      "pass": true,
+      "evidence": "Production namespace table compared recursively through JSON, pristine 3.7.0 versus 3.8.0."
+    },
+    {
+      "name": "SUPERNOVA_PATHS",
+      "pass": true,
+      "evidence": "Production namespace table compared recursively through JSON, pristine 3.7.0 versus 3.8.0."
+    },
+    {
+      "name": "GALAXY_PHASES",
+      "pass": true,
+      "evidence": "Production namespace table compared recursively through JSON, pristine 3.7.0 versus 3.8.0."
+    },
+    {
+      "name": "GALAXY_COLLISION_SECONDS",
+      "pass": true,
+      "evidence": "Production namespace table compared recursively through JSON, pristine 3.7.0 versus 3.8.0."
+    },
+    {
+      "name": "achievementBranches",
+      "pass": true,
+      "evidence": "Production namespace table compared recursively through JSON, pristine 3.7.0 versus 3.8.0."
+    },
+    {
+      "name": "All original achievementDefs",
+      "pass": true,
+      "oldCount": 54,
+      "newCount": 59,
+      "evidence": "Every original ID, string, branch, connection, badge and target compared; only additions permitted."
+    },
+    {
+      "name": "All original achievementInfo",
+      "pass": true,
+      "oldCount": 54,
+      "newCount": 59,
+      "evidence": "Every original ID, string, branch, connection, badge and target compared; only additions permitted."
+    },
+    {
+      "name": "radiusSamples",
+      "pass": true,
+      "evidence": "Same production results and function source for retained calculations."
+    },
+    {
+      "name": "physics",
+      "pass": true,
+      "evidence": "Same production results and function source for retained calculations."
+    },
+    {
+      "name": "dock",
+      "pass": true,
+      "evidence": "Same production results and function source for retained calculations."
+    },
+    {
+      "name": "js/ai.js",
+      "pass": true,
+      "sha256": "704924a41412ac6d76bdb453c8fc9d7075e5f0f3fbd088e3cedbb5a1023e5248",
+      "evidence": "Byte-for-byte unchanged original file. Covers wheel/resource odds, buffs, incubators, body budgets, AI personalities, feeding/orbits, adaptation effects, weather/encounter, camera input and publication constraints."
+    },
+    {
+      "name": "js/cosmic.js",
+      "pass": true,
+      "sha256": "17fb49e8a7ba2c6be260dadbecfd55aa3b1bc260f9955971652a024286e25a08",
+      "evidence": "Byte-for-byte unchanged original file. Covers wheel/resource odds, buffs, incubators, body budgets, AI personalities, feeding/orbits, adaptation effects, weather/encounter, camera input and publication constraints."
+    },
+    {
+      "name": "js/cosmic-ui.js",
+      "pass": true,
+      "sha256": "3ee5959749e7112cc62550ded86cd993be8a3b4c9493b8f5eef2cd944c5822e3",
+      "evidence": "Byte-for-byte unchanged original file. Covers wheel/resource odds, buffs, incubators, body budgets, AI personalities, feeding/orbits, adaptation effects, weather/encounter, camera input and publication constraints."
+    },
+    {
+      "name": "js/effects.js",
+      "pass": true,
+      "sha256": "1afea120f3637a75aa7f0823024f38345ee732c5d48e3c66de30954a0e9d6c3a",
+      "evidence": "Byte-for-byte unchanged original file. Covers wheel/resource odds, buffs, incubators, body budgets, AI personalities, feeding/orbits, adaptation effects, weather/encounter, camera input and publication constraints."
+    },
+    {
+      "name": "js/expedition.js",
+      "pass": true,
+      "sha256": "8d739c7ff8af6bf8d227a760d056d5c190a9b41df36e142cac4fc0681579f761",
+      "evidence": "Byte-for-byte unchanged original file. Covers wheel/resource odds, buffs, incubators, body budgets, AI personalities, feeding/orbits, adaptation effects, weather/encounter, camera input and publication constraints."
+    },
+    {
+      "name": "js/expedition-ui.js",
+      "pass": true,
+      "sha256": "fcdedd5b39247dae066ba13dbc4a03b5bdfca04bda8b30e4cdda72bb0e65e81a",
+      "evidence": "Byte-for-byte unchanged original file. Covers wheel/resource odds, buffs, incubators, body budgets, AI personalities, feeding/orbits, adaptation effects, weather/encounter, camera input and publication constraints."
+    },
+    {
+      "name": "js/life.js",
+      "pass": true,
+      "sha256": "709503b96ff1165cb1782c6571b19534e7b52185be842e0616c59b512905fe70",
+      "evidence": "Byte-for-byte unchanged original file. Covers wheel/resource odds, buffs, incubators, body budgets, AI personalities, feeding/orbits, adaptation effects, weather/encounter, camera input and publication constraints."
+    },
+    {
+      "name": "js/planetary.js",
+      "pass": true,
+      "sha256": "c88b8da741865d4bb28bbb091d154cf8a8899b548e3fb9afea57af27e3e7e3ea",
+      "evidence": "Byte-for-byte unchanged original file. Covers wheel/resource odds, buffs, incubators, body budgets, AI personalities, feeding/orbits, adaptation effects, weather/encounter, camera input and publication constraints."
+    },
+    {
+      "name": "js/player.js",
+      "pass": true,
+      "sha256": "418a287d266a763c8d8a0e0846973a8e8047d29166a769d5395f8d1a13156c46",
+      "evidence": "Byte-for-byte unchanged original file. Covers wheel/resource odds, buffs, incubators, body budgets, AI personalities, feeding/orbits, adaptation effects, weather/encounter, camera input and publication constraints."
+    },
+    {
+      "name": "js/upgrades.js",
+      "pass": true,
+      "sha256": "2b9a34a6dab853319d846f20353217301419a5aa368dd9c62a2d41a1ae68d032",
+      "evidence": "Byte-for-byte unchanged original file. Covers wheel/resource odds, buffs, incubators, body budgets, AI personalities, feeding/orbits, adaptation effects, weather/encounter, camera input and publication constraints."
+    },
+    {
+      "name": "js/world.js",
+      "pass": true,
+      "sha256": "e8909933378c4004820d37ec8110f1f2d3097e3666aca489598f36e02c53b907",
+      "evidence": "Byte-for-byte unchanged original file. Covers wheel/resource odds, buffs, incubators, body budgets, AI personalities, feeding/orbits, adaptation effects, weather/encounter, camera input and publication constraints."
+    },
+    {
+      "name": "js/supernova-rendering.js",
+      "pass": true,
+      "sha256": "13d5462ff012b713dbd9133aab0ac784dd5ad5147c048f2237e58c4eb111ac64",
+      "evidence": "Byte-for-byte unchanged original file. Covers wheel/resource odds, buffs, incubators, body budgets, AI personalities, feeding/orbits, adaptation effects, weather/encounter, camera input and publication constraints."
+    },
+    {
+      "name": "LICENSE.txt",
+      "pass": true,
+      "sha256": "8c70cfd32bbc63a7404c290fa9162e2bec6a82dfd7d457be893c390c47a53588",
+      "evidence": "Byte-for-byte unchanged original file. Covers wheel/resource odds, buffs, incubators, body budgets, AI personalities, feeding/orbits, adaptation effects, weather/encounter, camera input and publication constraints."
+    },
+    {
+      "name": "robots.txt",
+      "pass": true,
+      "sha256": "41fc70c606513b2bdb66d03a28e2258d0abc18e443e75ac28dfe1a1c6532bc54",
+      "evidence": "Byte-for-byte unchanged original file. Covers wheel/resource odds, buffs, incubators, body budgets, AI personalities, feeding/orbits, adaptation effects, weather/encounter, camera input and publication constraints."
+    },
+    {
+      "name": "sitemap.xml",
+      "pass": true,
+      "sha256": "f27716aed5b1914bb0327db50233eab5ee78e2606ae332a973bc06c8ce169c50",
+      "evidence": "Byte-for-byte unchanged original file. Covers wheel/resource odds, buffs, incubators, body budgets, AI personalities, feeding/orbits, adaptation effects, weather/encounter, camera input and publication constraints."
+    }
+  ],
+  "pass": 38,
+  "fail": 0
+}

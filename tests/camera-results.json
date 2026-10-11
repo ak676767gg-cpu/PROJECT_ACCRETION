@@ -1,0 +1,78 @@
+[
+  {
+    "name": "Camera locks to the interpolated body center at all 21 classes and all render phases",
+    "pass": true
+  },
+  {
+    "name": "Production drawing stays centered through high speed, depth, pause and selected-system view",
+    "pass": true
+  },
+  {
+    "name": "Background uses the same camera transform as bodies and the forecast",
+    "pass": true
+  },
+  {
+    "name": "Photo mode keeps its free camera and restores the saved camera without forcing a lock",
+    "pass": true
+  },
+  {
+    "name": "R recenters and resets zoom while photo controls remain independent",
+    "pass": true
+  },
+  {
+    "name": "Depth-aware camera and pointer remain aligned after floating-origin rebasing",
+    "pass": true
+  },
+  {
+    "name": "Resize, cinematic zoom and restart cannot displace the locked body",
+    "pass": true
+  },
+  {
+    "name": "Forecast begins at the drawn body position on all axes rather than at the raw simulation point",
+    "pass": true
+  },
+  {
+    "name": "Fast forecasts clip to the inset with a visible endpoint in every direction and astronomical scale",
+    "pass": true
+  },
+  {
+    "name": "Forecast horizon no longer jumps by astronomical class",
+    "pass": true
+  },
+  {
+    "name": "Fixed-step gravity forecast matches actual coasting against a static source",
+    "pass": true
+  },
+  {
+    "name": "Continuous relative contact detects moving fast threats before a path passes through them",
+    "pass": true
+  },
+  {
+    "name": "Forecast and local pointer handle near-rest, depth motion and zero speed without nonfinite values",
+    "pass": true
+  },
+  {
+    "name": "Mouse steering uses the rendered center and corrects projection tilt",
+    "pass": true
+  },
+  {
+    "name": "Forecast calculations never mutate simulation positions, velocities, or mass",
+    "pass": true
+  },
+  {
+    "name": "Performance mode bounds prediction sources and samples under dense nearby gravity",
+    "pass": true
+  },
+  {
+    "name": "Microscopic and crowded field labels cannot cover the body or its local pointer",
+    "pass": true
+  },
+  {
+    "name": "Photo panning an offscreen player does not leave a stray local pointer on screen",
+    "pass": true
+  },
+  {
+    "name": "Fixed-step input keeps mouse aim centered before the next render updates the camera",
+    "pass": true
+  }
+]

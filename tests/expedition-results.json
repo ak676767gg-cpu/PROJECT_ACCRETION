@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Galaxy chart survives checkpoint, reload and floating-origin rebasing",
+    "pass": true,
+    "ms": 450.65238899999997
+  },
+  {
+    "name": "Extraction depletes the same sector that drives future galactic matter",
+    "pass": true,
+    "ms": 282.883149
+  },
+  {
+    "name": "Pet evolution requires bond and experience; forks preserve species rarity and buffs",
+    "pass": true,
+    "ms": 288.45827600000007
+  },
+  {
+    "name": "Planet composition changes radius, mixes by mass and resets pooled state",
+    "pass": true,
+    "ms": 259.87457099999983
+  },
+  {
+    "name": "Habitable zone moves with stellar growth and climate reflects atmosphere and flare heat",
+    "pass": true,
+    "ms": 181.94109799999978
+  },
+  {
+    "name": "Physical stable 2:1 orbits acquire a bonus after dwell and lose it when disturbed",
+    "pass": true,
+    "ms": 533.440364
+  },
+  {
+    "name": "Planet and moon retain hierarchical parentage during coasting",
+    "pass": true,
+    "ms": 345.09232599999996
+  },
+  {
+    "name": "Flare is forecast before a physical wave strips atmosphere and perturbs velocity once",
+    "pass": true,
+    "ms": 232.78109200000017
+  },
+  {
+    "name": "Magnetar encounter is an actual compact source and wave state reloads safely",
+    "pass": true,
+    "ms": 152.40431799999988
+  },
+  {
+    "name": "Sandbox grants and deaths never alter normal-slot resources, records or achievements",
+    "pass": true,
+    "ms": 592.6103519999997
+  },
+  {
+    "name": "Replay samples live positions without mutating physics and survives game over",
+    "pass": true,
+    "ms": 241.95947400000023
+  },
+  {
+    "name": "Photo pauses simulation, exports a PNG canvas and restores the exact camera and state",
+    "pass": true,
+    "ms": 539.9220800000003
+  },
+  {
+    "name": "New controls, paused map/replay rendering and all pet branches draw without errors",
+    "pass": true,
+    "ms": 191.0887049999992
+  },
+  {
+    "name": "Replay browsing follows the selected save, not the previous live scene",
+    "pass": true,
+    "ms": 116.72399800000039
+  },
+  {
+    "name": "Companion specializations have distinct procedural silhouettes",
+    "pass": true,
+    "ms": 87.38901999999962
+  },
+  {
+    "name": "Twenty restarts and mode switches add no loops, listeners or accumulated replay frames",
+    "pass": true,
+    "ms": 2964.316088999999
+  },
+  {
+    "name": "New procedural cue names use the existing synthesizer without parallel audio objects",
+    "pass": true,
+    "ms": 71.34266200000093
+  },
+  {
+    "name": "Malformed expedition reservoirs are rejected and new panels have precise accessible labels",
+    "pass": true,
+    "ms": 75.29790700000012
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "environment": "Native software Canvas and VM DOM; not browser FPS",
+  "output": [
+    {
+      "preset": "full",
+      "bodies": 360,
+      "gasCells": 56,
+      "stepMedianMs": 3.2613650000002963,
+      "stepP95Ms": 9.893874999999753,
+      "renderMedianMs": 14.554817999999614,
+      "renderP95Ms": 31.557382999999845
+    },
+    {
+      "preset": "eco",
+      "bodies": 192,
+      "gasCells": 56,
+      "stepMedianMs": 2.422816999999668,
+      "stepP95Ms": 5.621352000000115,
+      "renderMedianMs": 6.962714000000233,
+      "renderP95Ms": 10.579780000000028
+    }
+  ]
+}

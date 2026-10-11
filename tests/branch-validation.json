@@ -1,0 +1,78 @@
+{
+  "version": "3.5.0",
+  "date": "2026-10-06",
+  "runtime": "Production classic scripts, isolated VM/DOM and native software Canvas",
+  "passed": 253,
+  "total": 253,
+  "suites": [
+    {
+      "file": "physics-results.json",
+      "passed": 110,
+      "total": 110
+    },
+    {
+      "file": "branch-results.json",
+      "passed": 16,
+      "total": 16
+    },
+    {
+      "file": "supernova-results.json",
+      "passed": 36,
+      "total": 36
+    },
+    {
+      "file": "interstallar-results.json",
+      "passed": 11,
+      "total": 11
+    },
+    {
+      "file": "advancement-results.json",
+      "passed": 28,
+      "total": 28
+    },
+    {
+      "file": "compact-plaque-motion-results.json",
+      "passed": 9,
+      "total": 9
+    },
+    {
+      "file": "collection-results.json",
+      "passed": 11,
+      "total": 11
+    },
+    {
+      "file": "slots-results.json",
+      "passed": 13,
+      "total": 13
+    },
+    {
+      "file": "camera-results.json",
+      "passed": 19,
+      "total": 19
+    }
+  ],
+  "browserVerification": {
+    "status": "unverified",
+    "reason": "The previous Chromium launch terminated before opening a page.",
+    "fileProtocolLaunchVerified": false,
+    "consoleVerified": false
+  },
+  "performanceEvidence": "precursor-performance.json",
+  "offlineAudit": {
+    "uniqueTitles": {
+      "Sources and implementation | ACCRETION": "sources.html",
+      "Terms and conditions | ACCRETION": "terms.html",
+      "Privacy policy | ACCRETION": "privacy.html",
+      "Page not found | ACCRETION": "404.html",
+      "ACCRETION | Offline space evolution game": "index.html",
+      "Cosmic systems diagnostics | ACCRETION": "tests/cosmic-tests.html",
+      "Physics and progression diagnostics | ACCRETION": "tests/physics-tests.html",
+      "Life Lab diagnostics | ACCRETION": "tests/life-tests.html",
+      "Advancement animation preview | ACCRETION": "tests/advancement-animation.html"
+    },
+    "localReferences": 206,
+    "syntax": "PASS",
+    "remoteRuntimeDependencies": 0,
+    "issues": []
+  }
+}

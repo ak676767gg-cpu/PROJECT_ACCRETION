@@ -1,0 +1,20 @@
+[
+  {
+    "page": "tests/final-interstallar-lab.html",
+    "pass": true,
+    "oneFrameOwner": true,
+    "isolated": true
+  },
+  {
+    "page": "tests/final-interstallar-tests.html",
+    "pass": true,
+    "oneFrameOwner": true,
+    "isolated": true
+  },
+  {
+    "page": "tests/run-all.html",
+    "pass": true,
+    "oneFrameOwner": true,
+    "isolated": true
+  }
+]

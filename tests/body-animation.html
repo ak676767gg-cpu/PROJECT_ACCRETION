@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Body animation inspection | ACCRETION</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <style>
+    *{box-sizing:border-box}body{margin:28px auto;padding:0 24px;max-width:1140px;background:#071016;color:#d4e0d7;font:14px system-ui,sans-serif}h1{font-size:25px;font-weight:500}p{color:#9db2ac;line-height:1.6}a{color:#b3ddcb}.controls{display:flex;flex-wrap:wrap;gap:14px;align-items:end;margin:22px 0}label{display:grid;gap:6px;color:#b4c7bd;font-size:12px}button,select{font:inherit;padding:10px 12px;color:#d4e0d7;background:#112029;border:1px solid #365349;border-radius:3px}button{cursor:pointer}button:hover{border-color:#a3d1bb}canvas#surface-preview{display:block;width:100%;height:auto;border:1px solid #233b38}#preview-time{font:12px ui-monospace,monospace;color:#a8c8ba}#preview-readout{min-height:44px}.note{font-size:12px;max-width:800px}footer{margin:24px 0 40px}
+  </style>
+</head>
+<body>
+  <p>ACCRETION / VISUAL INSPECTION</p>
+  <h1>Animated astronomical bodies</h1>
+  <p>Inspect the game’s procedural surfaces and evolution paths. This separate preview creates no journey, awards no resources, and never writes a save.</p>
+  <div class="controls">
+    <label>Body <select id="preview-stage"></select></label>
+    <label>Detail <select id="preview-detail"><option value="high">High</option><option value="low">Performance</option></select></label>
+    <label>Motion <select id="preview-motion"><option value="normal">Animated</option><option value="reduced">Reduced Motion</option></select></label>
+    <label>Preview speed <select id="preview-speed"><option value="1">1×</option><option value="0.5">0.5×</option><option value="2">2×</option></select></label>
+    <button id="preview-pause" type="button" aria-pressed="false">Pause</button>
+    <button id="preview-rewind" type="button">Reset time</button>
+    <span id="preview-time">0.0 s</span>
+  </div>
+  <canvas id="surface-preview" width="1080" height="560" aria-label="Animated preview of the selected astronomical body"></canvas>
+  <canvas id="minimap" width="176" height="176" hidden></canvas>
+  <p id="preview-readout"></p>
+  <p class="note">Lighting stays in place while terrain and clouds rotate independently. Gas bands and storms move at different rates. Horizon disks are shown with a fixed preview parcel of matter so their flow is visible. These controls affect this preview only.</p>
+  <footer><a href="../index.html">Return to ACCRETION</a> · <a href="../sources.html">Source notes</a> · <a href="physics-tests.html">Physics diagnostics</a></footer>
+  <script src="../js/core.js"></script><script src="../js/planetary.js"></script><script src="../js/life.js"></script><script src="../js/industry.js"></script><script src="../js/save.js"></script><script src="../js/audio.js"></script><script src="../js/upgrades.js"></script><script src="../js/player.js"></script><script src="../js/world.js"></script><script src="../js/ai.js"></script><script src="../js/physics.js"></script><script src="../js/effects.js"></script><script src="../js/rendering.js"></script><script src="../js/ui.js"></script><script src="../js/cosmic.js"></script><script src="../js/cosmic-rendering.js"></script><script src="../js/cosmic-ui.js"></script><script src="../js/expedition.js"></script><script src="../js/expedition-ui.js"></script><script src="../js/supernova.js"></script><script src="../js/supernova-rendering.js"></script><script src="../js/final-interstallar.js"></script><script src="../js/final-render.js"></script><script src="../js/final-ui.js"></script>
+  <script src="body-animation.js"></script>
+</body>
+</html>

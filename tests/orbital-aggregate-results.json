@@ -1,0 +1,2028 @@
+{
+  "environment": "isolated VM and native software Canvas",
+  "counts": {
+    "pass": 255,
+    "unverified": 15
+  },
+  "results": [
+    {
+      "name": "Astronomical landmarks, continuity, and tiny-fragment units",
+      "pass": true,
+      "ms": 0.38572899999996935,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Ordinary classes keep uniform movement and compact remnants apply their speed multiplier",
+      "pass": true,
+      "ms": 110.32298700000001,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Boost, upgrades and braking retain scale-relative movement with remnant modifiers",
+      "pass": true,
+      "ms": 16.730002000000013,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Spatial partition finds neighbors across cell boundaries",
+      "pass": true,
+      "ms": 0.21472199999999475,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Bound objects follow curved orbits instead of radial homing",
+      "pass": true,
+      "ms": 2.504938999999979,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Bound orbits dissipate energy into eventual absorption",
+      "pass": true,
+      "ms": 11.350969999999961,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Above-escape-speed objects can leave a gravity well",
+      "pass": true,
+      "ms": 3.2119899999999575,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Massive bodies deflect passing flight trajectories",
+      "pass": true,
+      "ms": 3.87573500000002,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Absorption conserves mass including shed fragments and mixes momentum",
+      "pass": true,
+      "ms": 0.206579999999974,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Similar-mass collisions bounce and produce recoverable debris",
+      "pass": true,
+      "ms": 0.5425140000000397,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "High-speed impacts shed more mass than slow captures",
+      "pass": true,
+      "ms": 0.3398300000000063,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "A stronger rival cannot end a healthy player in one impact",
+      "pass": true,
+      "ms": 0.507411999999988,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Spawn protection allows safe captures but blocks dangerous impacts",
+      "pass": true,
+      "ms": 0.16047099999997272,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Repeated severe impacts eventually produce game over",
+      "pass": true,
+      "ms": 0.8261800000000221,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Relaxed difficulty reduces damage and fragmentation",
+      "pass": true,
+      "ms": 0.5700160000000096,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "AI competitors absorb and evolve without player participation",
+      "pass": true,
+      "ms": 1.1391289999999685,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Cautious AI flees a nearby dominant body",
+      "pass": true,
+      "ms": 0.170125999999982,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Aggressive AI hunts a weaker player",
+      "pass": true,
+      "ms": 0.09616399999998748,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Deterministic branch upgrades require both currencies and prerequisites",
+      "pass": true,
+      "ms": 1.265878999999984,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Boost consumes energy and increases acceleration",
+      "pass": true,
+      "ms": 0.12489800000003015,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Save serialization preserves position, velocity, rivals and upgrades",
+      "pass": true,
+      "ms": 1.197968000000003,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Repeated checkpoints do not double-count lifetime statistics",
+      "pass": true,
+      "ms": 0.4259490000000028,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Corrupt and non-finite saved bodies are rejected",
+      "pass": true,
+      "ms": 0.22194300000001022,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Procedural streaming maintains resources while travelling",
+      "pass": true,
+      "ms": 41.39393599999994,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Gravity remains finite at fifteen astronomical stages",
+      "pass": true,
+      "ms": 17.057953999999995,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Very unequal masses avoid pathological spatial scans",
+      "pass": true,
+      "ms": 0.2838160000000016,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Stable orbit classification distinguishes circular capture and escape",
+      "pass": true,
+      "ms": 47.27127500000006,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Rival star builds a stable hierarchical planet and moon system",
+      "pass": true,
+      "ms": 84.39664700000003,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Player can steal a rival world when the new gravity well dominates",
+      "pass": true,
+      "ms": 43.65709300000003,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Passing massive rival destabilizes the player outer system",
+      "pass": true,
+      "ms": 27.82553900000005,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Rival black hole strips stored disk matter without instant mass credit",
+      "pass": true,
+      "ms": 0.9242460000000392,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Black-hole inner transfer has a meaningful delay and conserves mass",
+      "pass": true,
+      "ms": 31.719270999999935,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Gentle stellar movement preserves bound, independent orbital motion",
+      "pass": true,
+      "ms": 38.300115000000005,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Orbital assistance retains existing stress, harmony ranks and disruptive boosts",
+      "pass": true,
+      "ms": 0.48741099999995185,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Orbit carry stops accelerating satellites when the star reaches cruise equilibrium",
+      "pass": true,
+      "ms": 0.14205300000003263,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Extended achievements and lifetime counters are idempotent",
+      "pass": true,
+      "ms": 107.99015700000007,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "A genuine rotating reservoir unlocks the disk achievement",
+      "pass": true,
+      "ms": 8.535806999999977,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Black-hole merger achievement requires substantial inner assimilation",
+      "pass": true,
+      "ms": 61.84006299999999,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Surviving a disturbance awards the existing achievement system",
+      "pass": true,
+      "ms": 28.260381000000052,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Rival hierarchy, disk ownership and new counters survive checkpoint",
+      "pass": true,
+      "ms": 44.911064000000124,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "A destroyed parent safely releases children without a reference error",
+      "pass": true,
+      "ms": 34.98220699999979,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "System adaptations stack in the deterministic researched tree",
+      "pass": true,
+      "ms": 0.9273109999999178,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Fifty unique companion recipes span five disclosed rarities",
+      "pass": true,
+      "ms": 0.1567849999998998,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Asteroid collisions collect water and DNA once, without instant mass credit",
+      "pass": true,
+      "ms": 0.6283619999999246,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Spawned fields carry finite life samples and pooled bodies reset resources",
+      "pass": true,
+      "ms": 5.39328300000011,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "DNA egg recipes deduct exact costs and reject duplicates or insufficient resources",
+      "pass": true,
+      "ms": 0.15763700000002245,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Every named DNA recipe can hatch and equip its exact companion",
+      "pass": true,
+      "ms": 2.0702859999998964,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Companion buffs resolve all five rarity tiers including the new shape passives",
+      "pass": true,
+      "ms": 0.34987500000011096,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Discovery wheel maps the documented 59/35/5/1 odds across ten thousand samples",
+      "pass": true,
+      "ms": 2.874642999999878,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "New lifetime statistics initialise, increment once, and survive a save round trip",
+      "pass": true,
+      "ms": 32.14895700000011,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "System stability bonus is zero after a disturbance and returns after thirty quiet seconds",
+      "pass": true,
+      "ms": 12.413356000000022,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Companion collection normalization preserves valid discoveries and rejects invalid eggs",
+      "pass": true,
+      "ms": 0.2804700000001503,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Planetary composition conserves weighted fractions and affects density",
+      "pass": true,
+      "ms": 0.1319180000000415,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Boosted black-hole infall retains mass and resources after entering inner flow",
+      "pass": true,
+      "ms": 58.35535600000003,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "An escaping tidal stream retains unclaimed resources without awarding them",
+      "pass": true,
+      "ms": 57.40919699999995,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Physical collection cannot be awarded again by the transferred stream",
+      "pass": true,
+      "ms": 1667.0398710000002,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Dense gas leaves parcel capacity for coherent asteroid captures",
+      "pass": true,
+      "ms": 3.6428560000003927,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Escaped parcels reclaim inactive world slots while conserving payloads",
+      "pass": true,
+      "ms": 4.467403000000104,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Save validation accepts legacy parcels and rejects invalid new payloads",
+      "pass": true,
+      "ms": 0.6016930000000684,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Moving habitable zones and surface climate use the current stellar source",
+      "pass": true,
+      "ms": 0.42417599999998856,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Measured 2:1 stable orbits earn and lose the resonance bonus",
+      "pass": true,
+      "ms": 84.28873299999987,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Orbital element reuse preserves three-dimensional invariants without mutating bodies",
+      "pass": true,
+      "ms": 0.271317000000181,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Gravity cache responds to source mass, gravity ranks and amplification",
+      "pass": true,
+      "ms": 0.0844569999999294,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Valid composition objects are reused and invalid mixtures are repaired",
+      "pass": true,
+      "ms": 0.060781000000133645,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Asteroid ribbons have narrow seeded geometry and respect the entity budget",
+      "pass": true,
+      "ms": 21.632716999999957,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Comet corridors retain coherent motion instead of direct inward attraction",
+      "pass": true,
+      "ms": 0.7973659999997835,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Stellar world passages include genuine capturable planetary masses",
+      "pass": true,
+      "ms": 2.265900000000329,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Rival orbital fields use their own host velocity and gravity well",
+      "pass": true,
+      "ms": 151.37319200000002,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Class goals reward an adaptation once without granting mass or laboratory resources",
+      "pass": true,
+      "ms": 2.3630859999998393,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Coasting goals measure control state and never count braking or boosting",
+      "pass": true,
+      "ms": 1.1701460000003863,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Solar-system goals require sustained health and decay when disturbed",
+      "pass": true,
+      "ms": 1.1085429999998269,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Black-hole goals count accreted mass rather than captured mass",
+      "pass": true,
+      "ms": 1.106239999999616,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Encounters retain finite clouds and defer when the physical budget is full",
+      "pass": true,
+      "ms": 5.356907000000319,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Condensation previews identify eligible matter and birth conserves total mass",
+      "pass": true,
+      "ms": 0.5672210000002451,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Empty or plunging disks do not render fictitious formation previews",
+      "pass": true,
+      "ms": 0.12562800000023344,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Matter observatory partitions stored mass into real incoming, disk and inner-flow states",
+      "pass": true,
+      "ms": 0.39591399999972055,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Completed goals, encounters, field geometry and rival intentions survive a validated snapshot",
+      "pass": true,
+      "ms": 4.500001999999768,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Save validation rejects malformed goals while accepting old checkpoints",
+      "pass": true,
+      "ms": 1.3733809999998812,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Extended lifetime statistics account each new counter exactly once",
+      "pass": true,
+      "ms": 0.2007619999999406,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "The fifty-nine milestone catalogue preserves all legacy IDs and has valid acyclic routes",
+      "pass": true,
+      "ms": 0.2646669999999176,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "New evolution achievements use attained classes and award exactly once",
+      "pass": true,
+      "ms": 0.23468200000024808,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Capture milestones measure one journey and keep lifetime totals separate",
+      "pass": true,
+      "ms": 0.14303500000005442,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Old achievements and new plaque settings normalize without losing a save",
+      "pass": true,
+      "ms": 0.15698500000007698,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Sandbox advancement checks cannot mutate normal achievements or resources",
+      "pass": true,
+      "ms": 0.08608900000035646,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Prestige requires a living stellar journey and four distinct class goals",
+      "pass": true,
+      "ms": 1.24493799999982,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Cosmetic migration rejects locked looks and allows earned companion accessories",
+      "pass": true,
+      "ms": 0.0850270000000819,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Scar history caps at six, counts survived damage and resets with pooled bodies",
+      "pass": true,
+      "ms": 0.11466200000040772,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Collision scars and sprite orientation survive checkpoint restoration",
+      "pass": true,
+      "ms": 0.35021499999993466,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "An orbital blueprint requires owned, stable physical planets and a continuous hold",
+      "pass": true,
+      "ms": 1.8252690000003895,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Custodian promises require stable nested moons and reset on a disturbed system",
+      "pass": true,
+      "ms": 1.7382579999998597,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Black-hole expedition promises cannot count captured disk mass",
+      "pass": true,
+      "ms": 13.405303000000004,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Blueprint and legacy lifetime counters account once in the existing profile",
+      "pass": true,
+      "ms": 0.2533300000000054,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Hatching uses bounded stages and reduced motion reveals the actual creature immediately",
+      "pass": true,
+      "ms": 0.12928400000009788,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Path selection keeps the starting star, momentum and adaptation balance",
+      "pass": true,
+      "ms": 0.8155339999998432,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Four distinct precursor sequences replace the ordinary stellar stages",
+      "pass": true,
+      "ms": 1.6157039999998233,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "A path can change at the origin star but locks after its first branch evolution",
+      "pass": true,
+      "ms": 0.29344099999980244,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Path selection preserves a partly filled mass goal and respects fivefold thresholds",
+      "pass": true,
+      "ms": 0.307531000000381,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Earlier 3.4 remnant states migrate without regressions, bonus points or repeat explosions",
+      "pass": true,
+      "ms": 0.3108860000002096,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "A reached precursor cannot silently de-evolve after mass loss",
+      "pass": true,
+      "ms": 0.20699000000013257,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Remnant abilities and route crests wait for the third branch evolution",
+      "pass": true,
+      "ms": 0.6105160000001888,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Massive Star supernova stays optional and the stellar class stops at Colossus",
+      "pass": true,
+      "ms": 0.09448200000042561,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Singularity multiplies actual gravity by two and thrust by two-thirds",
+      "pass": true,
+      "ms": 0.5108159999999771,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Singularity progresses through the original black-hole classes with a finite endpoint",
+      "pass": true,
+      "ms": 0.6948419999998805,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Nebula erodes coherent bodies without gravity or instant contact absorption",
+      "pass": true,
+      "ms": 0.8346119999996517,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Diffuse assimilation delays credit and conserves coherent plus stored mass",
+      "pass": true,
+      "ms": 9.314845999999761,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Neutron, Magnetar and Strange Matter have distinct actual modifiers and conversion",
+      "pass": true,
+      "ms": 0.6587479999998322,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Gravastar shell protection and gravity increase with attained tier",
+      "pass": true,
+      "ms": 0.41455199999973047,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "New routes preserve saved identity, mass baseline and partial-reaction fields",
+      "pass": true,
+      "ms": 1.8509869999998045,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Rerouted stellar milestones cannot incorrectly grant skipped black-hole achievements",
+      "pass": true,
+      "ms": 0.4152129999997669,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Old compact checkpoints migrate without losing their class or momentum",
+      "pass": true,
+      "ms": 0.12061099999982616,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Surface clock follows sub-step simulation time without running ahead",
+      "pass": true,
+      "ms": 0.0799299999998766,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Surface clock freezes in pause and photo mode and never becomes negative",
+      "pass": true,
+      "ms": 0.03371000000015556,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Reduced Motion freezes optional surface animation independently of physics",
+      "pass": true,
+      "ms": 0.05544400000007954,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Body size and angle interpolate the same fixed-step interval as position",
+      "pass": true,
+      "ms": 0.039909999999963475,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Physics records previous size and spin before integrating the next step",
+      "pass": true,
+      "ms": 0.08770200000026307,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Surface caches and body histories reset together without creating another loop",
+      "pass": true,
+      "ms": 0.04413700000031895,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "A galactic encounter is optional, stellar and backed by finite matter",
+      "pass": true,
+      "ms": 1.8338920000001053,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "The two-hour encounter awards once and pauses with the existing game state",
+      "pass": true,
+      "ms": 1.422505000000001,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Galactic encounters serialize alongside their real gas and preserve older checkpoints",
+      "pass": true,
+      "ms": 2.8318890000000465,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "The global palette catalogue preserves existing earned frames and resource rules",
+      "pass": true,
+      "ms": 0.1048769999997603,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Branch HUD captions follow the selected journey and its actual attained tier",
+      "pass": true,
+      "ms": 0.1185179999997672,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Halfway and full evolution rewards are deterministic and cannot be farmed by mass loss",
+      "pass": true,
+      "ms": 0.07834700000012162,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Free mining and raw-only Research Centre bootstrap without research or adaptation points",
+      "pass": true,
+      "ms": 0.26567900000009104,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Research batches spend 50 material before gradually producing one Research Point",
+      "pass": true,
+      "ms": 0.7503660000002128,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Research cost escalates by rank and elapsed powered research time",
+      "pass": true,
+      "ms": 0.10340500000029351,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Mining laser requires coherent optics through an installed attack laser",
+      "pass": true,
+      "ms": 0.26095200000008845,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Mining fractures finite material without duplicating asteroid mass or sample payloads",
+      "pass": true,
+      "ms": 0.443735999999717,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Turret dislodging transfers real enemy mass into collectible debris",
+      "pass": true,
+      "ms": 0.1956129999998666,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Charging mode pauses refining and powered shield recovery",
+      "pass": true,
+      "ms": 0.9147029999999177,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Overclock duration inversely changes strength and spends stored energy exactly once",
+      "pass": true,
+      "ms": 0.2891939999999522,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Powered shield capacity absorbs a bounded fraction of an impact",
+      "pass": true,
+      "ms": 0.1232150000000729,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Resource recovery uses deterministic fractional DNA and water carry",
+      "pass": true,
+      "ms": 0.13331000000016502,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Infrastructure serialization preserves pending research, cargo, battery and progress claims",
+      "pass": true,
+      "ms": 0.32784200000014607,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Malformed infrastructure checkpoints are rejected and version-five checkpoints still load",
+      "pass": true,
+      "ms": 0.20142200000009325,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Galactic resource fields contain a few primaries with planets and finite asteroid belts",
+      "pass": true,
+      "ms": 0.7202409999999873,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "All new upgrade dependencies resolve to known nodes with no cycles",
+      "pass": true,
+      "ms": 0.5823939999995673,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Tiny stellar belts survive streaming long enough for mining and stable capture",
+      "pass": true,
+      "ms": 2.530116000000362,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Raw extraction and research lifetime counters account only once per checkpoint",
+      "pass": true,
+      "ms": 0.12541800000008152,
+      "suite": "physics",
+      "status": "pass"
+    },
+    {
+      "name": "Circular, eccentric and hyperbolic trajectories use actual energy",
+      "pass": true,
+      "ms": 23.78282500000023,
+      "suite": "cosmic",
+      "status": "pass"
+    },
+    {
+      "name": "A stellar satellite remains stable over two complete revolutions",
+      "pass": true,
+      "ms": 462.7127800000003,
+      "suite": "cosmic",
+      "status": "pass"
+    },
+    {
+      "name": "An energetic flyby escapes without arbitrary capture",
+      "pass": true,
+      "ms": 70.10501599999998,
+      "suite": "cosmic",
+      "status": "pass"
+    },
+    {
+      "name": "Planet/moon hierarchy persists with an inclined moon",
+      "pass": true,
+      "ms": 71.01931799999966,
+      "suite": "cosmic",
+      "status": "pass"
+    },
+    {
+      "name": "Gentle stellar thrust preserves independent orbital motion",
+      "pass": true,
+      "ms": 48.33718500000032,
+      "suite": "cosmic",
+      "status": "pass"
+    },
+    {
+      "name": "Violent stellar velocity changes eject outer planets",
+      "pass": true,
+      "ms": 47.94598899999983,
+      "suite": "cosmic",
+      "status": "pass"
+    },
+    {
+      "name": "Collapse drains angular momentum without teleporting",
+      "pass": true,
+      "ms": 51.360903000000235,
+      "suite": "cosmic",
+      "status": "pass"
+    },
+    {
+      "name": "Early absorption stores and gradually assimilates conserved matter",
+      "pass": true,
+      "ms": 26.579951000000165,
+      "suite": "cosmic",
+      "status": "pass"
+    },
+    {
+      "name": "Black-hole disks rotate before gradually adding mass",
+      "pass": true,
+      "ms": 184.0397549999998,
+      "suite": "cosmic",
+      "status": "pass"
+    },
+    {
+      "name": "Planetesimals condense from existing cooled disk mass",
+      "pass": true,
+      "ms": 16.83510000000024,
+      "suite": "cosmic",
+      "status": "pass"
+    },
+    {
+      "name": "Nebula gravity response and density loss conserve captured gas",
+      "pass": true,
+      "ms": 72.57579299999998,
+      "suite": "cosmic",
+      "status": "pass"
+    },
+    {
+      "name": "Lensing is localized and finite at its center",
+      "pass": true,
+      "ms": 0.0804309999994075,
+      "suite": "cosmic",
+      "status": "pass"
+    },
+    {
+      "name": "Galactic density and bounded gas regions are procedural",
+      "pass": true,
+      "ms": 19.6782860000003,
+      "suite": "cosmic",
+      "status": "pass"
+    },
+    {
+      "name": "Management screen inspects bodies and controls orbit collapse",
+      "pass": true,
+      "ms": 47.56034,
+      "suite": "cosmic",
+      "status": "pass"
+    },
+    {
+      "name": "Cosmic save/settings restore without losing reservoirs",
+      "pass": true,
+      "ms": 18.850502999999662,
+      "suite": "cosmic",
+      "status": "pass"
+    },
+    {
+      "name": "Repeated restarts clear cosmic state without listener duplication",
+      "pass": true,
+      "ms": 84.3763199999994,
+      "suite": "cosmic",
+      "status": "pass"
+    },
+    {
+      "name": "Every cosmic class renders finite Canvas frames",
+      "pass": true,
+      "ms": 163.91989599999943,
+      "suite": "cosmic",
+      "status": "pass"
+    },
+    {
+      "name": "Asteroid belt detection groups real stable rocky orbits",
+      "pass": true,
+      "ms": 73.69055599999956,
+      "suite": "cosmic",
+      "status": "pass"
+    },
+    {
+      "name": "A comparable companion moves both bodies about a shared barycenter",
+      "pass": true,
+      "ms": 68.60127099999954,
+      "suite": "cosmic",
+      "status": "pass"
+    },
+    {
+      "name": "Legacy saves remain valid; corrupt cosmic reservoirs are rejected",
+      "pass": true,
+      "ms": 16.34431399999994,
+      "suite": "cosmic",
+      "status": "pass"
+    },
+    {
+      "name": "Restarts never schedule an additional animation loop",
+      "pass": true,
+      "ms": 101.34216500000002,
+      "suite": "cosmic",
+      "status": "pass"
+    },
+    {
+      "name": "Selected stellar journey retains matter through black-hole formation",
+      "pass": true,
+      "ms": 35.71830299999965,
+      "suite": "cosmic",
+      "status": "pass"
+    },
+    {
+      "name": "Life Lab shows fifty species and three Legendary species through its collection filter",
+      "pass": true,
+      "suite": "life",
+      "status": "pass"
+    },
+    {
+      "name": "A wheel spin spends 500 water and 100 DNA, then pauses incubation in menus",
+      "pass": true,
+      "suite": "life",
+      "status": "pass"
+    },
+    {
+      "name": "Hatch, equip, nickname and inner-contact collection persist together",
+      "pass": true,
+      "suite": "life",
+      "status": "pass"
+    },
+    {
+      "name": "Rarity chances stay Common 59%, Rare 35%, Epic 5% and Legendary 1%",
+      "pass": true,
+      "suite": "life",
+      "status": "pass"
+    },
+    {
+      "name": "Repeated restarts retain the companion collection without extra loops, listeners or physics pets",
+      "pass": true,
+      "suite": "life",
+      "status": "pass"
+    },
+    {
+      "suite": "surfaces",
+      "name": "Finite production drawing at class 0",
+      "pass": true,
+      "status": "pass"
+    },
+    {
+      "suite": "surfaces",
+      "name": "Finite production drawing at class 3",
+      "pass": true,
+      "status": "pass"
+    },
+    {
+      "suite": "surfaces",
+      "name": "Finite production drawing at class 5",
+      "pass": true,
+      "status": "pass"
+    },
+    {
+      "suite": "surfaces",
+      "name": "Finite production drawing at class 7",
+      "pass": true,
+      "status": "pass"
+    },
+    {
+      "suite": "surfaces",
+      "name": "Finite production drawing at class 9",
+      "pass": true,
+      "status": "pass"
+    },
+    {
+      "suite": "surfaces",
+      "name": "Finite production drawing at class 14",
+      "pass": true,
+      "status": "pass"
+    },
+    {
+      "suite": "surfaces",
+      "name": "Finite production drawing at class 15",
+      "pass": true,
+      "status": "pass"
+    },
+    {
+      "suite": "surfaces",
+      "name": "Finite production drawing at class 17",
+      "pass": true,
+      "status": "pass"
+    },
+    {
+      "suite": "surfaces",
+      "name": "Finite production drawing at class 19",
+      "pass": true,
+      "status": "pass"
+    },
+    {
+      "suite": "surfaces",
+      "name": "Finite production drawing at class 21",
+      "pass": true,
+      "status": "pass"
+    },
+    {
+      "suite": "surfaces",
+      "name": "Finite production drawing at class 24",
+      "pass": true,
+      "status": "pass"
+    },
+    {
+      "suite": "surfaces",
+      "name": "Reduced Motion freezes the production clock",
+      "pass": true,
+      "status": "pass"
+    },
+    {
+      "suite": "advancements",
+      "name": "Production task plaque completes its reveal",
+      "pass": true,
+      "status": "pass"
+    },
+    {
+      "suite": "advancements",
+      "name": "Production goal plaque completes its reveal",
+      "pass": true,
+      "status": "pass"
+    },
+    {
+      "suite": "advancements",
+      "name": "Production challenge plaque completes its reveal",
+      "pass": true,
+      "status": "pass"
+    },
+    {
+      "suite": "advancements",
+      "name": "Reduced Motion removes the plaque light wash",
+      "pass": true,
+      "status": "pass"
+    },
+    {
+      "id": "A1",
+      "name": "Critical null rays bracket the shadow",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.8094039999996312,
+      "suite": "final"
+    },
+    {
+      "id": "A2",
+      "name": "Weak-field deflection agrees within 10 percent",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.1534510000001319,
+      "suite": "final"
+    },
+    {
+      "id": "A3",
+      "name": "Captured radial boundary is circular in a face-on model",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 1.4769459999997707,
+      "suite": "final"
+    },
+    {
+      "id": "A4",
+      "name": "Primary and secondary lens images remain finite",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.2432649999991554,
+      "suite": "final"
+    },
+    {
+      "id": "A5",
+      "name": "Image magnifications tend smoothly to their weak limits",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.05612400000063644,
+      "suite": "final"
+    },
+    {
+      "id": "A6",
+      "name": "Production emission lookup is finite and declines outward",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 90.21912500000053,
+      "suite": "final"
+    },
+    {
+      "id": "A7",
+      "name": "Differential rotation and wrapped material continuity",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 101.99207899999965,
+      "suite": "final"
+    },
+    {
+      "id": "A8",
+      "name": "CPU images are deterministic without simulation RNG",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 94.72059999999965,
+      "suite": "final"
+    },
+    {
+      "id": "B1",
+      "name": "Dark shadow away from the foreground emitting band",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 187.29840499999955,
+      "suite": "final"
+    },
+    {
+      "id": "B2",
+      "name": "A distinct thin photon ring is configured from the measured rim",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 178.14839500000016,
+      "suite": "final"
+    },
+    {
+      "id": "B3",
+      "name": "Ray map contains far-side and higher-order disk intersections",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 179.5990380000003,
+      "suite": "final"
+    },
+    {
+      "id": "B4",
+      "name": "The emitting band crosses only a narrow portion of the core",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 177.10951699999987,
+      "suite": "final"
+    },
+    {
+      "id": "B5",
+      "name": "Cinematic radiance is balanced; beaming changes the disk",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 120.20697899999959,
+      "suite": "final"
+    },
+    {
+      "id": "B6",
+      "name": "The baked footprint is transparent at the border",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 84.1474360000002,
+      "suite": "final"
+    },
+    {
+      "id": "B7",
+      "name": "GPU/CPU cross-tier image agreement",
+      "status": "unverified",
+      "pass": null,
+      "level": "V0",
+      "reason": "WebGL execution is unavailable in this environment; shader text parsing is not image verification.",
+      "suite": "final"
+    },
+    {
+      "id": "B8",
+      "name": "Small footprints and Reduced Motion use bounded tiers",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.09749599999940983,
+      "suite": "final"
+    },
+    {
+      "id": "B9",
+      "name": "Zero/tiny footprints and extreme ray parameters are finite",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.4065999999993437,
+      "suite": "final"
+    },
+    {
+      "id": "B10",
+      "name": "All cosmetics and scars are visually clear",
+      "status": "unverified",
+      "pass": null,
+      "level": "V0",
+      "reason": "Automated catalogue preservation is checked in G6; human visual review of every cosmetic in both settings remains required.",
+      "suite": "final"
+    },
+    {
+      "id": "C1",
+      "name": "Full M1–M17 hero-reference tolerances",
+      "status": "unverified",
+      "pass": null,
+      "level": "V0",
+      "reason": "Measured comparison is recorded separately in final-fidelity.json. Full reference parity is not claimed.",
+      "suite": "final"
+    },
+    {
+      "id": "C2",
+      "name": "Additional reference presets meet every tolerance",
+      "status": "unverified",
+      "pass": null,
+      "level": "V0",
+      "reason": "Additional presets are interpretation controls; film still and stock-watermarked reference are excluded from exact fitting.",
+      "suite": "final"
+    },
+    {
+      "id": "C3",
+      "name": "Reference colour samples satisfy Delta E thresholds",
+      "status": "unverified",
+      "pass": null,
+      "level": "V0",
+      "reason": "The final-fidelity.json reports measured colour differences, including failures.",
+      "suite": "final"
+    },
+    {
+      "id": "C4",
+      "name": "Own-frame visual regression is deterministic",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 92.57021299999997,
+      "suite": "final"
+    },
+    {
+      "id": "D1",
+      "name": "Landmark placement is seeded without advancing world RNG",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.2692539999998189,
+      "suite": "final"
+    },
+    {
+      "id": "D2",
+      "name": "Landmark survives 10,000 actual World.update calls and culling",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 38.126194999999825,
+      "suite": "final"
+    },
+    {
+      "id": "D3",
+      "name": "Rebase preserves relative position, distance and merger origin",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.19448199999987992,
+      "suite": "final"
+    },
+    {
+      "id": "D4",
+      "name": "Acceleration is finite, truncated and writes only the supplied output",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 14.75752199999988,
+      "suite": "final"
+    },
+    {
+      "id": "D5",
+      "name": "Effective gravitational parameter is capped through class 30",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.43140800000037416,
+      "suite": "final"
+    },
+    {
+      "id": "D6",
+      "name": "Zones classify in order and one-time notes stay one-time",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.17461199999979726,
+      "suite": "final"
+    },
+    {
+      "id": "D7",
+      "name": "Inner horizon ends the journey with the final-source reason",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 1.3292839999994612,
+      "suite": "final"
+    },
+    {
+      "id": "D8",
+      "name": "Every merge gate resets the continuous hold",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.5276219999996101,
+      "suite": "final"
+    },
+    {
+      "id": "D9",
+      "name": "Visible-time merger pauses and completes once with mass conservation",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 1.121353000000454,
+      "suite": "final"
+    },
+    {
+      "id": "D10",
+      "name": "Swallowed parcels and gas credit only the landmark",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.35988999999972293,
+      "suite": "final"
+    },
+    {
+      "id": "D11",
+      "name": "Outer disk exposure survives 45 seconds and defence reduces damage",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 14.367718000000423,
+      "suite": "final"
+    },
+    {
+      "id": "D12",
+      "name": "Rivals steer away nearby and swallowed mass remains finite",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.37261899999975867,
+      "suite": "final"
+    },
+    {
+      "id": "D13",
+      "name": "Sandbox placements do not award journey achievements",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.44462799999928393,
+      "suite": "final"
+    },
+    {
+      "id": "D14",
+      "name": "Five connected achievements extend the catalogue to 59",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.05468199999995704,
+      "suite": "final"
+    },
+    {
+      "id": "D15",
+      "name": "Prestige retirement success and storage-failure rollback",
+      "status": "unverified",
+      "pass": null,
+      "level": "V0",
+      "reason": "Covered by final-migration.json and the existing legacy retirement tests; this live suite does not destroy its shared fixture.",
+      "suite": "final"
+    },
+    {
+      "id": "D16",
+      "name": "Five-minute approach and delayed escape margins",
+      "status": "unverified",
+      "pass": null,
+      "level": "V0",
+      "reason": "Dedicated actual fixed-step autopilot results are in final-pacing.json.",
+      "suite": "final"
+    },
+    {
+      "id": "E2",
+      "name": "Optional final block is bounded and round-trips exactly",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.5014730000002601,
+      "suite": "final"
+    },
+    {
+      "id": "E3",
+      "name": "Malformed landmark state is discarded without losing a valid old run",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.6173570000000836,
+      "suite": "final"
+    },
+    {
+      "id": "E4",
+      "name": "Slot and Sandbox landmark states are independent",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 1.3698249999997643,
+      "suite": "final"
+    },
+    {
+      "id": "E5",
+      "name": "Three-evolution cadence and explicit manual exception remain",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.2835159999995085,
+      "suite": "final"
+    },
+    {
+      "id": "E6",
+      "name": "A failed persistence write does not reverse a completed merger",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.3793390000000727,
+      "suite": "final"
+    },
+    {
+      "id": "E7",
+      "name": "New settings defaults and invalid options are cleaned",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.09414100000049075,
+      "suite": "final"
+    },
+    {
+      "id": "E8",
+      "name": "A saved partial merger resumes continuously and credits once",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.5075219999998808,
+      "suite": "final"
+    },
+    {
+      "id": "F1",
+      "name": "Final instrument joins key 8 and hides before discovery",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 1.0570559999996476,
+      "suite": "final"
+    },
+    {
+      "id": "F2",
+      "name": "Beacon is readable beside pointer and threats",
+      "status": "unverified",
+      "pass": null,
+      "level": "V0",
+      "reason": "Requires real-browser layout and visual review; geometric and labels gating are present.",
+      "suite": "final"
+    },
+    {
+      "id": "F3",
+      "name": "Chart targets update from the current rebased coordinates",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.25648500000079366,
+      "suite": "final"
+    },
+    {
+      "id": "F4",
+      "name": "Dock uses the original five-second idle behavior",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.17183699999986857,
+      "suite": "final"
+    },
+    {
+      "id": "F5",
+      "name": "New audio cues are safe before activation and respect paused state",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.09261900000001333,
+      "suite": "final"
+    },
+    {
+      "id": "F6",
+      "name": "Screen-area flash thresholds with both flash settings",
+      "status": "unverified",
+      "pass": null,
+      "level": "V0",
+      "reason": "No browser frame recording was possible. Slow envelopes, bounded feeding and local effects are implemented, but this is not a certified photosensitivity check.",
+      "suite": "final"
+    },
+    {
+      "id": "F7",
+      "name": "Reduced Motion keeps the merger position static until the final handover",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.07025500000054308,
+      "suite": "final"
+    },
+    {
+      "id": "F8",
+      "name": "Each final setting has a production control",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.021472000000358094,
+      "suite": "final"
+    },
+    {
+      "id": "F9",
+      "name": "Finale keyboard focus in a real browser",
+      "status": "unverified",
+      "pass": null,
+      "level": "V0",
+      "reason": "The dialog uses the existing showPanel focus path; native key navigation remains unverified.",
+      "suite": "final"
+    },
+    {
+      "id": "F11",
+      "name": "Photo mode offers exact 1x and capped 2x Canvas exports",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 111.01335599999948,
+      "suite": "final"
+    },
+    {
+      "id": "F10",
+      "name": "Film-copy deny-list and source audit",
+      "status": "unverified",
+      "pass": null,
+      "level": "V0",
+      "reason": "The release static audit writes final-static-audit.json; references to source titles are allowed only in documentation.",
+      "suite": "final"
+    },
+    {
+      "id": "G1",
+      "name": "Twenty starts reuse the same Game and single frame owner",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 348.7385860000004,
+      "suite": "final"
+    },
+    {
+      "id": "G2",
+      "name": "WebGL context absence falls back without throwing",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 1.2557440000000497,
+      "suite": "final"
+    },
+    {
+      "id": "G3",
+      "name": "Injected draw failure leaves a visible Canvas fallback",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.48068100000000413,
+      "suite": "final"
+    },
+    {
+      "id": "G8",
+      "name": "Mocked GL precision, compile, loss and restoration use bounded fallback",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.3652879999999641,
+      "suite": "final"
+    },
+    {
+      "id": "G9",
+      "name": "Auto tier hysteresis lowers and recovers with measured frame rates",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.38320500000008906,
+      "suite": "final"
+    },
+    {
+      "id": "G4",
+      "name": "Complete parse, local-reference, ID and dependency audit",
+      "status": "unverified",
+      "pass": null,
+      "level": "V0",
+      "reason": "Automated external audit is recorded in final-static-audit.json.",
+      "suite": "final"
+    },
+    {
+      "id": "G5",
+      "name": "Fresh ZIP extraction and hash comparison",
+      "status": "unverified",
+      "pass": null,
+      "level": "V0",
+      "reason": "Performed after packaging and recorded in the delivery manifest.",
+      "suite": "final"
+    },
+    {
+      "id": "G6",
+      "name": "Core catalogue preserves 22 classes and 50 pets, with 56 deterministic adaptations",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.03961899999922025,
+      "suite": "final"
+    },
+    {
+      "id": "G7",
+      "name": "Every class and mass beyond the final class has finite display geometry",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.4507260000000315,
+      "suite": "final"
+    },
+    {
+      "id": "G10",
+      "name": "Early unplaced landmark checks do not allocate appearance data",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.9369059999999081,
+      "suite": "final"
+    },
+    {
+      "id": "G11",
+      "name": "Physical-mode toggles invalidate CPU assets without changing simulation",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.2715879999996105,
+      "suite": "final"
+    },
+    {
+      "id": "G12",
+      "name": "Large CPU filaments bake once and stay under the memory budget",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 315.4513969999998,
+      "suite": "final"
+    },
+    {
+      "id": "H1",
+      "name": "Only black-hole routes naturally discover the landmark",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.3347220000005109,
+      "suite": "final"
+    },
+    {
+      "id": "H2",
+      "name": "All seven black-hole classes use the new renderer",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.2638359999991735,
+      "suite": "final"
+    },
+    {
+      "id": "H3",
+      "name": "Only two rival bodies get richer baked detail each frame",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 1.6531999999997424,
+      "suite": "final"
+    },
+    {
+      "id": "H4",
+      "name": "Continuous disk growth preserves the physical shadow radius",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.41581399999995483,
+      "suite": "final"
+    },
+    {
+      "id": "H5",
+      "name": "Material decoration uses the existing paused clock",
+      "status": "pass",
+      "pass": true,
+      "level": "V1",
+      "ms": 0.434001999999964,
+      "suite": "final"
+    },
+    {
+      "id": "H6",
+      "name": "Galactic encounter, themes, routes and FPS regression suites",
+      "status": "unverified",
+      "pass": null,
+      "level": "V0",
+      "reason": "All 359 original checks are rerun by the external regression harness.",
+      "suite": "final"
+    },
+    {
+      "id": "E1",
+      "name": "Golden-save migration of all old fields",
+      "status": "unverified",
+      "pass": null,
+      "level": "V0",
+      "reason": "Dedicated fixture comparison results are in final-migration.json.",
+      "suite": "final"
+    },
+    {
+      "id": "L1",
+      "name": "Seven classes use seven distinct geometric profiles",
+      "status": "pass",
+      "pass": true,
+      "suite": "horizons"
+    },
+    {
+      "id": "L2",
+      "name": "Every fed class produces distinct original pixels",
+      "status": "pass",
+      "pass": true,
+      "suite": "horizons"
+    },
+    {
+      "id": "L3",
+      "name": "Every black-hole class has visibly changing flow",
+      "status": "pass",
+      "pass": true,
+      "suite": "horizons"
+    },
+    {
+      "id": "L4",
+      "name": "Unfed returned light moves without inventing captured matter",
+      "status": "pass",
+      "pass": true,
+      "suite": "horizons"
+    },
+    {
+      "id": "L5",
+      "name": "Pause freezes the material and projected light",
+      "status": "pass",
+      "pass": true,
+      "suite": "horizons"
+    },
+    {
+      "id": "L6",
+      "name": "Reduced Motion freezes each class at an original static frame",
+      "status": "pass",
+      "pass": true,
+      "suite": "horizons"
+    },
+    {
+      "id": "L7",
+      "name": "Captured matter controls disk radiance, while mass remains conserved",
+      "status": "pass",
+      "pass": true,
+      "suite": "horizons"
+    },
+    {
+      "id": "L8",
+      "name": "Central horizons remain dark outside foreground matter",
+      "status": "pass",
+      "pass": true,
+      "suite": "horizons"
+    },
+    {
+      "id": "L9",
+      "name": "Performance reduces geometric work and keeps moving light",
+      "status": "pass",
+      "pass": true,
+      "suite": "horizons"
+    },
+    {
+      "id": "L10",
+      "name": "Rendering does not advance the simulation RNG or create bodies",
+      "status": "pass",
+      "pass": true,
+      "suite": "horizons"
+    },
+    {
+      "id": "L11",
+      "name": "Canvas stage rendering has no baked-image jobs or GPU dependency",
+      "status": "pass",
+      "pass": true,
+      "suite": "horizons"
+    },
+    {
+      "id": "L13",
+      "name": "Physical beaming changes captured disk brightness",
+      "status": "pass",
+      "pass": true,
+      "suite": "horizons"
+    },
+    {
+      "id": "L14",
+      "name": "Recycled body objects cannot retain phantom disk light",
+      "status": "pass",
+      "pass": true,
+      "suite": "horizons"
+    },
+    {
+      "id": "L12",
+      "name": "Rivals receive the same class designs with bounded rich detail",
+      "status": "pass",
+      "pass": true,
+      "suite": "horizons"
+    }
+  ]
+}

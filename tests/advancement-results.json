@@ -1,0 +1,114 @@
+[
+  {
+    "name": "All fifty-four original and new milestones have unique metadata and local vector badges",
+    "pass": true
+  },
+  {
+    "name": "Every newly represented evolution class has an exact attained-stage threshold",
+    "pass": true
+  },
+  {
+    "name": "Evolution queues its milestone without covering the cinematic or interrupting flight",
+    "pass": true
+  },
+  {
+    "name": "One-journey capture milestones ignore totals from older journeys",
+    "pass": true
+  },
+  {
+    "name": "A physically stable star, planet and moon hierarchy earns World with Company",
+    "pass": true
+  },
+  {
+    "name": "Six real stable small bodies form a belt and unlock its milestone",
+    "pass": true
+  },
+  {
+    "name": "Orbital resonance must be actually established rather than a short-lived period estimate",
+    "pass": true
+  },
+  {
+    "name": "Final companion specialization unlocks Growing Together through the existing branch action",
+    "pass": true
+  },
+  {
+    "name": "Six finite discoveries earn Field Notes while five do not",
+    "pass": true
+  },
+  {
+    "name": "Six class goals earn Pathfinder without awarding additional resources or adaptation points",
+    "pass": true
+  },
+  {
+    "name": "A last-second capture milestone is retained at game over",
+    "pass": true
+  },
+  {
+    "name": "Rapid real unlocks queue once, in order, without using the ordinary alert stack",
+    "pass": true
+  },
+  {
+    "name": "Task, goal and challenge plaques use one DOM element and play their cue at display time",
+    "pass": true
+  },
+  {
+    "name": "Menus, evolution, photo mode and hidden HUD defer queued plaques",
+    "pass": true
+  },
+  {
+    "name": "An already visible plaque pauses its clock while a menu or HUD hiding obscures it",
+    "pass": true
+  },
+  {
+    "name": "Notification opt-out retains achievements and adds no popup or chime",
+    "pass": true
+  },
+  {
+    "name": "Top and bottom placement work from the very first displayed frame",
+    "pass": true
+  },
+  {
+    "name": "Advancement menu has all six complete branches, exact earned counts and earned filtering",
+    "pass": true
+  },
+  {
+    "name": "Search examines all branches and safely handles arbitrary typed text",
+    "pass": true
+  },
+  {
+    "name": "Selection displays real progress and related links do not gate earning",
+    "pass": true
+  },
+  {
+    "name": "Records and journey log remain available alongside the advancement map",
+    "pass": true
+  },
+  {
+    "name": "J toggles the advancement window without becoming a movement input",
+    "pass": true
+  },
+  {
+    "name": "Checkpoint and full load preserve new unlocks and notification settings in the original slot",
+    "pass": true
+  },
+  {
+    "name": "Old profile migration reconciles only attained new classes without a burst of fake notifications",
+    "pass": true
+  },
+  {
+    "name": "Repeated restarts clear active and pending plaques without new listeners or animation loops",
+    "pass": true
+  },
+  {
+    "name": "Sandbox keeps its milestone queue and normal-slot achievement collection untouched",
+    "pass": true
+  },
+  {
+    "name": "Arrow navigation focuses another real node and updates selection without an unlock",
+    "pass": true
+  },
+  {
+    "name": "All three plaque chimes synthesize in the single procedural context and obey mute",
+    "pass": true
+  }
+]

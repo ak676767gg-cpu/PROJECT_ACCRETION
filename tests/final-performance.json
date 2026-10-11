@@ -1,0 +1,2038 @@
+{
+  "verification": "V1",
+  "machine": {
+    "environment": "Managed Linux x64 workspace, hardware model/CPU count not exposed",
+    "node": "v24.19.0",
+    "python": "3.12.14",
+    "canvas": "@napi-rs/canvas native software rasterizer",
+    "browser": "Not usable; launch ended before page opened",
+    "GL": "Not executed; no hardware or software-GL cost",
+    "canvasPixels": [
+      1440,
+      900
+    ],
+    "devicePixelRatio": 1
+  },
+  "protocol": {
+    "sparse": "50 warm-up + 300 contiguous samples, fixed 1/60 step, native Canvas pixel readback",
+    "dense": "12 fresh processes \u00d7 (50 warm-up +25 measured), 300 pooled samples; original longer dense native runs terminated, so this is an explicit protocol deviation",
+    "component": "50 warm-up +300 samples at 256/512/1024 CSS-pixel footprints; explicit GC outside measured intervals",
+    "limits": "No browser FPS, no 60 FPS claim; fixed-detail native stress runner does not run automatic quality feedback. Host timing varies across sessions, so paired numbers and revision scope remain separate."
+  },
+  "runs": {
+    "performance-baseline": {
+      "method": "Node 24 with native software Canvas, 1440x900, fixed 1/60, one readback per sample. No browser/GPU FPS claim. Sparse scenes: 50 warm-up + 300 contiguous samples. Dense scenes: 12 fresh processes, each 50 warm-up + 25 samples; 300 pooled samples. The native renderer terminates on longer dense runs, so dense measurements are explicitly batched. Identical protocol on baseline and current.",
+      "results": [
+        {
+          "stage": 0,
+          "dense": false,
+          "landmark": false,
+          "quality": "high",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.117,
+            "p95": 0.197
+          },
+          "render": {
+            "median": 9.664,
+            "p95": 11.67
+          },
+          "combined": {
+            "median": 9.801,
+            "p95": 11.843
+          },
+          "startupMs": 125.726,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "legacy",
+          "extraBytes": 0,
+          "batches": 1,
+          "warmupPerBatch": 50
+        },
+        {
+          "stage": 9,
+          "dense": false,
+          "landmark": false,
+          "quality": "high",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.144,
+            "p95": 0.226
+          },
+          "render": {
+            "median": 11.226,
+            "p95": 12.712
+          },
+          "combined": {
+            "median": 11.382,
+            "p95": 12.871
+          },
+          "startupMs": 133.926,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "legacy",
+          "extraBytes": 0,
+          "batches": 1,
+          "warmupPerBatch": 50
+        },
+        {
+          "stage": 15,
+          "dense": false,
+          "landmark": false,
+          "quality": "high",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.13,
+            "p95": 0.226
+          },
+          "render": {
+            "median": 10.714,
+            "p95": 11.913
+          },
+          "combined": {
+            "median": 10.861,
+            "p95": 12.108
+          },
+          "startupMs": 119.09,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "legacy",
+          "extraBytes": 0,
+          "batches": 1,
+          "warmupPerBatch": 50
+        },
+        {
+          "stage": 17,
+          "dense": false,
+          "landmark": false,
+          "quality": "high",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.133,
+            "p95": 0.226
+          },
+          "render": {
+            "median": 11.061,
+            "p95": 12.651
+          },
+          "combined": {
+            "median": 11.232,
+            "p95": 12.774
+          },
+          "startupMs": 124.07,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "legacy",
+          "extraBytes": 0,
+          "batches": 1,
+          "warmupPerBatch": 50
+        },
+        {
+          "stage": 19,
+          "dense": false,
+          "landmark": false,
+          "quality": "high",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.14,
+            "p95": 0.227
+          },
+          "render": {
+            "median": 10.959,
+            "p95": 14.661
+          },
+          "combined": {
+            "median": 11.116,
+            "p95": 14.824
+          },
+          "startupMs": 123.51,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "legacy",
+          "extraBytes": 0,
+          "batches": 1,
+          "warmupPerBatch": 50
+        },
+        {
+          "stage": 21,
+          "dense": false,
+          "landmark": false,
+          "quality": "high",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.128,
+            "p95": 0.209
+          },
+          "render": {
+            "median": 11.148,
+            "p95": 11.944
+          },
+          "combined": {
+            "median": 11.295,
+            "p95": 12.105
+          },
+          "startupMs": 125.192,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "legacy",
+          "extraBytes": 0,
+          "batches": 1,
+          "warmupPerBatch": 50
+        },
+        {
+          "stage": 19,
+          "dense": true,
+          "landmark": false,
+          "quality": "high",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 10.148,
+            "p95": 17.909
+          },
+          "render": {
+            "median": 49.804,
+            "p95": 63.968
+          },
+          "combined": {
+            "median": 62.339,
+            "p95": 80.232
+          },
+          "startupMs": 136.241,
+          "bodies": 299,
+          "parcels": 160,
+          "gasCells": 224,
+          "tier": "legacy",
+          "extraBytes": 0,
+          "batches": 12,
+          "warmupPerBatch": 50
+        },
+        {
+          "stage": 21,
+          "dense": true,
+          "landmark": false,
+          "quality": "high",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 9.974,
+            "p95": 15.882
+          },
+          "render": {
+            "median": 69.286,
+            "p95": 80.368
+          },
+          "combined": {
+            "median": 78.811,
+            "p95": 95.906
+          },
+          "startupMs": 132.908,
+          "bodies": 299,
+          "parcels": 160,
+          "gasCells": 224,
+          "tier": "legacy",
+          "extraBytes": 0,
+          "batches": 12,
+          "warmupPerBatch": 50
+        },
+        {
+          "stage": 0,
+          "dense": false,
+          "landmark": false,
+          "quality": "low",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.075,
+            "p95": 0.142
+          },
+          "render": {
+            "median": 3.785,
+            "p95": 4.269
+          },
+          "combined": {
+            "median": 3.873,
+            "p95": 4.394
+          },
+          "startupMs": 126.967,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "legacy",
+          "extraBytes": 0,
+          "batches": 1,
+          "warmupPerBatch": 50
+        },
+        {
+          "stage": 9,
+          "dense": false,
+          "landmark": false,
+          "quality": "low",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.093,
+            "p95": 0.166
+          },
+          "render": {
+            "median": 4.234,
+            "p95": 4.663
+          },
+          "combined": {
+            "median": 4.335,
+            "p95": 4.847
+          },
+          "startupMs": 127.593,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "legacy",
+          "extraBytes": 0,
+          "batches": 1,
+          "warmupPerBatch": 50
+        },
+        {
+          "stage": 15,
+          "dense": false,
+          "landmark": false,
+          "quality": "low",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.092,
+            "p95": 0.178
+          },
+          "render": {
+            "median": 4.347,
+            "p95": 5.002
+          },
+          "combined": {
+            "median": 4.451,
+            "p95": 5.134
+          },
+          "startupMs": 122.519,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "legacy",
+          "extraBytes": 0,
+          "batches": 1,
+          "warmupPerBatch": 50
+        },
+        {
+          "stage": 17,
+          "dense": false,
+          "landmark": false,
+          "quality": "low",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.103,
+            "p95": 0.19
+          },
+          "render": {
+            "median": 4.444,
+            "p95": 5.273
+          },
+          "combined": {
+            "median": 4.543,
+            "p95": 5.403
+          },
+          "startupMs": 125.178,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "legacy",
+          "extraBytes": 0,
+          "batches": 1,
+          "warmupPerBatch": 50
+        },
+        {
+          "stage": 19,
+          "dense": false,
+          "landmark": false,
+          "quality": "low",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.096,
+            "p95": 0.192
+          },
+          "render": {
+            "median": 4.448,
+            "p95": 5.053
+          },
+          "combined": {
+            "median": 4.547,
+            "p95": 5.208
+          },
+          "startupMs": 125.723,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "legacy",
+          "extraBytes": 0,
+          "batches": 1,
+          "warmupPerBatch": 50
+        },
+        {
+          "stage": 21,
+          "dense": false,
+          "landmark": false,
+          "quality": "low",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.089,
+            "p95": 0.168
+          },
+          "render": {
+            "median": 4.696,
+            "p95": 5.375
+          },
+          "combined": {
+            "median": 4.798,
+            "p95": 5.471
+          },
+          "startupMs": 134.129,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "legacy",
+          "extraBytes": 0,
+          "batches": 1,
+          "warmupPerBatch": 50
+        },
+        {
+          "stage": 19,
+          "dense": true,
+          "landmark": false,
+          "quality": "low",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 7.747,
+            "p95": 14.06
+          },
+          "render": {
+            "median": 18.536,
+            "p95": 22.732
+          },
+          "combined": {
+            "median": 27.172,
+            "p95": 35.704
+          },
+          "startupMs": 131.028,
+          "bodies": 232,
+          "parcels": 155,
+          "gasCells": 224,
+          "tier": "legacy",
+          "extraBytes": 0,
+          "batches": 12,
+          "warmupPerBatch": 50
+        },
+        {
+          "stage": 21,
+          "dense": true,
+          "landmark": false,
+          "quality": "low",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 8.444,
+            "p95": 15.74
+          },
+          "render": {
+            "median": 29.944,
+            "p95": 38.058
+          },
+          "combined": {
+            "median": 39.05,
+            "p95": 51.519
+          },
+          "startupMs": 134.325,
+          "bodies": 232,
+          "parcels": 155,
+          "gasCells": 224,
+          "tier": "legacy",
+          "extraBytes": 0,
+          "batches": 12,
+          "warmupPerBatch": 50
+        }
+      ],
+      "level": "V1",
+      "revisionScope": "Earlier measured implementation/baseline revision; retained for comparison, not silently relabeled as final revision"
+    },
+    "performance-current": {
+      "method": "Node 24 with native software Canvas, 1440x900, fixed 1/60, one readback per sample. No browser/GPU FPS claim. Sparse scenes: 50 warm-up + 300 contiguous samples. Dense scenes: 12 fresh processes, each 50 warm-up + 25 samples; 300 pooled samples. The native renderer terminates on longer dense runs, so dense measurements are explicitly batched. Identical protocol on baseline and current.",
+      "results": [
+        {
+          "stage": 0,
+          "dense": false,
+          "landmark": false,
+          "quality": "high",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.158,
+            "p95": 0.279
+          },
+          "render": {
+            "median": 10.912,
+            "p95": 14.172
+          },
+          "combined": {
+            "median": 11.105,
+            "p95": 14.727
+          },
+          "startupMs": 154.301,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "legacy",
+          "extraBytes": 0,
+          "batches": 1,
+          "warmupPerBatch": 50
+        },
+        {
+          "stage": 9,
+          "dense": false,
+          "landmark": false,
+          "quality": "high",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.173,
+            "p95": 0.307
+          },
+          "render": {
+            "median": 12.278,
+            "p95": 15.345
+          },
+          "combined": {
+            "median": 12.457,
+            "p95": 15.528
+          },
+          "startupMs": 155.018,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "legacy",
+          "extraBytes": 0,
+          "batches": 1,
+          "warmupPerBatch": 50
+        },
+        {
+          "stage": 15,
+          "dense": false,
+          "landmark": false,
+          "quality": "high",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.174,
+            "p95": 0.343
+          },
+          "render": {
+            "median": 12.219,
+            "p95": 14.5
+          },
+          "combined": {
+            "median": 12.386,
+            "p95": 14.687
+          },
+          "startupMs": 136.357,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "T0",
+          "extraBytes": 4747744,
+          "batches": 1,
+          "warmupPerBatch": 50
+        },
+        {
+          "stage": 17,
+          "dense": false,
+          "landmark": false,
+          "quality": "high",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.17,
+            "p95": 0.281
+          },
+          "render": {
+            "median": 11.519,
+            "p95": 13.486
+          },
+          "combined": {
+            "median": 11.69,
+            "p95": 13.7
+          },
+          "startupMs": 130.063,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "T0",
+          "extraBytes": 4747744,
+          "batches": 1,
+          "warmupPerBatch": 50
+        },
+        {
+          "stage": 19,
+          "dense": false,
+          "landmark": false,
+          "quality": "high",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.169,
+            "p95": 0.239
+          },
+          "render": {
+            "median": 11.29,
+            "p95": 12.282
+          },
+          "combined": {
+            "median": 11.453,
+            "p95": 12.512
+          },
+          "startupMs": 128.868,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "T0",
+          "extraBytes": 4747744,
+          "batches": 1,
+          "warmupPerBatch": 50
+        },
+        {
+          "stage": 21,
+          "dense": false,
+          "landmark": false,
+          "quality": "high",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.167,
+            "p95": 0.273
+          },
+          "render": {
+            "median": 11.568,
+            "p95": 14.534
+          },
+          "combined": {
+            "median": 11.741,
+            "p95": 14.866
+          },
+          "startupMs": 126.451,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "T0",
+          "extraBytes": 4747744,
+          "batches": 1,
+          "warmupPerBatch": 50
+        },
+        {
+          "stage": 19,
+          "dense": true,
+          "landmark": false,
+          "quality": "high",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 10.384,
+            "p95": 17.04
+          },
+          "render": {
+            "median": 50.619,
+            "p95": 63.895
+          },
+          "combined": {
+            "median": 60.957,
+            "p95": 80.394
+          },
+          "startupMs": 144.567,
+          "bodies": 299,
+          "parcels": 160,
+          "gasCells": 224,
+          "tier": "T0",
+          "extraBytes": 8663520,
+          "batches": 12,
+          "warmupPerBatch": 50
+        },
+        {
+          "stage": 21,
+          "dense": true,
+          "landmark": false,
+          "quality": "high",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 10.375,
+            "p95": 18.725
+          },
+          "render": {
+            "median": 48.373,
+            "p95": 61.762
+          },
+          "combined": {
+            "median": 59.145,
+            "p95": 77.547
+          },
+          "startupMs": 139.36,
+          "bodies": 299,
+          "parcels": 160,
+          "gasCells": 224,
+          "tier": "T0",
+          "extraBytes": 8663520,
+          "batches": 12,
+          "warmupPerBatch": 50
+        },
+        {
+          "stage": 0,
+          "dense": false,
+          "landmark": false,
+          "quality": "low",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.085,
+            "p95": 0.161
+          },
+          "render": {
+            "median": 4.023,
+            "p95": 4.952
+          },
+          "combined": {
+            "median": 4.117,
+            "p95": 5.032
+          },
+          "startupMs": 129.108,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "legacy",
+          "extraBytes": 0,
+          "batches": 1,
+          "warmupPerBatch": 50
+        },
+        {
+          "stage": 9,
+          "dense": false,
+          "landmark": false,
+          "quality": "low",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.117,
+            "p95": 0.239
+          },
+          "render": {
+            "median": 4.664,
+            "p95": 5.823
+          },
+          "combined": {
+            "median": 4.801,
+            "p95": 6.065
+          },
+          "startupMs": 123.897,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "legacy",
+          "extraBytes": 0,
+          "batches": 1,
+          "warmupPerBatch": 50
+        },
+        {
+          "stage": 15,
+          "dense": false,
+          "landmark": false,
+          "quality": "low",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.116,
+            "p95": 0.218
+          },
+          "render": {
+            "median": 4.769,
+            "p95": 5.636
+          },
+          "combined": {
+            "median": 4.902,
+            "p95": 6.014
+          },
+          "startupMs": 127.794,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "T0",
+          "extraBytes": 4747744,
+          "batches": 1,
+          "warmupPerBatch": 50
+        },
+        {
+          "stage": 17,
+          "dense": false,
+          "landmark": false,
+          "quality": "low",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.106,
+            "p95": 0.19
+          },
+          "render": {
+            "median": 4.606,
+            "p95": 4.996
+          },
+          "combined": {
+            "median": 4.726,
+            "p95": 5.144
+          },
+          "startupMs": 125.958,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "T0",
+          "extraBytes": 4747744,
+          "batches": 1,
+          "warmupPerBatch": 50
+        },
+        {
+          "stage": 19,
+          "dense": false,
+          "landmark": false,
+          "quality": "low",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.113,
+            "p95": 0.209
+          },
+          "render": {
+            "median": 4.838,
+            "p95": 5.98
+          },
+          "combined": {
+            "median": 4.96,
+            "p95": 6.124
+          },
+          "startupMs": 143.259,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "T0",
+          "extraBytes": 4747744,
+          "batches": 1,
+          "warmupPerBatch": 50
+        },
+        {
+          "stage": 21,
+          "dense": false,
+          "landmark": false,
+          "quality": "low",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.129,
+            "p95": 0.239
+          },
+          "render": {
+            "median": 5.058,
+            "p95": 6.781
+          },
+          "combined": {
+            "median": 5.218,
+            "p95": 7.011
+          },
+          "startupMs": 126.325,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "T0",
+          "extraBytes": 4747744,
+          "batches": 1,
+          "warmupPerBatch": 50
+        },
+        {
+          "stage": 19,
+          "dense": true,
+          "landmark": false,
+          "quality": "low",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 8.284,
+            "p95": 14.981
+          },
+          "render": {
+            "median": 18.457,
+            "p95": 23.907
+          },
+          "combined": {
+            "median": 27.908,
+            "p95": 36.56
+          },
+          "startupMs": 134.151,
+          "bodies": 232,
+          "parcels": 155,
+          "gasCells": 224,
+          "tier": "T0",
+          "extraBytes": 8663520,
+          "batches": 12,
+          "warmupPerBatch": 50
+        },
+        {
+          "stage": 21,
+          "dense": true,
+          "landmark": false,
+          "quality": "low",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 8.255,
+            "p95": 14.547
+          },
+          "render": {
+            "median": 18.264,
+            "p95": 23.263
+          },
+          "combined": {
+            "median": 27.555,
+            "p95": 35.715
+          },
+          "startupMs": 136.436,
+          "bodies": 232,
+          "parcels": 155,
+          "gasCells": 224,
+          "tier": "T0",
+          "extraBytes": 8810976,
+          "batches": 12,
+          "warmupPerBatch": 50
+        },
+        {
+          "stage": 19,
+          "dense": true,
+          "landmark": true,
+          "quality": "high",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 10.617,
+            "p95": 17.861
+          },
+          "render": {
+            "median": 51.337,
+            "p95": 67.664
+          },
+          "combined": {
+            "median": 61.611,
+            "p95": 83.163
+          },
+          "startupMs": 143.164,
+          "bodies": 299,
+          "parcels": 160,
+          "gasCells": 224,
+          "tier": "T0",
+          "extraBytes": 11940320,
+          "batches": 12,
+          "warmupPerBatch": 50
+        },
+        {
+          "stage": 19,
+          "dense": true,
+          "landmark": true,
+          "quality": "low",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 8.271,
+            "p95": 15.881
+          },
+          "render": {
+            "median": 18.924,
+            "p95": 24.482
+          },
+          "combined": {
+            "median": 28.167,
+            "p95": 36.78
+          },
+          "startupMs": 139.462,
+          "bodies": 232,
+          "parcels": 155,
+          "gasCells": 224,
+          "tier": "T0",
+          "extraBytes": 8663520,
+          "batches": 12,
+          "warmupPerBatch": 50
+        }
+      ],
+      "level": "V1",
+      "revisionScope": "Earlier measured implementation/baseline revision; retained for comparison, not silently relabeled as final revision"
+    },
+    "paired-profile": {
+      "method": "Sequential matched recheck; same profile driver, with active encounter at 4500 seconds in the dense scene. Native software Canvas, no browser FPS. Dense 12x(50 warmup+25 samples); sparse 50+300.",
+      "results": [
+        {
+          "stage": 0,
+          "dense": false,
+          "landmark": false,
+          "quality": "high",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.122,
+            "p95": 0.183
+          },
+          "render": {
+            "median": 9.845,
+            "p95": 21.51
+          },
+          "combined": {
+            "median": 9.997,
+            "p95": 21.769
+          },
+          "startupMs": 128.384,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "legacy",
+          "extraBytes": 0,
+          "encounter": false,
+          "label": "baseline",
+          "batches": 1
+        },
+        {
+          "stage": 0,
+          "dense": false,
+          "landmark": false,
+          "quality": "high",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.124,
+            "p95": 0.213
+          },
+          "render": {
+            "median": 9.508,
+            "p95": 11.053
+          },
+          "combined": {
+            "median": 9.63,
+            "p95": 11.27
+          },
+          "startupMs": 128.624,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "legacy",
+          "extraBytes": 0,
+          "encounter": false,
+          "label": "current",
+          "batches": 1
+        },
+        {
+          "stage": 9,
+          "dense": false,
+          "landmark": false,
+          "quality": "high",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.146,
+            "p95": 0.237
+          },
+          "render": {
+            "median": 11.293,
+            "p95": 13.172
+          },
+          "combined": {
+            "median": 11.443,
+            "p95": 13.317
+          },
+          "startupMs": 131.098,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "legacy",
+          "extraBytes": 0,
+          "encounter": false,
+          "label": "baseline",
+          "batches": 1
+        },
+        {
+          "stage": 9,
+          "dense": false,
+          "landmark": false,
+          "quality": "high",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.146,
+            "p95": 0.242
+          },
+          "render": {
+            "median": 11.143,
+            "p95": 12.471
+          },
+          "combined": {
+            "median": 11.301,
+            "p95": 12.615
+          },
+          "startupMs": 135.115,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "legacy",
+          "extraBytes": 0,
+          "encounter": false,
+          "label": "current",
+          "batches": 1
+        },
+        {
+          "stage": 0,
+          "dense": false,
+          "landmark": false,
+          "quality": "low",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.074,
+            "p95": 0.142
+          },
+          "render": {
+            "median": 3.865,
+            "p95": 4.252
+          },
+          "combined": {
+            "median": 3.955,
+            "p95": 4.378
+          },
+          "startupMs": 125.882,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "legacy",
+          "extraBytes": 0,
+          "encounter": false,
+          "label": "baseline",
+          "batches": 1
+        },
+        {
+          "stage": 0,
+          "dense": false,
+          "landmark": false,
+          "quality": "low",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.082,
+            "p95": 0.142
+          },
+          "render": {
+            "median": 3.846,
+            "p95": 4.358
+          },
+          "combined": {
+            "median": 3.932,
+            "p95": 4.484
+          },
+          "startupMs": 133.58,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "legacy",
+          "extraBytes": 0,
+          "encounter": false,
+          "label": "current",
+          "batches": 1
+        },
+        {
+          "stage": 9,
+          "dense": false,
+          "landmark": false,
+          "quality": "low",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.101,
+            "p95": 0.197
+          },
+          "render": {
+            "median": 4.555,
+            "p95": 5.497
+          },
+          "combined": {
+            "median": 4.673,
+            "p95": 5.639
+          },
+          "startupMs": 137.279,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "legacy",
+          "extraBytes": 0,
+          "encounter": false,
+          "label": "baseline",
+          "batches": 1
+        },
+        {
+          "stage": 9,
+          "dense": false,
+          "landmark": false,
+          "quality": "low",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.113,
+            "p95": 0.2
+          },
+          "render": {
+            "median": 4.649,
+            "p95": 6.922
+          },
+          "combined": {
+            "median": 4.787,
+            "p95": 7.04
+          },
+          "startupMs": 126.778,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "legacy",
+          "extraBytes": 0,
+          "encounter": false,
+          "label": "current",
+          "batches": 1
+        },
+        {
+          "stage": 21,
+          "dense": true,
+          "landmark": false,
+          "quality": "high",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 9.909,
+            "p95": 16.637
+          },
+          "render": {
+            "median": 69.045,
+            "p95": 83.13
+          },
+          "combined": {
+            "median": 80.42,
+            "p95": 100.638
+          },
+          "startupMs": 147.319,
+          "bodies": 299,
+          "parcels": 160,
+          "gasCells": 224,
+          "tier": "legacy",
+          "extraBytes": 0,
+          "encounter": true,
+          "label": "baseline",
+          "batches": 12
+        },
+        {
+          "stage": 21,
+          "dense": true,
+          "landmark": false,
+          "quality": "high",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 10.244,
+            "p95": 17.23
+          },
+          "render": {
+            "median": 47.531,
+            "p95": 61.893
+          },
+          "combined": {
+            "median": 59.771,
+            "p95": 78.014
+          },
+          "startupMs": 148.403,
+          "bodies": 299,
+          "parcels": 160,
+          "gasCells": 224,
+          "tier": "T0",
+          "extraBytes": 8692640,
+          "encounter": true,
+          "label": "current",
+          "batches": 12
+        },
+        {
+          "stage": 21,
+          "dense": true,
+          "landmark": false,
+          "quality": "low",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 8.027,
+            "p95": 15.172
+          },
+          "render": {
+            "median": 29.273,
+            "p95": 34.327
+          },
+          "combined": {
+            "median": 38.247,
+            "p95": 46.117
+          },
+          "startupMs": 138.648,
+          "bodies": 232,
+          "parcels": 155,
+          "gasCells": 224,
+          "tier": "legacy",
+          "extraBytes": 0,
+          "encounter": true,
+          "label": "baseline",
+          "batches": 12
+        },
+        {
+          "stage": 21,
+          "dense": true,
+          "landmark": false,
+          "quality": "low",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 8.187,
+            "p95": 14.854
+          },
+          "render": {
+            "median": 18.892,
+            "p95": 24.445
+          },
+          "combined": {
+            "median": 28.022,
+            "p95": 36.032
+          },
+          "startupMs": 149.609,
+          "bodies": 232,
+          "parcels": 155,
+          "gasCells": 224,
+          "tier": "T0",
+          "extraBytes": 8692640,
+          "encounter": true,
+          "label": "current",
+          "batches": 12
+        }
+      ],
+      "level": "V1",
+      "revisionScope": "Earlier measured implementation/baseline revision; retained for comparison, not silently relabeled as final revision"
+    },
+    "paired-early": {
+      "method": "Sequential matched recheck; same profile driver, with active encounter at 4500 seconds in the dense scene. Native software Canvas, no browser FPS. Dense 12x(50 warmup+25 samples); sparse 50+300.",
+      "results": [
+        {
+          "stage": 0,
+          "dense": false,
+          "landmark": false,
+          "quality": "high",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.11,
+            "p95": 0.306
+          },
+          "render": {
+            "median": 14.551,
+            "p95": 19.81
+          },
+          "combined": {
+            "median": 14.665,
+            "p95": 19.925
+          },
+          "startupMs": 203.94,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "legacy",
+          "extraBytes": 0,
+          "encounter": false,
+          "label": "baseline",
+          "batches": 1
+        },
+        {
+          "stage": 0,
+          "dense": false,
+          "landmark": false,
+          "quality": "high",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.108,
+            "p95": 0.339
+          },
+          "render": {
+            "median": 14.549,
+            "p95": 21.251
+          },
+          "combined": {
+            "median": 14.721,
+            "p95": 21.946
+          },
+          "startupMs": 205.313,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "legacy",
+          "extraBytes": 0,
+          "encounter": false,
+          "label": "current",
+          "batches": 1
+        },
+        {
+          "stage": 9,
+          "dense": false,
+          "landmark": false,
+          "quality": "high",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.14,
+            "p95": 0.304
+          },
+          "render": {
+            "median": 17.188,
+            "p95": 27.201
+          },
+          "combined": {
+            "median": 17.372,
+            "p95": 27.328
+          },
+          "startupMs": 209.821,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "legacy",
+          "extraBytes": 0,
+          "encounter": false,
+          "label": "baseline",
+          "batches": 1
+        },
+        {
+          "stage": 9,
+          "dense": false,
+          "landmark": false,
+          "quality": "high",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.132,
+            "p95": 0.303
+          },
+          "render": {
+            "median": 16.23,
+            "p95": 22.148
+          },
+          "combined": {
+            "median": 16.397,
+            "p95": 22.354
+          },
+          "startupMs": 187.471,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "legacy",
+          "extraBytes": 0,
+          "encounter": false,
+          "label": "current",
+          "batches": 1
+        },
+        {
+          "stage": 0,
+          "dense": false,
+          "landmark": false,
+          "quality": "low",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.105,
+            "p95": 0.324
+          },
+          "render": {
+            "median": 5.807,
+            "p95": 9.365
+          },
+          "combined": {
+            "median": 5.94,
+            "p95": 9.494
+          },
+          "startupMs": 195.238,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "legacy",
+          "extraBytes": 0,
+          "encounter": false,
+          "label": "baseline",
+          "batches": 1
+        },
+        {
+          "stage": 0,
+          "dense": false,
+          "landmark": false,
+          "quality": "low",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.122,
+            "p95": 0.327
+          },
+          "render": {
+            "median": 5.857,
+            "p95": 11.612
+          },
+          "combined": {
+            "median": 5.99,
+            "p95": 12.188
+          },
+          "startupMs": 203.424,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "legacy",
+          "extraBytes": 0,
+          "encounter": false,
+          "label": "current",
+          "batches": 1
+        },
+        {
+          "stage": 9,
+          "dense": false,
+          "landmark": false,
+          "quality": "low",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.121,
+            "p95": 0.346
+          },
+          "render": {
+            "median": 6.506,
+            "p95": 9.924
+          },
+          "combined": {
+            "median": 6.66,
+            "p95": 10.1
+          },
+          "startupMs": 179.511,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "legacy",
+          "extraBytes": 0,
+          "encounter": false,
+          "label": "baseline",
+          "batches": 1
+        },
+        {
+          "stage": 9,
+          "dense": false,
+          "landmark": false,
+          "quality": "low",
+          "warmup": 50,
+          "samples": 300,
+          "simulation": {
+            "median": 0.132,
+            "p95": 0.356
+          },
+          "render": {
+            "median": 6.548,
+            "p95": 9.007
+          },
+          "combined": {
+            "median": 6.708,
+            "p95": 9.222
+          },
+          "startupMs": 188.68,
+          "bodies": 1,
+          "parcels": 0,
+          "gasCells": 0,
+          "tier": "legacy",
+          "extraBytes": 0,
+          "encounter": false,
+          "label": "current",
+          "batches": 1
+        }
+      ],
+      "level": "V1",
+      "revisionScope": "Final production code after contour crop and scalar cold guards"
+    },
+    "footprint-baseline": {
+      "method": "V1 native software Canvas body-component microbenchmark. 1440x900, 50 warm-up/300 measured samples, pixel readback. Body footprints 256/512/1024 CSS px. Optional menu component. No browser FPS.",
+      "results": [
+        {
+          "label": "baseline",
+          "footprint": 256,
+          "tier": "legacy",
+          "requestedTier": 0,
+          "median": 1.168,
+          "p95": 1.534,
+          "samples": 300,
+          "warmup": 50,
+          "bakeMs": 0,
+          "extraBytes": 0,
+          "menu": false
+        },
+        {
+          "label": "baseline",
+          "footprint": 256,
+          "tier": "legacy",
+          "requestedTier": 1,
+          "median": 1.553,
+          "p95": 2.145,
+          "samples": 300,
+          "warmup": 50,
+          "bakeMs": 0,
+          "extraBytes": 0,
+          "menu": false
+        },
+        {
+          "label": "baseline",
+          "footprint": 512,
+          "tier": "legacy",
+          "requestedTier": 0,
+          "median": 1.911,
+          "p95": 2.469,
+          "samples": 300,
+          "warmup": 50,
+          "bakeMs": 0,
+          "extraBytes": 0,
+          "menu": false
+        },
+        {
+          "label": "baseline",
+          "footprint": 512,
+          "tier": "legacy",
+          "requestedTier": 1,
+          "median": 4.309,
+          "p95": 6.105,
+          "samples": 300,
+          "warmup": 50,
+          "bakeMs": 0,
+          "extraBytes": 0,
+          "menu": false
+        },
+        {
+          "label": "baseline",
+          "footprint": 1024,
+          "tier": "legacy",
+          "requestedTier": 0,
+          "median": 4.262,
+          "p95": 4.869,
+          "samples": 300,
+          "warmup": 50,
+          "bakeMs": 0,
+          "extraBytes": 0,
+          "menu": false
+        },
+        {
+          "label": "baseline",
+          "footprint": 1024,
+          "tier": "legacy",
+          "requestedTier": 1,
+          "median": 6.369,
+          "p95": 8.377,
+          "samples": 300,
+          "warmup": 50,
+          "bakeMs": 0,
+          "extraBytes": 0,
+          "menu": false
+        },
+        {
+          "label": "baseline",
+          "footprint": 512,
+          "tier": "menu",
+          "requestedTier": 0,
+          "median": 6.162,
+          "p95": 6.864,
+          "samples": 300,
+          "warmup": 50,
+          "bakeMs": 0,
+          "extraBytes": 0,
+          "menu": true
+        }
+      ],
+      "level": "V1",
+      "revisionScope": "Earlier measured implementation/baseline revision; retained for comparison, not silently relabeled as final revision"
+    },
+    "footprint-current": {
+      "method": "V1 native software Canvas body-component microbenchmark. 1440x900, 50 warm-up/300 measured samples, pixel readback. Body footprints 256/512/1024 CSS px. Optional menu component. No browser FPS.",
+      "results": [
+        {
+          "label": "current",
+          "footprint": 256,
+          "tier": "T0",
+          "requestedTier": 0,
+          "median": 1.117,
+          "p95": 2.188,
+          "samples": 300,
+          "warmup": 50,
+          "bakeMs": 239.45,
+          "extraBytes": 4776864,
+          "menu": false
+        },
+        {
+          "label": "current",
+          "footprint": 256,
+          "tier": "T0",
+          "requestedTier": 1,
+          "median": 0.941,
+          "p95": 1.48,
+          "samples": 300,
+          "warmup": 50,
+          "bakeMs": 340.02,
+          "extraBytes": 9102240,
+          "menu": false
+        },
+        {
+          "label": "current",
+          "footprint": 512,
+          "tier": "T0",
+          "requestedTier": 0,
+          "median": 2.556,
+          "p95": 4.588,
+          "samples": 300,
+          "warmup": 50,
+          "bakeMs": 237.18,
+          "extraBytes": 4776864,
+          "menu": false
+        },
+        {
+          "label": "current",
+          "footprint": 512,
+          "tier": "T0",
+          "requestedTier": 1,
+          "median": 1.898,
+          "p95": 2.726,
+          "samples": 300,
+          "warmup": 50,
+          "bakeMs": 316.25,
+          "extraBytes": 9102240,
+          "menu": false
+        },
+        {
+          "label": "current",
+          "footprint": 1024,
+          "tier": "T0",
+          "requestedTier": 0,
+          "median": 7.452,
+          "p95": 9.516,
+          "samples": 300,
+          "warmup": 50,
+          "bakeMs": 266.72,
+          "extraBytes": 4776864,
+          "menu": false
+        },
+        {
+          "label": "current",
+          "footprint": 1024,
+          "tier": "T1",
+          "requestedTier": 1,
+          "median": 12.821,
+          "p95": 20.029,
+          "samples": 300,
+          "warmup": 50,
+          "bakeMs": 356.56,
+          "extraBytes": 7144352,
+          "menu": false
+        },
+        {
+          "label": "current",
+          "footprint": 512,
+          "tier": "menu",
+          "requestedTier": 0,
+          "median": 9.005,
+          "p95": 13.099,
+          "samples": 300,
+          "warmup": 50,
+          "bakeMs": 238.56,
+          "extraBytes": 4776864,
+          "menu": true
+        }
+      ],
+      "level": "V1",
+      "revisionScope": "Earlier measured implementation/baseline revision; retained for comparison, not silently relabeled as final revision"
+    },
+    "footprint-matched-final": {
+      "method": "Sequential baseline/current pairs after the final transparent-contour crop. Native software Canvas 1440x900; 1024 CSS-pixel body component, 50 warmup and 300 readback samples. Explicit GC outside timing. No browser FPS.",
+      "results": [
+        {
+          "label": "baseline",
+          "footprint": 1024,
+          "tier": "legacy",
+          "requestedTier": 0,
+          "median": 5.183,
+          "p95": 6.579,
+          "samples": 300,
+          "warmup": 50,
+          "bakeMs": 0,
+          "extraBytes": 0,
+          "menu": false
+        },
+        {
+          "label": "current",
+          "footprint": 1024,
+          "tier": "T0",
+          "requestedTier": 0,
+          "median": 4.836,
+          "p95": 8.412,
+          "samples": 300,
+          "warmup": 50,
+          "bakeMs": 232.31,
+          "extraBytes": 4776864,
+          "menu": false
+        },
+        {
+          "label": "baseline",
+          "footprint": 1024,
+          "tier": "legacy",
+          "requestedTier": 1,
+          "median": 8.65,
+          "p95": 12.088,
+          "samples": 300,
+          "warmup": 50,
+          "bakeMs": 0,
+          "extraBytes": 0,
+          "menu": false
+        },
+        {
+          "label": "current",
+          "footprint": 1024,
+          "tier": "T1",
+          "requestedTier": 1,
+          "median": 7.3,
+          "p95": 12.091,
+          "samples": 300,
+          "warmup": 50,
+          "bakeMs": 366.62,
+          "extraBytes": 7144352,
+          "menu": false
+        }
+      ],
+      "level": "V1",
+      "revisionScope": "Final production code after contour crop and scalar cold guards"
+    },
+    "projection-baseline": {
+      "callsPerTrial": 200000,
+      "trials": 12,
+      "medianMs": 37.369444000000044,
+      "p95Ms": 46.402581999999995,
+      "checksum": 3925.653163200443,
+      "providedOutput": false,
+      "codePathAllocationsPerTrial": 200000,
+      "level": "V1",
+      "method": "VM production method called by Node loop. Logical allocation count from code, not a heap profiler.",
+      "revisionScope": "Earlier measured implementation/baseline revision; retained for comparison, not silently relabeled as final revision"
+    },
+    "projection-current": {
+      "callsPerTrial": 200000,
+      "trials": 12,
+      "medianMs": 27.664836000000037,
+      "p95Ms": 34.30982899999998,
+      "checksum": 3925.653163200443,
+      "providedOutput": true,
+      "codePathAllocationsPerTrial": 0,
+      "level": "V1",
+      "method": "VM production method called by Node loop. Logical allocation count from code, not a heap profiler.",
+      "revisionScope": "Earlier measured implementation/baseline revision; retained for comparison, not silently relabeled as final revision"
+    },
+    "bake-final": {
+      "level": "V1",
+      "method": "Actual final-source CPU advance(3.8) bake slices; synchronous test driver, no browser scheduling or shader compile.",
+      "size": 256,
+      "slices": 91,
+      "totalMs": 346.222312,
+      "maxSliceMs": 9.006923000000029,
+      "p95SliceMs": 4.624639000000002,
+      "extraBytes": 7144352,
+      "detailCrop": {
+        "x": 143,
+        "y": 178,
+        "right": 356,
+        "bottom": 329
+      },
+      "ready": true,
+      "revisionScope": "Final production code after contour crop and scalar cold guards"
+    }
+  },
+  "pairedChanges": [
+    {
+      "run": "paired-profile",
+      "stage": 0,
+      "quality": "high",
+      "dense": false,
+      "baselineRenderMedianMs": 9.845,
+      "newRenderMedianMs": 9.508,
+      "renderChangePercent": -3.423,
+      "baselineSimulationMedianMs": 0.122,
+      "newSimulationMedianMs": 0.124,
+      "simulationChangePercent": 1.639,
+      "level": "V1"
+    },
+    {
+      "run": "paired-profile",
+      "stage": 9,
+      "quality": "high",
+      "dense": false,
+      "baselineRenderMedianMs": 11.293,
+      "newRenderMedianMs": 11.143,
+      "renderChangePercent": -1.328,
+      "baselineSimulationMedianMs": 0.146,
+      "newSimulationMedianMs": 0.146,
+      "simulationChangePercent": 0.0,
+      "level": "V1"
+    },
+    {
+      "run": "paired-profile",
+      "stage": 0,
+      "quality": "low",
+      "dense": false,
+      "baselineRenderMedianMs": 3.865,
+      "newRenderMedianMs": 3.846,
+      "renderChangePercent": -0.492,
+      "baselineSimulationMedianMs": 0.074,
+      "newSimulationMedianMs": 0.082,
+      "simulationChangePercent": 10.811,
+      "level": "V1"
+    },
+    {
+      "run": "paired-profile",
+      "stage": 9,
+      "quality": "low",
+      "dense": false,
+      "baselineRenderMedianMs": 4.555,
+      "newRenderMedianMs": 4.649,
+      "renderChangePercent": 2.064,
+      "baselineSimulationMedianMs": 0.101,
+      "newSimulationMedianMs": 0.113,
+      "simulationChangePercent": 11.881,
+      "level": "V1"
+    },
+    {
+      "run": "paired-profile",
+      "stage": 21,
+      "quality": "high",
+      "dense": true,
+      "baselineRenderMedianMs": 69.045,
+      "newRenderMedianMs": 47.531,
+      "renderChangePercent": -31.159,
+      "baselineSimulationMedianMs": 9.909,
+      "newSimulationMedianMs": 10.244,
+      "simulationChangePercent": 3.381,
+      "level": "V1"
+    },
+    {
+      "run": "paired-profile",
+      "stage": 21,
+      "quality": "low",
+      "dense": true,
+      "baselineRenderMedianMs": 29.273,
+      "newRenderMedianMs": 18.892,
+      "renderChangePercent": -35.463,
+      "baselineSimulationMedianMs": 8.027,
+      "newSimulationMedianMs": 8.187,
+      "simulationChangePercent": 1.993,
+      "level": "V1"
+    },
+    {
+      "run": "paired-early",
+      "stage": 0,
+      "quality": "high",
+      "dense": false,
+      "baselineRenderMedianMs": 14.551,
+      "newRenderMedianMs": 14.549,
+      "renderChangePercent": -0.014,
+      "baselineSimulationMedianMs": 0.11,
+      "newSimulationMedianMs": 0.108,
+      "simulationChangePercent": -1.818,
+      "level": "V1"
+    },
+    {
+      "run": "paired-early",
+      "stage": 9,
+      "quality": "high",
+      "dense": false,
+      "baselineRenderMedianMs": 17.188,
+      "newRenderMedianMs": 16.23,
+      "renderChangePercent": -5.574,
+      "baselineSimulationMedianMs": 0.14,
+      "newSimulationMedianMs": 0.132,
+      "simulationChangePercent": -5.714,
+      "level": "V1"
+    },
+    {
+      "run": "paired-early",
+      "stage": 0,
+      "quality": "low",
+      "dense": false,
+      "baselineRenderMedianMs": 5.807,
+      "newRenderMedianMs": 5.857,
+      "renderChangePercent": 0.861,
+      "baselineSimulationMedianMs": 0.105,
+      "newSimulationMedianMs": 0.122,
+      "simulationChangePercent": 16.19,
+      "level": "V1"
+    },
+    {
+      "run": "paired-early",
+      "stage": 9,
+      "quality": "low",
+      "dense": false,
+      "baselineRenderMedianMs": 6.506,
+      "newRenderMedianMs": 6.548,
+      "renderChangePercent": 0.646,
+      "baselineSimulationMedianMs": 0.121,
+      "newSimulationMedianMs": 0.132,
+      "simulationChangePercent": 9.091,
+      "level": "V1"
+    }
+  ],
+  "budgets": {
+    "earlyRender": "Final class0/9 render medians within3% in both qualities; not all0\u201314 classes individually profiled",
+    "earlySimulation": "Low class0 +16.19% (+0.017ms), class9 +9.09% (+0.011ms): strict3% budget missed",
+    "crowdedFinal": "Active encounter class21 render median31.16%/35.46% lower in High/Low measured pairs; earlier revision, tiny T0 scene is unaffected by the final contour crop",
+    "largeFootprint": "Final1024px T0 median4.836ms vs5.183ms; T1 median7.300ms vs8.650ms. Corresponding p958.412/12.091ms vs6.579/12.088ms. Median targets pass, p95T0 is worse",
+    "landmark": "Normal-zoom dense class19+landmark measured; strict largest-footprint full-scene Disk-zone protocol not completed",
+    "bake": "Final256map346.22ms/91calls; p95slice4.625ms, maximum9.007ms.2s completion met; strict4ms slices missed",
+    "memory": "Final full T1 one-map estimate7,144,352bytes, T0one-map4,776,864bytes. Cache pruning below11.7MiB; maximum observed earlier landmark11,940,320bytes. Arithmetic estimate, not heap/driver sampling",
+    "startup": "Final early driver setup changes +1.373,\u221222.350,+8.186,+9.169ms; not browser first-interactive measurement",
+    "menu": "Never starts GL, but component timings vary by host and no browser responsiveness sweep",
+    "GPU": "Unexecuted; hardware2/4ms targets unverified",
+    "allocation": "Projection microbench reduces logical vector allocations by200,000pertrial; whole renderer still uses transient objects/gradients/strings, zero-allocation claim not met"
+  },
+  "designTargets": {
+    "T2_640_HardwareMs": 2,
+    "T3_1024_HardwareMs": 4,
+    "hardwareFPS": 60
+  },
+  "unverified": [
+    "Real browser file-origin launch/console/layout",
+    "Actual GPU compile/render/context recovery",
+    "Browser30-second heap sample",
+    "All photo/reference variants and cross-tier parity",
+    "Largest-footprint landmark full-scene protocol"
+  ]
+}

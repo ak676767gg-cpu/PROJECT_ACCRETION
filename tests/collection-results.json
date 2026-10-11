@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Actual production frame loop collects both mass and samples during a boosted encounter",
+    "pass": true
+  },
+  {
+    "name": "Black-hole collection works during coasting, sustained thrust and boost across three late classes",
+    "pass": true
+  },
+  {
+    "name": "Inner flow retains continuous relative motion instead of rigidly copying source position",
+    "pass": true
+  },
+  {
+    "name": "Inner-flow save and restore preserves remaining matter and prevents duplicate samples",
+    "pass": true
+  },
+  {
+    "name": "Old snapshots with no payload or inner-flow fields still resume feeding",
+    "pass": true
+  },
+  {
+    "name": "Starting asteroid and planetary collisions retain their original resource yield",
+    "pass": true
+  },
+  {
+    "name": "Original circular pointer has no extra local chevron or thrust dot",
+    "pass": true
+  },
+  {
+    "name": "Boost particles spawn and draw on the source depth plane while the camera remains centered",
+    "pass": true
+  },
+  {
+    "name": "Pooled effects cannot leak depth into a later particle",
+    "pass": true
+  },
+  {
+    "name": "Repeated restarts reset accepted matter and particle payloads without duplicate listeners or loops",
+    "pass": true
+  },
+  {
+    "name": "Collection leaves wheel pricing, rarity odds and three-evolution checkpoints intact",
+    "pass": true
+  }
+]

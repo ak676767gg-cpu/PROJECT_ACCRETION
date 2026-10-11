@@ -1,0 +1,38 @@
+[
+  {
+    "name": "The actual plaque builds its frame, illuminates, reveals badge and text, then holds",
+    "pass": true
+  },
+  {
+    "name": "Top and bottom anchors use mirrored entrance and exit offsets with the same reveal",
+    "pass": true
+  },
+  {
+    "name": "Opening a menu during illumination freezes every visual value and resumes without replay",
+    "pass": true
+  },
+  {
+    "name": "Cinematic evolution and HUD hiding freeze both the reveal and the final fade",
+    "pass": true
+  },
+  {
+    "name": "Game and operating-system reduced motion remove the light wash, blur and movement",
+    "pass": true
+  },
+  {
+    "name": "The next queued plaque resets all reveal values after the preceding fade",
+    "pass": true
+  },
+  {
+    "name": "Restart during the light reveal clears presentation state without new listeners or loops",
+    "pass": true
+  },
+  {
+    "name": "Every plaque has a readable hold, finite bounded motion, and no redundant hold style writes",
+    "pass": true
+  },
+  {
+    "name": "The offline preview uses production paint, never touches storage, and replays on one loop",
+    "pass": true
+  }
+]

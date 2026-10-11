@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Five primary branches and three side branches, with no RNG draws",
+    "pass": true,
+    "ms": 184.56370200000003
+  },
+  {
+    "name": "Branches lock before Moon, free outpost installs at Moon once",
+    "pass": true,
+    "ms": 194.00369899999998
+  },
+  {
+    "name": "Half-bar and full-bar points award exactly once, including mass loss and route switches",
+    "pass": true,
+    "ms": 220.873965
+  },
+  {
+    "name": "Research Centre costs exactly 25 raw and batches use 50 raw over 18 seconds",
+    "pass": true,
+    "ms": 198.52163600000006
+  },
+  {
+    "name": "Adaptations spend AP alone while engineering spends RP with rank and time escalation",
+    "pass": true,
+    "ms": 251.91567499999996
+  },
+  {
+    "name": "Laser prerequisites require optics, attack laser and two miners",
+    "pass": true,
+    "ms": 219.99556899999993
+  },
+  {
+    "name": "Mining fractures real rock, conserves its mass and produces finite carried ore",
+    "pass": true,
+    "ms": 216.790479
+  },
+  {
+    "name": "An actual drone travels, cuts and returns ore under physical gravity",
+    "pass": true,
+    "ms": 311.80612500000007
+  },
+  {
+    "name": "Collectors pick up real raw crates and deposit them at the moving station",
+    "pass": true,
+    "ms": 172.13516500000014
+  },
+  {
+    "name": "Weapons dislodge real rival mass into debris without duplication",
+    "pass": true,
+    "ms": 130.10175900000013
+  },
+  {
+    "name": "Turrets and lasers have bounded real hits and finite raw debris",
+    "pass": true,
+    "ms": 145.08861800000022
+  },
+  {
+    "name": "Batteries charge, pause machines and then power an overclock at an inverse duration tradeoff",
+    "pass": true,
+    "ms": 147.08580200000006
+  },
+  {
+    "name": "Generation progresses from turbine to fission, fusion, solar and Dyson, each with prerequisites",
+    "pass": true,
+    "ms": 277.0043649999998
+  },
+  {
+    "name": "Shield storage absorbs bounded damage and recharges only when powered and safe",
+    "pass": true,
+    "ms": 141.1613910000001
+  },
+  {
+    "name": "Water and DNA recovery use fractional carry without changing rarity odds",
+    "pass": true,
+    "ms": 156.14427000000023
+  },
+  {
+    "name": "In-progress research, drone cargo, shields, resource carries, claims and power timers survive reload",
+    "pass": true,
+    "ms": 172.67149300000028
+  },
+  {
+    "name": "Save schema rejects malformed industry payloads and still accepts pre-update runs",
+    "pass": true,
+    "ms": 149.8003789999998
+  },
+  {
+    "name": "Sandbox exposes all remnant classes and mass edits use the exact current mass unit",
+    "pass": true,
+    "ms": 266.42798200000016
+  },
+  {
+    "name": "Journey mode blocks Sandbox routes, resource grants and mass edits",
+    "pass": true,
+    "ms": 193.70577499999945
+  },
+  {
+    "name": "Late-game fields consist of systems and asteroid belts with physical orbital velocities",
+    "pass": true,
+    "ms": 705.1302669999995
+  },
+  {
+    "name": "Every installed upgrade adds visible machinery, followers toggle, and rendering freezes when paused",
+    "pass": true,
+    "ms": 352.37286700000004
+  },
+  {
+    "name": "Twenty restarts leave no duplicated loops, listeners, drones, shots or salvage",
+    "pass": true,
+    "ms": 2605.7782240000006
+  }
+]

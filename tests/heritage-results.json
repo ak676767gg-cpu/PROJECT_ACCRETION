@@ -1,0 +1,134 @@
+[
+  {
+    "name": "New catalogues preserve the 21 classes, nine rivals, 18 adaptations and 50 pets",
+    "pass": true
+  },
+  {
+    "name": "Prestige needs a stellar journey and four distinct actual class goals",
+    "pass": true
+  },
+  {
+    "name": "Prestige retires body and adaptations while preserving pets, eggs, resources, records and looks",
+    "pass": true
+  },
+  {
+    "name": "Legacy history, trial state and cosmetics round-trip through the same save vault",
+    "pass": true
+  },
+  {
+    "name": "Both checkpoint failure and retirement-write failure retain the playable old world",
+    "pass": true
+  },
+  {
+    "name": "Prestige respects the three-slot boundary, rank cap and sandbox isolation",
+    "pass": true
+  },
+  {
+    "name": "Expedition challenge completion records once without adding power, water or DNA",
+    "pass": true
+  },
+  {
+    "name": "Custodian trial resets on risk and later ranks require a longer stable hold",
+    "pass": true
+  },
+  {
+    "name": "Black-hole promise counts only actual accretion at black-hole scale",
+    "pass": true
+  },
+  {
+    "name": "Cosmetics are achievement/rank gated, stack with no bonuses, and default safely on old saves",
+    "pass": true
+  },
+  {
+    "name": "Accessory and marking selections persist per slot without polluting another slot",
+    "pass": true
+  },
+  {
+    "name": "Plaque frame selection uses the existing notice, phases and queue",
+    "pass": true
+  },
+  {
+    "name": "Actual damaging collisions leave scars; shielded collisions and gentle absorption do not",
+    "pass": true
+  },
+  {
+    "name": "Scars are bounded, survive evolution/load, and pooled bodies start clean",
+    "pass": true
+  },
+  {
+    "name": "Five survived impacts earn the new milestone but fatal impacts do not count",
+    "pass": true
+  },
+  {
+    "name": "Scar, marking and accessory rendering covers every class and detail tier without physics mutation",
+    "pass": true
+  },
+  {
+    "name": "Inner blueprint requires three actually owned, rocky, safe stable planets",
+    "pass": true
+  },
+  {
+    "name": "Guardian blueprint measures gas-world distance against both rocky planets",
+    "pass": true
+  },
+  {
+    "name": "Moon blueprint respects the actual planet/moon hierarchy rather than a summary counter",
+    "pass": true
+  },
+  {
+    "name": "Belt blueprint needs six real safe objects, and resonance needs an established planetary pair",
+    "pass": true
+  },
+  {
+    "name": "Blueprint hold resets when disturbed, rewards once and adds no mass/resources/upgrades",
+    "pass": true
+  },
+  {
+    "name": "Blueprint checkpoints preserve selection and hold; malformed saves are rejected",
+    "pass": true
+  },
+  {
+    "name": "Every ready species shows its own living hatch; unreached incubation cannot hatch",
+    "pass": true
+  },
+  {
+    "name": "Hatch skipping, closing, minimizing and repeat claims never reroll or duplicate a pet",
+    "pass": true
+  },
+  {
+    "name": "Reduced motion reveals a still creature immediately with no additional reveal sounds",
+    "pass": true
+  },
+  {
+    "name": "New sounds use the same procedural synth, respect mute, and legendary cue plays once",
+    "pass": true
+  },
+  {
+    "name": "Only F opens the dock; hover, focus and close-button activation cannot open it",
+    "pass": true
+  },
+  {
+    "name": "Dock inactivity hides even with focus; interaction refreshes time and opening a window hides it",
+    "pass": true
+  },
+  {
+    "name": "F dock and Escape work with the HUD hidden without stealing propulsion or system Tab",
+    "pass": true
+  },
+  {
+    "name": "New menu labels, selectable blueprints, cosmetic controls and expedition confirmations are complete",
+    "pass": true
+  },
+  {
+    "name": "Repeated hatch and prestige/restart operations add no loops, listeners, pooled bodies or animation state",
+    "pass": true
+  },
+  {
+    "name": "Three naturally captured planets complete an inner blueprint through the production fixed step",
+    "pass": true
+  },
+  {
+    "name": "Blueprint checks run at five Hz and revalidate the exact arrangement before awarding completion",
+    "pass": true
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "runtime": "Isolated VM and software Canvas, not browser FPS",
+  "method": "Sequential warmed runs without other test processes; 40 warm-up and 110 measured frames",
+  "setup": "Same dense 3.1.1 fixtures, legendary companion and halo, six scars on player and nine rivals, Legacy marking, selected moon blueprint and active custodian trial",
+  "scenes": [
+    {
+      "stage": 9,
+      "quality": "high",
+      "bodies": 520,
+      "parcels": 148,
+      "cells": 224,
+      "particleCount": 1200,
+      "simulationMedianMs": 5.095,
+      "simulationP95Ms": 9.439,
+      "renderMedianMs": 18.094,
+      "renderP95Ms": 23.936
+    },
+    {
+      "stage": 9,
+      "quality": "low",
+      "bodies": 400,
+      "parcels": 148,
+      "cells": 224,
+      "particleCount": 420,
+      "simulationMedianMs": 4.521,
+      "simulationP95Ms": 9.107,
+      "renderMedianMs": 7.964,
+      "renderP95Ms": 9.945
+    },
+    {
+      "stage": 15,
+      "quality": "high",
+      "bodies": 329,
+      "parcels": 148,
+      "cells": 224,
+      "particleCount": 1200,
+      "simulationMedianMs": 8.323,
+      "simulationP95Ms": 13.113,
+      "renderMedianMs": 22.751,
+      "renderP95Ms": 26.399
+    },
+    {
+      "stage": 15,
+      "quality": "low",
+      "bodies": 259,
+      "parcels": 148,
+      "cells": 224,
+      "particleCount": 420,
+      "simulationMedianMs": 8.082,
+      "simulationP95Ms": 15.606,
+      "renderMedianMs": 9.557,
+      "renderP95Ms": 13.341
+    }
+  ]
+}

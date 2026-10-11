@@ -1,0 +1,77 @@
+[
+  {
+    "name": "All 18 original adaptations are separate from 44 deterministic engineering nodes",
+    "pass": true,
+    "suite": "command"
+  },
+  {
+    "name": "FPS cap validates 30 through 240 and the final Unlimited position",
+    "pass": true,
+    "suite": "command"
+  },
+  {
+    "name": "Eco CPU mode reduces body budgets and animation switches remain independent",
+    "pass": true,
+    "suite": "command"
+  },
+  {
+    "name": "Custom signals sanitize text, reject remote media and preserve allowed shapes",
+    "pass": true,
+    "suite": "command"
+  },
+  {
+    "name": "Sandbox grants AP, RP, raw material, DNA and water without touching journey slots",
+    "pass": true,
+    "suite": "command"
+  },
+  {
+    "name": "Manual projectile collision hits a real intervening rock even without a selected target",
+    "pass": true,
+    "suite": "command"
+  },
+  {
+    "name": "Manual projectiles also hit rival bodies",
+    "pass": true,
+    "suite": "command"
+  },
+  {
+    "name": "Personal laser removes rock integrity over time and obeys heat lockout",
+    "pass": true,
+    "suite": "command"
+  },
+  {
+    "name": "Horizon mining removes stored disk matter before awarding raw ore",
+    "pass": true,
+    "suite": "command"
+  },
+  {
+    "name": "Guardian assembly spends real core mass and raw material, then follows a bound trajectory",
+    "pass": true,
+    "suite": "command"
+  },
+  {
+    "name": "Structured galaxies contain stellar parents, real planetary children and finite belts",
+    "pass": true,
+    "suite": "command"
+  },
+  {
+    "name": "Boss gauntlet has finite progression, real damage and one reward per defeat",
+    "pass": true,
+    "suite": "command"
+  },
+  {
+    "name": "Salvage expedition surveys all sites and consumes real delivered material",
+    "pass": true,
+    "suite": "command"
+  },
+  {
+    "name": "Scenario state, aim-independent boss angle and new settings survive save/load",
+    "pass": true,
+    "suite": "command"
+  },
+  {
+    "name": "Repeated restarts reset command timers, projectiles, taunts and pooled drone state",
+    "pass": true,
+    "suite": "command"
+  }
+]

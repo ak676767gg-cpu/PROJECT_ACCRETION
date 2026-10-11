@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Observatory draws real orbital paths and a clickable selected body",
+    "pass": true
+  },
+  {
+    "name": "Matter tab shows separate reservoirs, actual rate and black-hole delay",
+    "pass": true
+  },
+  {
+    "name": "Orbit inspection remains accurate with a planet/moon hierarchy",
+    "pass": true
+  },
+  {
+    "name": "Goal display and pending mass feedback use actual simulation state",
+    "pass": true
+  },
+  {
+    "name": "Archive displays the persisted journey log and the existing achievement list",
+    "pass": true
+  },
+  {
+    "name": "Automatic encounters preserve resource prices, odds and save-slot cadence",
+    "pass": true
+  },
+  {
+    "name": "New journey state survives a full vault reload and continuation without repeat rewards",
+    "pass": true
+  },
+  {
+    "name": "The three-slot cadence does not checkpoint a completed goal until an authorized save",
+    "pass": true
+  },
+  {
+    "name": "Restart resets goals, flow caches, diagram selection and all simulation-owned objects",
+    "pass": true
+  },
+  {
+    "name": "World resources, fragments, rings and companions stay on their physical depth plane",
+    "pass": true
+  },
+  {
+    "name": "Gas cache compensates camera motion between coarse repaint frames",
+    "pass": true
+  },
+  {
+    "name": "Performance mode reduces new effects and pooled batching remains bounded",
+    "pass": true
+  },
+  {
+    "name": "Extended audio creates one context and persistent layers once across repeated starts",
+    "pass": true
+  },
+  {
+    "name": "Motion and feeding audio fades on pause and obeys mute through the existing master",
+    "pass": true
+  },
+  {
+    "name": "New procedural cues throttle repeated requests and require no sound assets",
+    "pass": true
+  },
+  {
+    "name": "Rival intentions are visible in the leaderboard and in system view",
+    "pass": true
+  }
+]

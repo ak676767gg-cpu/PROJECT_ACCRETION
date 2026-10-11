@@ -1,0 +1,10 @@
+{
+  "connections": 3,
+  "sharedRoomPlayers": 2,
+  "authoritativeMovement": true,
+  "chatDelivery": true,
+  "roomIsolation": true,
+  "staticClient": true,
+  "backendSourceDenied": true,
+  "serverErrors": ""
+}
